@@ -1,0 +1,1320 @@
+{
+  "repo": "awesome-kindle",
+  "generated": "2026-11-12",
+  "source": "README_EN.md",
+  "note": "Machine-readable index derived from README_EN.md tables. See data/README.md.",
+  "count": 118,
+  "items": [
+    {
+      "name": "WinterBreak2",
+      "url": "https://kindlemodding.org/jailbreaking/WinterBreak2/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/WinterBreak2/",
+        "https://github.com/KindleModding/Winterbreak2"
+      ],
+      "description": "Firmware: ≤ 5.16.3 (also 5.16.5) · Models: PW / PW2 / KV / KT2 / PW3 / KOA / KT3 / KOA2 / PW4 / KT4 / KOA3 / PW5 / KT5 / KS · Account: No · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "WinterBreak",
+      "url": "https://kindlemodding.org/jailbreaking/WinterBreak/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/WinterBreak/",
+        "https://github.com/KindleModding/WinterBreak"
+      ],
+      "description": "Firmware: 5.16.2.1.1 – 5.17.x (< 5.18.1) · Models: Above, plus PW6 / KS2 / CS · Account: Yes · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "SpiderCat",
+      "url": "https://kindlemodding.org/jailbreaking/SpiderCat/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/SpiderCat/",
+        "https://github.com/KindleModding/SpiderCat"
+      ],
+      "description": "Firmware: 5.16.3 – 5.19.5 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: No · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "Véra",
+      "url": "https://kindlemodding.org/jailbreaking/Vera/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/Vera/"
+      ],
+      "description": "Firmware: 5.17.1 – 5.20.2 · Models: PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: No · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "Nosebleed",
+      "url": "https://kindlemodding.org/jailbreaking/Nosebleed/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/Nosebleed/"
+      ],
+      "description": "Firmware: 5.16.4 – 5.18.6 (KT5/PW5/KOA3) 5.16.4 – 5.17.1.0.4 (PW6/KT6) · Models: KT5 / PW5 / KOA3 / PW6 / KT6 · Account: No · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "Sanctuary",
+      "url": "https://kindlemodding.org/jailbreaking/Sanctuary/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/Sanctuary/"
+      ],
+      "description": "Firmware: 5.16.4 – 5.18.3 (denies 5.16.5) · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 / KS2 / CS · Account: No · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "SpringBreak (WinterBreak3)",
+      "url": "https://kindlemodding.org/jailbreaking/SpringBreak/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/SpringBreak/",
+        "https://github.com/KindleModding/SpringBreak"
+      ],
+      "description": "Firmware: 5.18.1 – 5.19.2.0.1 (KT5/PW5) 5.18.1.1.1 (KT4/PW4) · Models: KT5 / PW5 / KT4 / PW4 · Account: Yes · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "Shadow",
+      "url": "https://kindlemodding.org/jailbreaking/Shadow/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/Shadow/",
+        "https://github.com/KindleModding/Shadow"
+      ],
+      "description": "Firmware: 5.19.4 – 5.19.6 · Models: KS / KS2 / CS / PW6 / KT6 · Account: No · Ads: No · Status: ✅ Active",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "AdBreak",
+      "url": "https://kindlemodding.org/jailbreaking/AdBreak/",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/AdBreak/",
+        "https://github.com/KindleModding/AdBreak"
+      ],
+      "description": "Firmware: 5.18.1 – 5.18.5.0.1 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 · Account: Yes · Ads: Ads only · Status: 🧪 Experimental",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "LanguageBreak",
+      "url": "https://kindlemodding.org/jailbreaking/Legacy/LanguageBreak.html",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/Legacy/LanguageBreak.html",
+        "https://github.com/KindleModding/LanguageBreak"
+      ],
+      "description": "Firmware: ≤ 5.16.2.1.1 · Models: Older mainstream models · Account: No · Ads: No · Status: 🗄️ Archived",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "NiLuJe K2/K4/K5",
+      "url": "https://kindlemodding.org/jailbreaking/Legacy/index.html",
+      "links": [
+        "https://kindlemodding.org/jailbreaking/Legacy/index.html"
+      ],
+      "description": "Firmware: 2.x / 4.x / 5.0.x · Models: K2 / DX / K3 / K4 / KT · Account: No · Ads: No · Status: 🗄️ Classic",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "Android flash",
+      "url": "https://github.com/Ooonana/Guide-to-installing-android-on-kindle",
+      "links": [
+        "https://github.com/Ooonana/Guide-to-installing-android-on-kindle"
+      ],
+      "description": "Firmware: — · Models: Select models / Kindle × Migu · Account: — · Ads: — · Status: 🧪 Hardcore",
+      "section": "🔓 Jailbreak overview",
+      "subsection": null,
+      "kind": "jailbreak"
+    },
+    {
+      "name": "Hotfix",
+      "url": "https://github.com/KindleModding/Hotfix",
+      "links": [
+        "https://github.com/KindleModding/Hotfix"
+      ],
+      "description": "The jailbreak hotfix — blocks OTA from wiping your jailbreak and prevents bricks. Install it first.",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "🧩 The essentials: Hotfix / KPM / Jobman",
+      "kind": "resource"
+    },
+    {
+      "name": "KPM",
+      "url": "https://github.com/KindleModding/KPM",
+      "links": [
+        "https://github.com/KindleModding/KPM",
+        "https://github.com/KindleModding/repo"
+      ],
+      "description": "Kindle Package Manager — install scriptlets on-device (like apt).",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "🧩 The essentials: Hotfix / KPM / Jobman",
+      "kind": "resource"
+    },
+    {
+      "name": "Jobman",
+      "url": "https://github.com/KindleTweaks/jobman",
+      "links": [
+        "https://github.com/KindleTweaks/jobman"
+      ],
+      "description": "Jailbreak Manager — a GUI for managing the jailbreak and apps.",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "🧩 The essentials: Hotfix / KPM / Jobman",
+      "kind": "resource"
+    },
+    {
+      "name": "kTerm",
+      "url": "https://github.com/bfabiszewski/kterm",
+      "links": [
+        "https://github.com/bfabiszewski/kterm"
+      ],
+      "description": "E-ink-optimized terminal emulator with an on-screen keyboard.",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "💻 Terminal / SSH / Linux",
+      "kind": "resource"
+    },
+    {
+      "name": "USBNetLite",
+      "url": "https://github.com/notmarek/kindle-usbnetlite",
+      "links": [
+        "https://github.com/notmarek/kindle-usbnetlite"
+      ],
+      "description": "One command to enable SSH — turn the Kindle into a remote Linux box.",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "💻 Terminal / SSH / Linux",
+      "kind": "resource"
+    },
+    {
+      "name": "Alpine Linux",
+      "url": "https://github.com/schuhumi/alpine_kindle",
+      "links": [
+        "https://github.com/schuhumi/alpine_kindle",
+        "https://github.com/schuhumi/alpine_kindle_kual"
+      ],
+      "description": "Run a full Alpine install and get a real package ecosystem.",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "💻 Terminal / SSH / Linux",
+      "kind": "resource"
+    },
+    {
+      "name": "Tailscale",
+      "url": "https://github.com/mitanshu7/tailscale_kual",
+      "links": [
+        "https://github.com/mitanshu7/tailscale_kual"
+      ],
+      "description": "Mesh-networking so you can reach your Kindle from anywhere.",
+      "section": "🧰 Post-jailbreak toolkit",
+      "subsection": "💻 Terminal / SSH / Linux",
+      "kind": "resource"
+    },
+    {
+      "name": "KOReader",
+      "url": "https://github.com/koreader/koreader",
+      "links": [
+        "https://github.com/koreader/koreader"
+      ],
+      "description": "Cross-platform open-source reader — the top pick after jailbreaking.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KCC (Kindle Comic Converter)",
+      "url": "https://github.com/ciromattia/kcc",
+      "links": [
+        "https://github.com/ciromattia/kcc"
+      ],
+      "description": "Convert comics / images / PDF to Kindle-friendly EPUB / MOBI / KFX, 6k★.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "WordDumb",
+      "url": "https://github.com/xxyzz/WordDumb",
+      "links": [
+        "https://github.com/xxyzz/WordDumb"
+      ],
+      "description": "Calibre plugin generating local Word Wise and X-Ray files.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Calibre",
+      "url": "https://github.com/kovidgoyal/calibre",
+      "links": [
+        "https://github.com/kovidgoyal/calibre"
+      ],
+      "description": "The ebook manager: convert, metadata, send-to-device, all in one.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Calibre-Web",
+      "url": "https://github.com/janeczku/calibre-web",
+      "links": [
+        "https://github.com/janeczku/calibre-web"
+      ],
+      "description": "Self-hosted web library — read/download from a browser.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleUnpack",
+      "url": "https://github.com/kevinhendricks/KindleUnpack",
+      "links": [
+        "https://github.com/kevinhendricks/KindleUnpack"
+      ],
+      "description": "Unpack MOBI / AZW3 / KFX — essential for research and conversion.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleFetch",
+      "url": "https://github.com/justrals/KindleFetch",
+      "links": [
+        "https://github.com/justrals/KindleFetch"
+      ],
+      "description": "CLI that downloads books straight to the Kindle, no PC needed.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleEar",
+      "url": "https://github.com/cdhigh/KindleEar",
+      "links": [
+        "https://github.com/cdhigh/KindleEar"
+      ],
+      "description": "Aggregate RSS / web content and push it to the Kindle on a schedule.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "kindle2notion",
+      "url": "https://github.com/paperboi/kindle2notion",
+      "links": [
+        "https://github.com/paperboi/kindle2notion"
+      ],
+      "description": "Export Kindle highlights and notes to Notion.",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "BookFere-Tools",
+      "url": "https://github.com/bookfere/BookFere-Tools",
+      "links": [
+        "https://github.com/bookfere/BookFere-Tools"
+      ],
+      "description": "Chinese-maintained KUAL plugin collection (CN-friendly).",
+      "section": "📚 Reading & library tools",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "links": [
+        "https://www.gutenberg.org/"
+      ],
+      "description": "70k+ public-domain ebooks, with EPUB / Kindle formats.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/",
+      "links": [
+        "https://standardebooks.org/"
+      ],
+      "description": "Beautifully typeset, carefully proofed public-domain classics.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Internet Archive",
+      "url": "https://archive.org/details/texts",
+      "links": [
+        "https://archive.org/details/texts"
+      ],
+      "description": "Millions of scanned books; public-domain downloads, the rest borrowable.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Open Library",
+      "url": "https://openlibrary.org/",
+      "links": [
+        "https://openlibrary.org/"
+      ],
+      "description": "Borrow-style digital library with a free account.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "HathiTrust",
+      "url": "https://www.hathitrust.org/",
+      "links": [
+        "https://www.hathitrust.org/"
+      ],
+      "description": "Academic-grade public-domain full-text library.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Google Books",
+      "url": "https://books.google.com/",
+      "links": [
+        "https://books.google.com/"
+      ],
+      "description": "Public-domain books downloadable as PDF / EPUB.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "ManyBooks",
+      "url": "https://manybooks.net/",
+      "links": [
+        "https://manybooks.net/"
+      ],
+      "description": "Large catalog of free classic ebooks in many formats.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Planet eBook",
+      "url": "https://www.planetebook.com/",
+      "links": [
+        "https://www.planetebook.com/"
+      ],
+      "description": "Well-formatted classics, direct download.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Global Grey",
+      "url": "https://www.globalgreyebooks.com/",
+      "links": [
+        "https://www.globalgreyebooks.com/"
+      ],
+      "description": "Public-domain classics.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Wikisource",
+      "url": "https://wikisource.org/",
+      "links": [
+        "https://wikisource.org/"
+      ],
+      "description": "Multilingual primary-source texts.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Project Gutenberg Australia",
+      "url": "https://gutenberg.net.au/",
+      "links": [
+        "https://gutenberg.net.au/"
+      ],
+      "description": "More permissive copyright scope.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "Open Textbook Library",
+      "url": "https://open.umn.edu/opentextbooks",
+      "links": [
+        "https://open.umn.edu/opentextbooks"
+      ],
+      "description": "Openly-licensed university textbooks.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "kind": "resource"
+    },
+    {
+      "name": "haodoo",
+      "url": "https://www.haodoo.net/",
+      "links": [
+        "https://www.haodoo.net/"
+      ],
+      "description": "Elegantly typeset traditional-Chinese books, Kindle-friendly.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "shuge",
+      "url": "https://www.shuge.org/",
+      "links": [
+        "https://www.shuge.org/"
+      ],
+      "description": "High-resolution public-domain Chinese classics.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "ctext",
+      "url": "https://ctext.org/zh",
+      "links": [
+        "https://ctext.org/zh"
+      ],
+      "description": "Full-text search of classical Chinese texts and translations.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "NCPSSD",
+      "url": "https://www.ncpssd.org/",
+      "links": [
+        "https://www.ncpssd.org/"
+      ],
+      "description": "Free academic papers and books (CN).",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "Gutenberg (Chinese)",
+      "url": "https://www.gutenberg.org/browse/languages/zh",
+      "links": [
+        "https://www.gutenberg.org/browse/languages/zh"
+      ],
+      "description": "Public-domain Chinese ebooks on Project Gutenberg.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "gushiwen",
+      "url": "https://www.gushiwen.cn/",
+      "links": [
+        "https://www.gushiwen.cn/"
+      ],
+      "description": "Classical poetry and prose with annotations.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "WeRead",
+      "url": "https://weread.qq.com/",
+      "links": [
+        "https://weread.qq.com/"
+      ],
+      "description": "Large free section; supports importing local books.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "Douban Books",
+      "url": "https://book.douban.com/",
+      "links": [
+        "https://book.douban.com/"
+      ],
+      "description": "Catalog / ratings / lists — a good discovery entry.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🇨🇳 Chinese free books / classics",
+      "kind": "resource"
+    },
+    {
+      "name": "Comic Book Plus",
+      "url": "https://comicbookplus.com/",
+      "links": [
+        "https://comicbookplus.com/"
+      ],
+      "description": "Public-domain golden-age comics, downloadable.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "Digital Comic Museum",
+      "url": "https://digitalcomicmuseum.com/",
+      "links": [
+        "https://digitalcomicmuseum.com/"
+      ],
+      "description": "Archive of public-domain vintage comics.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "Internet Archive · Comics",
+      "url": "https://archive.org/details/comics",
+      "links": [
+        "https://archive.org/details/comics"
+      ],
+      "description": "Massive public-domain / licensed comic scans.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "Webtoon",
+      "url": "https://www.webtoons.com/",
+      "links": [
+        "https://www.webtoons.com/"
+      ],
+      "description": "Official free webtoon platform.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "Tapas",
+      "url": "https://tapas.io/",
+      "links": [
+        "https://tapas.io/"
+      ],
+      "description": "Free webcomics and novels.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "ComicFury",
+      "url": "https://comicfury.com/",
+      "links": [
+        "https://comicfury.com/"
+      ],
+      "description": "Indie free webcomics.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "GlobalComix",
+      "url": "https://globalcomix.com/",
+      "links": [
+        "https://globalcomix.com/"
+      ],
+      "description": "Some titles free to read.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "MANGA Plus (Shueisha)",
+      "url": "https://mangaplus.shueisha.co.jp/",
+      "links": [
+        "https://mangaplus.shueisha.co.jp/"
+      ],
+      "description": "Official; some chapters free for a limited time.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "Comic Walker (KADOKAWA)",
+      "url": "https://comic-walker.com/",
+      "links": [
+        "https://comic-walker.com/"
+      ],
+      "description": "Official free manga.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🦸 Free comics / graphic novels",
+      "kind": "resource"
+    },
+    {
+      "name": "LibriVox",
+      "url": "https://librivox.org/",
+      "links": [
+        "https://librivox.org/"
+      ],
+      "description": "Free public-domain audiobooks, volunteer-recorded.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "Loyal Books",
+      "url": "https://www.loyalbooks.com/",
+      "links": [
+        "https://www.loyalbooks.com/"
+      ],
+      "description": "Free public-domain ebooks + audiobooks.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "Lit2Go",
+      "url": "https://etc.usf.edu/lit2go/",
+      "links": [
+        "https://etc.usf.edu/lit2go/"
+      ],
+      "description": "Free literary audiobooks and texts.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "links": [
+        "https://arxiv.org/"
+      ],
+      "description": "Open-access preprints.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "DOAJ",
+      "url": "https://doaj.org/",
+      "links": [
+        "https://doaj.org/"
+      ],
+      "description": "Directory of open-access journals.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "PubMed Central",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+      "links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/"
+      ],
+      "description": "Open biomedical full text.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "CORE",
+      "url": "https://core.ac.uk/",
+      "links": [
+        "https://core.ac.uk/"
+      ],
+      "description": "Aggregated open-access research.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "IMSLP",
+      "url": "https://imslp.org/",
+      "links": [
+        "https://imslp.org/"
+      ],
+      "description": "Public-domain sheet music (great with Scribe handwriting).",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "Kiwix",
+      "url": "https://www.kiwix.org/",
+      "links": [
+        "https://www.kiwix.org/"
+      ],
+      "description": "Offline Wikipedia / web content you can carry.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "Royal Road / AO3",
+      "url": "https://www.royalroad.com/",
+      "links": [
+        "https://www.royalroad.com/",
+        "https://archiveofourown.org/"
+      ],
+      "description": "Free web fiction / fanfic; pair with FanFicFare.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "Calibre",
+      "url": "https://calibre-ebook.com/",
+      "links": [
+        "https://calibre-ebook.com/"
+      ],
+      "description": "Manage / convert / metadata / send, all in one.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "FanFicFare",
+      "url": "https://github.com/JimmXinu/FanFicFare",
+      "links": [
+        "https://github.com/JimmXinu/FanFicFare"
+      ],
+      "description": "Calibre plugin to download web fiction / fanfic as ebooks.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "EpubMerge",
+      "url": "https://github.com/JimmXinu/EpubMerge",
+      "links": [
+        "https://github.com/JimmXinu/EpubMerge"
+      ],
+      "description": "Merge multiple EPUBs (omnibus / serials).",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "KCC",
+      "url": "https://github.com/ciromattia/kcc",
+      "links": [
+        "https://github.com/ciromattia/kcc"
+      ],
+      "description": "Comics / images / PDF → Kindle-friendly formats.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "KindleUnpack",
+      "url": "https://github.com/kevinhendricks/KindleUnpack",
+      "links": [
+        "https://github.com/kevinhendricks/KindleUnpack"
+      ],
+      "description": "Unpack MOBI / AZW3 / KFX.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "Send to Kindle",
+      "url": "https://www.amazon.com/sendtokindle",
+      "links": [
+        "https://www.amazon.com/sendtokindle"
+      ],
+      "description": "Amazon's official push-to-device service.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "Calibre-Web",
+      "url": "https://github.com/janeczku/calibre-web",
+      "links": [
+        "https://github.com/janeczku/calibre-web"
+      ],
+      "description": "Self-hosted library, manage / read in a browser.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🧰 Find → convert → transfer pipeline",
+      "kind": "resource"
+    },
+    {
+      "name": "KAnki",
+      "url": "https://github.com/crizmo/KAnki",
+      "links": [
+        "https://github.com/crizmo/KAnki"
+      ],
+      "description": "Anki-based flashcards.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "RAnki",
+      "url": "https://github.com/crazy-electron/ranki",
+      "links": [
+        "https://github.com/crazy-electron/ranki"
+      ],
+      "description": "Anki reviewer running the real Anki backend, with sync.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "KPomo",
+      "url": "https://github.com/crizmo/KPomo",
+      "links": [
+        "https://github.com/crizmo/KPomo"
+      ],
+      "description": "Pomodoro focus timer.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "Textadept",
+      "url": "https://github.com/kbarni/textadept-kindle",
+      "links": [
+        "https://github.com/kbarni/textadept-kindle"
+      ],
+      "description": "Desktop-grade text editor with Bluetooth-keyboard writing.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "Kreate",
+      "url": "https://github.com/Foskya/Kreate",
+      "links": [
+        "https://github.com/Foskya/Kreate"
+      ],
+      "description": "Drawing app designed for e-ink.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "readinglog",
+      "url": "https://github.com/huangziwei/readinglog",
+      "links": [
+        "https://github.com/huangziwei/readinglog"
+      ],
+      "description": "Track your reading time and stats.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "KOReader-On-Boot",
+      "url": "https://github.com/meepcat55/Kindle-KOReader-On-Boot",
+      "links": [
+        "https://github.com/meepcat55/Kindle-KOReader-On-Boot"
+      ],
+      "description": "Auto-launch KOReader at boot.",
+      "section": "🎮 Apps & games",
+      "subsection": "📝 Productivity / study",
+      "kind": "resource"
+    },
+    {
+      "name": "KWordle",
+      "url": "https://github.com/crizmo/KWordle",
+      "links": [
+        "https://github.com/crizmo/KWordle"
+      ],
+      "description": "Kindle Wordle.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "IllusionChess",
+      "url": "https://github.com/penguins184/IllusionChess",
+      "links": [
+        "https://github.com/penguins184/IllusionChess"
+      ],
+      "description": "Fast chess.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "Gnome Games",
+      "url": "https://github.com/crazy-electron/GnomeGames4Kindle",
+      "links": [
+        "https://github.com/crazy-electron/GnomeGames4Kindle"
+      ],
+      "description": "Chess + Minesweeper collection.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "Gambatte-K2",
+      "url": "https://github.com/crazy-electron/gambatte-k2",
+      "links": [
+        "https://github.com/crazy-electron/gambatte-k2"
+      ],
+      "description": "Blazing-fast Game Boy / GBC / GBA emulator with Bluetooth audio.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "Crossword",
+      "url": "https://github.com/roygbyte/crossword.koplugin",
+      "links": [
+        "https://github.com/roygbyte/crossword.koplugin"
+      ],
+      "description": "KOReader crossword plugin.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "KShips",
+      "url": "https://github.com/LOT-PL/KShips",
+      "links": [
+        "https://github.com/LOT-PL/KShips"
+      ],
+      "description": "Battleship port.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "KindleCraft",
+      "url": "https://github.com/gingrspacecadet/bareiron",
+      "links": [
+        "https://github.com/gingrspacecadet/bareiron"
+      ],
+      "description": "Run a Minecraft server on the Kindle (hard-float).",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "KindleKraft",
+      "url": "https://github.com/penguins184/KindleKraft",
+      "links": [
+        "https://github.com/penguins184/KindleKraft"
+      ],
+      "description": "Minecraft server launcher (soft-float).",
+      "section": "🎮 Apps & games",
+      "subsection": "🎲 Games",
+      "kind": "resource"
+    },
+    {
+      "name": "KinAMP",
+      "url": "https://github.com/kbarni/KinAMP",
+      "links": [
+        "https://github.com/kbarni/KinAMP"
+      ],
+      "description": "Bluetooth music player.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎵 Audio",
+      "kind": "resource"
+    },
+    {
+      "name": "LARK",
+      "url": "https://github.com/kbarni/LARKPlayer",
+      "links": [
+        "https://github.com/kbarni/LARKPlayer"
+      ],
+      "description": "Audiobook player with covers and chapters.",
+      "section": "🎮 Apps & games",
+      "subsection": "🎵 Audio",
+      "kind": "resource"
+    },
+    {
+      "name": "kindle-wall-display",
+      "url": "https://github.com/jstriblet/kindle-wall-display",
+      "links": [
+        "https://github.com/jstriblet/kindle-wall-display"
+      ],
+      "description": "Turn a Kindle into a low-power wall display / photo frame rendering any PNG.",
+      "section": "🎮 Apps & games",
+      "subsection": "🖥️ Tinkering / geek",
+      "kind": "resource"
+    },
+    {
+      "name": "hobby-kindle-http-file-server",
+      "url": "https://github.com/ngxson/hobby-kindle-http-file-server",
+      "links": [
+        "https://github.com/ngxson/hobby-kindle-http-file-server"
+      ],
+      "description": "Run an HTTP file server on the Kindle.",
+      "section": "🎮 Apps & games",
+      "subsection": "🖥️ Tinkering / geek",
+      "kind": "resource"
+    },
+    {
+      "name": "kindle-custom-screensaver",
+      "url": "https://github.com/chengandre/kindle-custom-screensaver",
+      "links": [
+        "https://github.com/chengandre/kindle-custom-screensaver"
+      ],
+      "description": "Custom screensaver without KOReader or KUAL.",
+      "section": "🎮 Apps & games",
+      "subsection": "🖥️ Tinkering / geek",
+      "kind": "resource"
+    },
+    {
+      "name": "kindle-weather-stand-alone",
+      "url": "https://github.com/x-magic/kindle-weather-stand-alone",
+      "links": [
+        "https://github.com/x-magic/kindle-weather-stand-alone"
+      ],
+      "description": "Serverless Kindle weather display.",
+      "section": "🎮 Apps & games",
+      "subsection": "🖥️ Tinkering / geek",
+      "kind": "resource"
+    },
+    {
+      "name": "KindleLazy",
+      "url": "https://github.com/llakssz/KindleLazy",
+      "links": [
+        "https://github.com/llakssz/KindleLazy"
+      ],
+      "description": "Control the Kindle (keyboard, etc.) over USB.",
+      "section": "🎮 Apps & games",
+      "subsection": "🖥️ Tinkering / geek",
+      "kind": "resource"
+    },
+    {
+      "name": "Kindle Click",
+      "url": "https://kindlemodding.org/kindle-hacking/pageturner.html",
+      "links": [
+        "https://kindlemodding.org/kindle-hacking/pageturner.html"
+      ],
+      "description": "Turn a Kindle into a Bluetooth page-turner.",
+      "section": "🎮 Apps & games",
+      "subsection": "🖥️ Tinkering / geek",
+      "kind": "resource"
+    },
+    {
+      "name": "KindleModding Wiki",
+      "url": "https://kindlemodding.org/",
+      "links": [
+        "https://kindlemodding.org/"
+      ],
+      "description": "The most authoritative Kindle dev / jailbreak docs.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "kindle-sdk",
+      "url": "https://github.com/KindleModding/kindle-sdk",
+      "links": [
+        "https://github.com/KindleModding/kindle-sdk"
+      ],
+      "description": "Native Kindle compilation SDK.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "koxtoolchain",
+      "url": "https://github.com/KindleModding/koxtoolchain",
+      "links": [
+        "https://github.com/KindleModding/koxtoolchain"
+      ],
+      "description": "Kindle / Kobo cross-compilation toolchain.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "jb.sh",
+      "url": "https://github.com/KindleModding/jb.sh",
+      "links": [
+        "https://github.com/KindleModding/jb.sh"
+      ],
+      "description": "Self-contained unified jailbreak script.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KPM package dev",
+      "url": "https://kindlemodding.org/kindle-dev/kpm/creating-a-package.html",
+      "links": [
+        "https://kindlemodding.org/kindle-dev/kpm/creating-a-package.html",
+        "https://kindlemodding.org/kindle-dev/kpm/creating-a-repository.html"
+      ],
+      "description": "Build and publish your own KPM packages.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Scriptlets",
+      "url": "https://kindlemodding.org/kindle-dev/scriptlets.html",
+      "links": [
+        "https://kindlemodding.org/kindle-dev/scriptlets.html"
+      ],
+      "description": "How .sh apps work and how to write them.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "GTK tutorial",
+      "url": "https://kindlemodding.org/kindle-dev/gtk-tutorial/index.html",
+      "links": [
+        "https://kindlemodding.org/kindle-dev/gtk-tutorial/index.html"
+      ],
+      "description": "Build Kindle GUIs with GTK.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleTool",
+      "url": "https://github.com/KindleModding/KindleTool",
+      "links": [
+        "https://github.com/KindleModding/KindleTool"
+      ],
+      "description": "Create / extract Kindle update packages.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "System services docs",
+      "url": "https://kindlemodding.org/kindle-apps-and-services/index.html",
+      "links": [
+        "https://kindlemodding.org/kindle-apps-and-services/index.html"
+      ],
+      "description": "Per-service docs for every com.lab126.* service.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "random.sh / utild / architect",
+      "url": "https://github.com/KindleModding/random.sh",
+      "links": [
+        "https://github.com/KindleModding/random.sh",
+        "https://github.com/KindleModding/utild",
+        "https://github.com/KindleModding/architect"
+      ],
+      "description": "Utility scripts, a command service, and armel/armhf compatibility.",
+      "section": "🧑‍💻 Developer resources",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleModding Wiki",
+      "url": "https://kindlemodding.org/",
+      "links": [
+        "https://kindlemodding.org/"
+      ],
+      "description": "Official docs / jailbreak guides (most authoritative).",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Jailbreak Wizard",
+      "url": "https://kindlemodding.org/jailbreak-wizard.html",
+      "links": [
+        "https://kindlemodding.org/jailbreak-wizard.html"
+      ],
+      "description": "Enter model + firmware to auto-match a jailbreak.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleModding Discord",
+      "url": "https://discord.kindlemodding.org/",
+      "links": [
+        "https://discord.kindlemodding.org/"
+      ],
+      "description": "Official community, first stop for help.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleTweaks Discord",
+      "url": "https://discord.gg/yWPHHbrp7h",
+      "links": [
+        "https://discord.gg/yWPHHbrp7h"
+      ],
+      "description": "Another active community.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "r/kindlejailbreak",
+      "url": "https://www.reddit.com/r/kindlejailbreak/",
+      "links": [
+        "https://www.reddit.com/r/kindlejailbreak/"
+      ],
+      "description": "Reddit community.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "MobileRead",
+      "url": "https://www.mobileread.com/forums/forumdisplay.php?f=150",
+      "links": [
+        "https://www.mobileread.com/forums/forumdisplay.php?f=150"
+      ],
+      "description": "The oldest Kindle tinkering forum; birthplace of KUAL.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "KindleModShelf",
+      "url": "https://kindlemodshelf.me/",
+      "links": [
+        "https://kindlemodshelf.me/"
+      ],
+      "description": "Third-party app / tutorial hub.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Penguins Kindle Wiki",
+      "url": "https://github.com/penguins184/Penguins-Kindle-Wiki",
+      "links": [
+        "https://github.com/penguins184/Penguins-Kindle-Wiki"
+      ],
+      "description": "Mesquite / WAF web-app development.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Awesome-Kindle",
+      "url": "https://github.com/KindleTweaks/Awesome-Kindle",
+      "links": [
+        "https://github.com/KindleTweaks/Awesome-Kindle"
+      ],
+      "description": "Another great Kindle tool list (EN).",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    },
+    {
+      "name": "Awesome E-Ink",
+      "url": "https://github.com/asapelkin/awesome-eink",
+      "links": [
+        "https://github.com/asapelkin/awesome-eink"
+      ],
+      "description": "Curated e-ink resources.",
+      "section": "🌐 Community",
+      "subsection": null,
+      "kind": "resource"
+    }
+  ]
+}

@@ -3,6 +3,15 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.3.0] - 2026-11-12
+
+### Added
+- 🧭 **One-stop roadmap** section (bilingual): buy → check firmware → jailbreak → harden → apps → content → convert → transfer.
+- 🔎 **Searchable static site** in `docs/` (vanilla HTML/CSS/JS, no build step) — deployable on GitHub Pages.
+- 🤖 **Machine-readable index** `data/resources.json` (118 items) + reproducible generator `scripts/build_resources.py`.
+- 🗺️ `ROADMAP.md` and `SUPPORT.md`.
+- 📝 Renamed the project to **awesome-kindle** (fixed the missing "e"); updated LICENSE holder.
+
 ## [1.2.0] - 2026-11-12
 
 ### Added

@@ -28,6 +28,7 @@
 ## 📖 Contents
 
 - [What is this](#-what-is-this)
+- [🧭 One-stop roadmap](#️-one-stop-roadmap-from-buying-to-reading)
 - [📌 Read this first](#-read-this-first)
 - [⚖️ Why jailbreak](#️-why-jailbreak-and-what-it-is-not)
 - [🚀 Which jailbreak should I use](#-which-jailbreak-should-i-use)
@@ -75,11 +76,44 @@ A **continuously updated, community-maintained index** of Kindle jailbreak, flas
 - 🧰 **The full post-jailbreak ecosystem**: package managers, hotfixes, readers, terminals, Linux, Android
 - 📚 **Quality open-source apps & tools**: reading, library management, conversion, notes, audio, games
 - 🧱 **Firmware & recovery**: firmware downloads, downgrades, serial flashing, factory reset
+- 🗂️ **Legal content sources**: public-domain ebooks, free comics, audiobooks, open papers
+- 🔎 **Searchable static site**: a built-in search UI in `docs/`, ready for GitHub Pages
 - 🧑‍💻 **Developer entry points**: SDK, cross-compilation toolchain, scriptlets, system docs
 
 > [!NOTE]
 > This repo is an **index and navigation hub**. It does not host pirated books, firmware, or closed-source commercial software. Every tool links to its official repository or wiki.
 > Everything here defers to the [official KindleModding Wiki](https://kindlemodding.org/) and the [Jailbreak Wizard](https://kindlemodding.org/jailbreak-wizard.html). **If this list ever conflicts with the official docs, the official docs win.**
+
+---
+
+## 🧭 One-stop roadmap (from buying to reading)
+
+The whole journey in one picture:
+
+```mermaid
+flowchart LR
+    A["🛒 Buy / pre-check"] --> B["🔍 Check firmware & model"]
+    B --> C["🔓 Jailbreak"]
+    C --> D["🧰 Hotfix + KPM"]
+    D --> E["📖 KOReader / apps"]
+    E --> F["🗂️ Find books / comics"]
+    F --> G["🧰 Convert KCC / Calibre"]
+    G --> H["📥 Transfer to Kindle"]
+    H --> I["🎉 Read"]
+    C -. fail .-> J["❓ FAQ / recovery"]
+```
+
+**Seven steps (click through):**
+
+1. **Buy**: for stability pick 2018–2024 mainstream models (PW4 / PW5 / KT4 / KT5 / Oasis) with the most methods and the biggest community; **avoid 2025–2026 units** (Scribe 3, 2026 Kindle, 2026 Paperwhite — no jailbreak yet). On the used market, confirm firmware + ad status first.
+2. **Check firmware**: see [Identify your device & firmware](#-identify-your-device--firmware).
+3. **Jailbreak**: choose via the [Jailbreak Wizard](https://kindlemodding.org/jailbreak-wizard.html), then see [Jailbreak overview](#-jailbreak-overview).
+4. **Harden**: install [Hotfix + KPM](#-post-jailbreak-toolkit) and block OTA immediately.
+5. **Install apps**: add [KOReader](#-koreader-the-must-have) and your favorite [apps / games](#-apps--games).
+6. **Find content**: browse [Content sources](#️-content-sources-free--legal) for ebooks / comics / audiobooks.
+7. **Convert & transfer**: convert with KCC / Calibre (see the pipeline at the end of Content sources), then use Send to Kindle or USB.
+
+> 🛒 **Buying rule of thumb**: only buy a device whose firmware you can confirm *and* whose model + firmware shows a method in the [Jailbreak Wizard](https://kindlemodding.org/jailbreak-wizard.html).
 
 ---
 

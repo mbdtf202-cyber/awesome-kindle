@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Awesome Kindle — one-stop index</title>
+  <meta name="description" content="Jailbreak, flash, tinker and find free content for your Kindle — all in one open-source index." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="pill">KINDLE MODDING</div>
+      <h1>Awesome <span class="grad">Kindle</span></h1>
+      <p class="sub">Jailbreak · Flash · Play — the open-source index for Kindle tinkering.</p>
+      <div class="actions">
+        <a id="repo-link" class="btn" href="#">★ GitHub</a>
+        <a id="readme-en" class="btn ghost" href="#">English README</a>
+        <a id="readme-zh" class="btn ghost" href="#">中文 README</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search tools, sites, games…  (e.g. KOReader, Gutenberg, comics)" autocomplete="off" />
+      <div id="chips" class="chips"></div>
+      <div id="count" class="count"></div>
+    </section>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>No matches. Try another keyword.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <span>Built from the <a id="repo-link-2" href="#">awesome-kindle</a> repo · MIT</span>
+    <span class="muted">Content links to their official sources.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
