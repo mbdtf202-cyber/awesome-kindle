@@ -8,6 +8,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - 🇬🇧 **English edition** ([README_EN.md](README_EN.md)) fully mirroring the Chinese README.
 - 🎨 Hand-drawn SVG banner (`assets/banner.svg`) shown in both READMEs.
+- 🖼️ `assets/social-preview.svg` + generated **1280×640 `social-preview.png`** for GitHub's repo social preview.
+- ⚙️ `.editorconfig` for consistent formatting.
 - ⚡ **Quick start (5 minutes)** and **Identify your device & firmware** sections.
 - ⚖️ **Why jailbreak (pros & cons)** section.
 - 🧭 **Glossary** of Kindle modding terms.

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Awesome Kindle — Jailbreak, Flash, Play">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#111c31"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7ecf3"/>
+      <stop offset="100%" stop-color="#c8d3e0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.75">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <g stroke="#1e293b" stroke-width="1" opacity="0.45">
+    <path d="M0 80H1280M0 160H1280M0 240H1280M0 320H1280M0 400H1280M0 480H1280M0 560H1280"/>
+    <path d="M80 0V640M160 0V640M240 0V640M320 0V640M400 0V640M480 0V640"/>
+  </g>
+
+  <!-- e-reader -->
+  <g transform="translate(836,120)">
+    <rect x="0" y="0" width="330" height="400" rx="26" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+    <rect x="22" y="30" width="286" height="316" rx="10" fill="url(#screen)"/>
+    <rect x="44" y="56" width="170" height="12" rx="6" fill="#94a3b8"/>
+    <g fill="#aab6c6">
+      <rect x="44" y="86" width="242" height="8" rx="4"/>
+      <rect x="44" y="104" width="220" height="8" rx="4"/>
+      <rect x="44" y="122" width="238" height="8" rx="4"/>
+      <rect x="44" y="140" width="150" height="8" rx="4"/>
+      <rect x="44" y="168" width="230" height="8" rx="4"/>
+      <rect x="44" y="186" width="200" height="8" rx="4"/>
+      <rect x="44" y="204" width="236" height="8" rx="4"/>
+      <rect x="44" y="222" width="170" height="8" rx="4"/>
+    </g>
+    <circle cx="165" cy="374" r="11" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+    <!-- penguin -->
+    <g transform="translate(232,258)">
+      <ellipse cx="0" cy="0" rx="34" ry="42" fill="#0b1220"/>
+      <ellipse cx="0" cy="8" rx="21" ry="27" fill="#f8fafc"/>
+      <circle cx="-11" cy="-15" r="4" fill="#0b1220"/>
+      <circle cx="11" cy="-15" r="4" fill="#0b1220"/>
+      <path d="M-8 6 L0 14 L8 6" stroke="#f59e0b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <g transform="translate(88,150)">
+    <rect x="0" y="0" width="230" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="20" y="25" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="16" fill="#7dd3fc" letter-spacing="3">KINDLE MODDING</text>
+
+    <text x="0" y="112" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="92" font-weight="800" fill="#f8fafc">AWESOME</text>
+    <text x="0" y="206" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="92" font-weight="800" fill="url(#accent)">KINDLE</text>
+
+    <text x="2" y="262" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="26" fill="#cbd5e1">Jailbreak · Flash · Play</text>
+    <text x="2" y="298" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="20" fill="#94a3b8">The open-source index for Kindle tinkering — for everyone.</text>
+
+    <g transform="translate(0,340)">
+      <rect x="0" y="0" width="150" height="40" rx="20" fill="#0f172a" stroke="#334155"/>
+      <text x="22" y="26" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="16" fill="#a5b4fc">🔓 Jailbreak</text>
+      <rect x="162" y="0" width="142" height="40" rx="20" fill="#0f172a" stroke="#334155"/>
+      <text x="184" y="26" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="16" fill="#67e8f9">🧱 Flashing</text>
+      <rect x="316" y="0" width="196" height="40" rx="20" fill="#0f172a" stroke="#334155"/>
+      <text x="338" y="26" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="16" fill="#f9a8d4">📚 KOReader · Apps</text>
+    </g>
+  </g>
+
+  <rect x="0" y="632" width="1280" height="8" fill="url(#accent)"/>
+</svg>
