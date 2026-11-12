@@ -52,6 +52,7 @@
   - [Terminal / SSH / Linux](#-terminal--ssh--linux)
   - [The legacy KUAL / MRPI stack](#-the-legacy-kual--mrpi-stack)
 - [📚 Reading & library tools](#-reading--library-tools)
+- [🗂️ Content sources](#️-content-sources-free--legal)
 - [🎮 Apps & games](#-apps--games)
 - [🛠️ Power-user playbooks](#️-power-user-playbooks)
 - [🧑‍💻 Developer resources](#-developer-resources)
@@ -384,6 +385,89 @@ After a successful jailbreak, the system auto-installs update-blocking and a pac
 | **KindleEar** | Aggregate RSS / web content and push it to the Kindle on a schedule. | [cdhigh/KindleEar](https://github.com/cdhigh/KindleEar) |
 | **kindle2notion** | Export Kindle highlights and notes to Notion. | [paperboi/kindle2notion](https://github.com/paperboi/kindle2notion) |
 | **BookFere-Tools** | Chinese-maintained KUAL plugin collection (CN-friendly). | [bookfere/BookFere-Tools](https://github.com/bookfere/BookFere-Tools) |
+
+---
+
+## 🗂️ Content sources (free & legal)
+
+> [!IMPORTANT]
+> This repo only lists **public-domain, openly-licensed or officially-free** sources. It does **not** link to pirate / shadow-library sites — that keeps the project legal and protects it from DMCA takedowns.
+> Names like Z-Library, Anna's Archive and LibGen sit in a copyright grey/infringing zone; this repo **does not endorse or link them**. The legal sources below already cover most reading needs.
+
+### 📖 Public-domain / free ebooks (English-first)
+
+| Site | Description | Link |
+| --- | --- | --- |
+| **Project Gutenberg** | 70k+ public-domain ebooks, with EPUB / Kindle formats. | https://www.gutenberg.org/ |
+| **Standard Ebooks** | Beautifully typeset, carefully proofed public-domain classics. | https://standardebooks.org/ |
+| **Internet Archive** | Millions of scanned books; public-domain downloads, the rest borrowable. | https://archive.org/details/texts |
+| **Open Library** | Borrow-style digital library with a free account. | https://openlibrary.org/ |
+| **HathiTrust** | Academic-grade public-domain full-text library. | https://www.hathitrust.org/ |
+| **Google Books** | Public-domain books downloadable as PDF / EPUB. | https://books.google.com/ |
+| **ManyBooks** | Large catalog of free classic ebooks in many formats. | https://manybooks.net/ |
+| **Planet eBook** | Well-formatted classics, direct download. | https://www.planetebook.com/ |
+| **Global Grey** | Public-domain classics. | https://www.globalgreyebooks.com/ |
+| **Wikisource** | Multilingual primary-source texts. | https://wikisource.org/ |
+| **Project Gutenberg Australia** | More permissive copyright scope. | https://gutenberg.net.au/ |
+| **Open Textbook Library** | Openly-licensed university textbooks. | https://open.umn.edu/opentextbooks |
+
+### 🇨🇳 Chinese free books / classics
+
+| Site | Description | Link |
+| --- | --- | --- |
+| **haodoo** | Elegantly typeset traditional-Chinese books, Kindle-friendly. | https://www.haodoo.net/ |
+| **shuge** | High-resolution public-domain Chinese classics. | https://www.shuge.org/ |
+| **ctext** | Full-text search of classical Chinese texts and translations. | https://ctext.org/zh |
+| **NCPSSD** | Free academic papers and books (CN). | https://www.ncpssd.org/ |
+| **Gutenberg (Chinese)** | Public-domain Chinese ebooks on Project Gutenberg. | https://www.gutenberg.org/browse/languages/zh |
+| **gushiwen** | Classical poetry and prose with annotations. | https://www.gushiwen.cn/ |
+| **WeRead** | Large free section; supports importing local books. | https://weread.qq.com/ |
+| **Douban Books** | Catalog / ratings / lists — a good discovery entry. | https://book.douban.com/ |
+
+### 🦸 Free comics / graphic novels
+
+| Site | Description | Link |
+| --- | --- | --- |
+| **Comic Book Plus** | Public-domain golden-age comics, downloadable. | https://comicbookplus.com/ |
+| **Digital Comic Museum** | Archive of public-domain vintage comics. | https://digitalcomicmuseum.com/ |
+| **Internet Archive · Comics** | Massive public-domain / licensed comic scans. | https://archive.org/details/comics |
+| **Webtoon** | Official free webtoon platform. | https://www.webtoons.com/ |
+| **Tapas** | Free webcomics and novels. | https://tapas.io/ |
+| **ComicFury** | Indie free webcomics. | https://comicfury.com/ |
+| **GlobalComix** | Some titles free to read. | https://globalcomix.com/ |
+| **MANGA Plus (Shueisha)** | Official; some chapters free for a limited time. | https://mangaplus.shueisha.co.jp/ |
+| **Comic Walker (KADOKAWA)** | Official free manga. | https://comic-walker.com/ |
+
+> After downloading, convert comics to a Kindle-friendly EPUB / MOBI / KFX with **KCC**, then sideload.
+
+### 🎧 Audiobooks / podcasts / journals / more
+
+| Resource | Description | Link |
+| --- | --- | --- |
+| **LibriVox** | Free public-domain audiobooks, volunteer-recorded. | https://librivox.org/ |
+| **Loyal Books** | Free public-domain ebooks + audiobooks. | https://www.loyalbooks.com/ |
+| **Lit2Go** | Free literary audiobooks and texts. | https://etc.usf.edu/lit2go/ |
+| **arXiv** | Open-access preprints. | https://arxiv.org/ |
+| **DOAJ** | Directory of open-access journals. | https://doaj.org/ |
+| **PubMed Central** | Open biomedical full text. | https://www.ncbi.nlm.nih.gov/pmc/ |
+| **CORE** | Aggregated open-access research. | https://core.ac.uk/ |
+| **IMSLP** | Public-domain sheet music (great with Scribe handwriting). | https://imslp.org/ |
+| **Kiwix** | Offline Wikipedia / web content you can carry. | https://www.kiwix.org/ |
+| **Royal Road / AO3** | Free web fiction / fanfic; pair with **FanFicFare**. | https://www.royalroad.com/ · https://archiveofourown.org/ |
+
+### 🧰 Find → convert → transfer pipeline
+
+| Tool | Role | Link |
+| --- | --- | --- |
+| **Calibre** | Manage / convert / metadata / send, all in one. | https://calibre-ebook.com/ |
+| **FanFicFare** | Calibre plugin to download web fiction / fanfic as ebooks. | https://github.com/JimmXinu/FanFicFare |
+| **EpubMerge** | Merge multiple EPUBs (omnibus / serials). | https://github.com/JimmXinu/EpubMerge |
+| **KCC** | Comics / images / PDF → Kindle-friendly formats. | https://github.com/ciromattia/kcc |
+| **KindleUnpack** | Unpack MOBI / AZW3 / KFX. | https://github.com/kevinhendricks/KindleUnpack |
+| **Send to Kindle** | Amazon's official push-to-device service. | https://www.amazon.com/sendtokindle |
+| **Calibre-Web** | Self-hosted library, manage / read in a browser. | https://github.com/janeczku/calibre-web |
+
+> 💡 **Three ways to get books onto the Kindle**: ① Calibre "Send to device"; ② Amazon **Send to Kindle**; ③ copy over USB into `documents/`. EPUB reads natively on new firmware; convert to AZW3/MOBI on older firmware.
 
 ---
 

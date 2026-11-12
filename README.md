@@ -52,6 +52,7 @@
   - [终端 / SSH / Linux](#-终端--ssh--linux)
   - [旧的 KUAL / MRPI 体系](#-旧的-kual--mrpi-体系)
 - [📚 阅读与书库工具](#-阅读与书库工具)
+- [🗂️ 内容资源站](#️-内容资源站免费--合法)
 - [🎮 应用与游戏清单](#-应用与游戏清单)
 - [🛠️ 进阶玩法](#️-进阶玩法)
 - [🧑‍💻 开发者资源](#-开发者资源)
@@ -384,6 +385,89 @@ flowchart TD
 | **KindleEar** | 聚合 RSS / 网页内容，定时推送到 Kindle。 | [cdhigh/KindleEar](https://github.com/cdhigh/KindleEar) |
 | **kindle2notion** | 导出 Kindle 标注 / 笔记到 Notion。 | [paperboi/kindle2notion](https://github.com/paperboi/kindle2notion) |
 | **BookFere-Tools** | 国人维护的 KUAL 插件合集（中文友好）。 | [bookfere/BookFere-Tools](https://github.com/bookfere/BookFere-Tools) |
+
+---
+
+## 🗂️ 内容资源站（免费 & 合法）
+
+> [!IMPORTANT]
+> 本仓库只收录**公共领域、开放授权或官方免费**的资源站，**不提供盗版 / 影子图书馆直连**——这既是版权底线，也避免仓库被 DMCA 下架。
+> 社区常提到的 Z-Library、Anna's Archive、LibGen 等属于版权灰色 / 侵权地带，本仓库**不背书、不提供链接**；下面这些合法渠道已能覆盖绝大多数阅读需求。
+
+### 📖 公共领域 / 免费电子书（英文为主）
+
+| 站点 | 说明 | 链接 |
+| --- | --- | --- |
+| **Project Gutenberg** | 7 万+ 公共领域电子书，直接提供 EPUB / Kindle 格式。 | https://www.gutenberg.org/ |
+| **Standard Ebooks** | 精校、精排版的公共领域经典，质量极高。 | https://standardebooks.org/ |
+| **Internet Archive** | 千万级扫描书，公共领域可直接下载，其余可借阅。 | https://archive.org/details/texts |
+| **Open Library** | 借阅式数字图书馆，免费账号即可借书。 | https://openlibrary.org/ |
+| **HathiTrust** | 学术级公共领域全文库。 | https://www.hathitrust.org/ |
+| **Google Books** | 公共领域书籍可下载全文 PDF / EPUB。 | https://books.google.com/ |
+| **ManyBooks** | 大量免费经典电子书，格式齐全。 | https://manybooks.net/ |
+| **Planet eBook** | 精排经典文学，直接下载。 | https://www.planetebook.com/ |
+| **Global Grey** | 公共领域经典电子书。 | https://www.globalgreyebooks.com/ |
+| **Wikisource** | 维基文库，多语种原文与译本。 | https://wikisource.org/ |
+| **Project Gutenberg Australia** | 澳洲站，版权范围更宽松。 | https://gutenberg.net.au/ |
+| **Open Textbook Library** | 开放授权大学教材。 | https://open.umn.edu/opentextbooks |
+
+### 🇨🇳 中文免费书 / 古籍
+
+| 站点 | 说明 | 链接 |
+| --- | --- | --- |
+| **好读（haodoo）** | 繁体精排中文书，Kindle 友好。 | https://www.haodoo.net/ |
+| **书格（shuge）** | 公共领域古籍高清扫描与整理。 | https://www.shuge.org/ |
+| **中国哲学书电子化计划** | 古籍原文 / 译文全文检索。 | https://ctext.org/zh |
+| **国家哲学社会科学文献中心** | 免费论文与图书资源。 | https://www.ncpssd.org/ |
+| **古登堡中文书目** | Project Gutenberg 中文公共领域书。 | https://www.gutenberg.org/browse/languages/zh |
+| **古诗文网** | 诗词古文全文与注释。 | https://www.gushiwen.cn/ |
+| **微信读书** | 大量免费专区，支持导入本地书。 | https://weread.qq.com/ |
+| **豆瓣读书** | 书目 / 评分 / 书单，找书入口。 | https://book.douban.com/ |
+
+### 🦸 免费漫画 / 图像小说
+
+| 站点 | 说明 | 链接 |
+| --- | --- | --- |
+| **Comic Book Plus** | 公共领域黄金时代漫画，可直接下载。 | https://comicbookplus.com/ |
+| **Digital Comic Museum** | 公共领域老漫画档案馆。 | https://digitalcomicmuseum.com/ |
+| **Internet Archive · Comics** | 海量公共领域 / 授权漫画扫描。 | https://archive.org/details/comics |
+| **Webtoon** | 官方免费条漫平台。 | https://www.webtoons.com/ |
+| **Tapas** | 免费网络漫画 / 小说。 | https://tapas.io/ |
+| **ComicFury** | 独立作者免费网络漫画。 | https://comicfury.com/ |
+| **GlobalComix** | 部分作品免费阅读。 | https://globalcomix.com/ |
+| **MANGA Plus（集英社）** | 官方免费，部分章节限时免费。 | https://mangaplus.shueisha.co.jp/ |
+| **Comic Walker（KADOKAWA）** | 官方免费漫画。 | https://comic-walker.com/ |
+
+> 漫画下载后建议用 **KCC** 转成适合 Kindle 的 EPUB / MOBI / KFX，再侧载。
+
+### 🎧 有声书 / 播客 / 期刊 / 其他
+
+| 资源 | 说明 | 链接 |
+| --- | --- | --- |
+| **LibriVox** | 公共领域有声书，志愿者录制，免费。 | https://librivox.org/ |
+| **Loyal Books** | 免费公共领域电子书 + 有声书。 | https://www.loyalbooks.com/ |
+| **Lit2Go** | 免费文学有声书与文本。 | https://etc.usf.edu/lit2go/ |
+| **arXiv** | 开放获取预印本论文。 | https://arxiv.org/ |
+| **DOAJ** | 开放获取期刊目录。 | https://doaj.org/ |
+| **PubMed Central** | 生物医学开放全文。 | https://www.ncbi.nlm.nih.gov/pmc/ |
+| **CORE** | 聚合全球开放获取论文。 | https://core.ac.uk/ |
+| **IMSLP** | 公共领域乐谱（Scribe 手写批注很香）。 | https://imslp.org/ |
+| **Kiwix** | 离线维基百科 / 网页内容，可塞进设备。 | https://www.kiwix.org/ |
+| **Royal Road / AO3** | 免费网文 / 同人；配 **FanFicFare** 可下载成电子书。 | https://www.royalroad.com/ · https://archiveofourown.org/ |
+
+### 🧰 找书 → 转换 → 传输 一条龙
+
+| 工具 | 作用 | 链接 |
+| --- | --- | --- |
+| **Calibre** | 管理 / 转换 / 元数据 / 推送，一站式。 | https://calibre-ebook.com/ |
+| **FanFicFare** | Calibre 插件，把网文 / 同人站下载成电子书。 | https://github.com/JimmXinu/FanFicFare |
+| **EpubMerge** | 合并多本 EPUB（合集 / 连载）。 | https://github.com/JimmXinu/EpubMerge |
+| **KCC** | 漫画 / 图片 / PDF → Kindle 友好格式。 | https://github.com/ciromattia/kcc |
+| **KindleUnpack** | 解包 MOBI / AZW3 / KFX。 | https://github.com/kevinhendricks/KindleUnpack |
+| **Send to Kindle** | 亚马逊官方推送，直接发到设备。 | https://www.amazon.com/sendtokindle |
+| **Calibre-Web** | 自建书库，浏览器管理 / 阅读。 | https://github.com/janeczku/calibre-web |
+
+> 💡 **放进 Kindle 的三种方式**：① Calibre「发送到设备」；② 亚马逊 **Send to Kindle**；③ USB 直接拷进 `documents/`。EPUB 在新固件上可直接读，老固件用 Calibre 转 AZW3/MOBI。
 
 ---
 

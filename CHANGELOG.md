@@ -3,6 +3,14 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.0] - 2026-11-12
+
+### Added
+- 🗂️ **Content sources** section (bilingual): public-domain / free ebooks (EN + 中文 + classics),
+  free comics, audiobooks, open-access papers, sheet music, offline Wikipedia, web fiction.
+- 🧰 Find → convert → transfer pipeline (Calibre, FanFicFare, EpubMerge, KCC, Send to Kindle).
+- ⚖️ A clear **legal-only policy**: no pirate / shadow-library links, to keep the repo compliant and DMCA-safe.
+
 ## [1.1.0] - 2026-11-12
 
 ### Added
