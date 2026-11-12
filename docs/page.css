@@ -1,0 +1,28 @@
+.doc-body{background:linear-gradient(160deg,var(--bg),var(--bg2) 60%,#0a0f1a);color:var(--fg)}
+.doc-top{padding:18px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,18,32,.85);backdrop-filter:blur(8px);z-index:5}
+.doc-back{color:var(--accent);text-decoration:none;font-weight:600;font-size:14px}
+.doc-main{max-width:820px;padding:38px 20px 80px}
+.doc-main h1{font-size:clamp(28px,5vw,44px);margin:.2em 0}
+.doc-sub{color:var(--muted);margin-top:0;margin-bottom:1.4em}
+.prose{font-size:16px;line-height:1.75;color:#dbe6f5}
+.prose h2{margin-top:1.8em;padding-top:.4em;border-top:1px solid var(--line);font-size:22px}
+.prose h3{margin-top:1.3em;font-size:18px}
+.prose a{color:var(--accent)}
+.prose code{background:#0d1524;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:.9em}
+.prose pre{background:#0a1120;border:1px solid var(--line);border-radius:10px;padding:14px;overflow:auto}
+.prose pre code{border:0;background:none;padding:0}
+.prose blockquote{border-left:3px solid var(--accent);margin:1em 0;padding:.2em 0 .2em 16px;color:#b9c6d8;background:rgba(56,189,248,.06)}
+.prose table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:14px}
+.prose th,.prose td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+.prose th{background:#0f1d33;color:#cfe0f5}
+.prose ol,.prose ul{padding-left:1.4em}
+.prose li{margin:.35em 0}
+.prose hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+.doc-foot{margin-top:2em;color:var(--muted);font-size:13px}
+.doc-foot a{color:var(--accent)}
+.gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin:1.4em 0}
+.gcard{display:block;background:linear-gradient(180deg,#121c2e,#0e1626);border:1px solid var(--line);border-radius:14px;padding:16px;text-decoration:none;transition:.15s}
+.gcard:hover{transform:translateY(-2px);border-color:#33507a}
+.gcard h3{margin:0 0 6px;color:#eaf2ff;font-size:16px}
+.gcard p{margin:0;color:#a9b7cb;font-size:13.5px}
+.doc-main>p a,.doc-main>p a:visited{color:var(--accent)}

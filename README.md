@@ -14,7 +14,9 @@
 ![Kindle](https://img.shields.io/badge/Device-Kindle-232F3E?logo=amazonkindle&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-5.16%20→%205.19-0ea5e9)
 
-**🌐 语言：** **简体中文** · [English](README_EN.md) · [🔎 在线浏览](https://mbdtf202-cyber.github.io/awesome-kindle/)
+**🌐 语言：** **简体中文** · [English](README_EN.md) · [🔎 在线浏览](https://mbdtf202-cyber.github.io/awesome-kindle/) · [日本語](README_JA.md) · [한국어](README_KO.md)
+
+**📚 分步指南：** [越狱各方案](docs/jailbreaks/README.md) · [安装 / 转换 / 排错](docs/guides/README.md) · [买前选购](docs/guides/buying-guide.md)
 
 > **越狱只是"打开一扇门"，不是刷系统。**
 > 打开这扇门之后，你可以在 Kindle 上跑 [KOReader](https://github.com/koreader/koreader)、终端、Alpine Linux、甚至 Android —— 而 Kindle 商店、Kindle Unlimited 等原有功能完全不受影响。

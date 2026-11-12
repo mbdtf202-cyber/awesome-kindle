@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SSH &amp; terminal on Kindle — Awesome Kindle</title>
+<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" href="../page.css"/>
+</head>
+<body class="doc-body">
+<header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
+<main class="wrap doc-main">
+<h1>SSH &amp; terminal on Kindle</h1>
+<p class="doc-sub">Get a real shell and remote access.</p>
+<div class="prose">
+<p>With a jailbreak you can get a shell — locally with <strong>kterm</strong>, remotely over <strong>SSH</strong>.</p>
+<h2>Local terminal</h2>
+<ol><li>Install <strong>kterm</strong> via KPM (or manually).</li><li>Launch it from KUAL/Jobman — you get a shell on the device.</li></ol>
+<h2>Enable SSH (USBNetLite)</h2>
+<ol><li>Install <strong>USBNetLite</strong> → https://github.com/notmarek/kindle-usbnetlite</li><li>Choose USB or Wi-Fi mode; note the device IP.</li><li>Set a root password (per its README) before exposing it on Wi-Fi.</li></ol>
+<h2>Connect from your computer</h2>
+<pre><code class="lang-bash">ssh root@&lt;kindle-ip&gt;
+# or over USB (usbnet): ssh root@192.168.15.244</code></pre>
+<ul><li>Copy files: <code>scp book.epub root@&lt;kindle-ip&gt;:/mnt/us/documents/</code></li><li>Be careful: you can break the system as root. Keep a backup and Hotfix installed.</li></ul>
+<hr/>
+<h2>中文速览</h2>
+<ul><li><strong>本地终端</strong>：KPM 装 <strong>kterm</strong>，从 KUAL/Jobman 启动即得 shell。</li><li><strong>开 SSH</strong>：装 <strong>USBNetLite</strong>，选 USB/Wi-Fi 模式，记下 IP，先设 root 密码再对外。</li><li><strong>连接</strong>：<code>ssh root@&lt;ip&gt;</code>；传文件 <code>scp book.epub root@&lt;ip&gt;:/mnt/us/documents/</code>。</li><li><strong>注意</strong>：root 能把系统搞坏；务必装 Hotfix 并备份。</li></ul>
+</div>
+<footer class="doc-foot">Defer to the <a href="https://kindlemodding.org/">official KindleModding wiki</a> · MIT</footer>
+</main>
+</body>
+</html>

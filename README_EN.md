@@ -14,7 +14,9 @@
 ![Kindle](https://img.shields.io/badge/Device-Kindle-232F3E?logo=amazonkindle&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-5.16%20→%205.19-0ea5e9)
 
-**🌐 Language:** **English** · [简体中文](README.md) · [🔎 Live site](https://mbdtf202-cyber.github.io/awesome-kindle/)
+**🌐 Language:** **English** · [简体中文](README.md) · [🔎 Live site](https://mbdtf202-cyber.github.io/awesome-kindle/) · [日本語](README_JA.md) · [한국어](README_KO.md)
+
+**📚 Guides:** [Jailbreak steps](docs/jailbreaks/README.md) · [Install / convert / troubleshoot](docs/guides/README.md) · [Buying guide](docs/guides/buying-guide.md)
 
 > **Jailbreaking just opens a door — it does not replace your firmware.**
 > Behind that door you can run [KOReader](https://github.com/koreader/koreader), a terminal, Alpine Linux, or even Android — while the Kindle Store, Kindle Unlimited and every built-in feature keep working exactly as before.

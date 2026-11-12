@@ -3,6 +3,23 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.0.0] - 2026-11-12
+
+### Added — "make it a real one-stop product"
+- 🔓 **12 step-by-step jailbreak pages** (`docs/jailbreaks/`) generated from the compatibility matrix.
+- 🧰 **8 mini-guides** (`docs/guides/`): Starter Pack, KOReader, KPM, KCC, Calibre, SSH/terminal, Troubleshooting & brick rescue, Buying guide — each with an English walkthrough + 中文速览.
+- 🧭 **Jailbreak Wizard** (`docs/wizard.html`): pick model + firmware → matching methods.
+- 🖥️ **Site UX**: EN/中文 toggle, light/dark theme, card **detail modal** + copy link, nav bar.
+- ⬇️ **Offline single-file export** (`docs/offline.html`) + **PWA** (manifest + service worker + icon).
+- 🇯🇵🇰🇷 Condensed **日本語 / 한국어** READMEs.
+- 🤖 Bilingual machine-readable index (137 items) + **JSON Schema** + `scripts/validate_data.py`.
+- ⚙️ **Automation**: `build-data` workflow auto-regenerates `resources.json`; **Quality** CI (data + generated-docs reproducibility); broken-link **auto-issue**; **Dependabot**.
+- 🔐 Repo hygiene: `SECURITY.md`, `CODEOWNERS`, `FUNDING.yml`, richer PR checklist.
+
+### Changed
+- `docs/` is now a small multi-page site (index + jailbreaks + guides + wizard + offline) sharing `style.css` / `page.css`.
+- `scripts/build_resources.py` merges **both** READMEs for bilingual fields; added `scripts/mdmini.py`, `scripts/build_docs.py`, `scripts/build_offline.py`, `scripts/guides_content.py`.
+
 ## [1.5.0] - 2026-11-12
 
 ### Added

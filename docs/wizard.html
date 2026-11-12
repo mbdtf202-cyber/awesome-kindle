@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Jailbreak Wizard — Awesome Kindle</title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="page.css"/>
+<style>
+.wiz{background:linear-gradient(180deg,#121c2e,#0e1626);border:1px solid var(--line);border-radius:16px;padding:22px;margin:1.4em 0}
+.wiz .row{display:flex;gap:14px;flex-wrap:wrap}
+.wiz label{display:block;font-size:13px;color:#9fb0c6;margin-bottom:6px}
+.wiz select,.wiz input{background:#0d1524;border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:11px 13px;font-size:15px;min-width:200px}
+.wiz button{margin-top:16px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#04121f;border:0;border-radius:999px;padding:11px 22px;font-weight:700;cursor:pointer}
+.res{margin-top:20px}
+.res .item{border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0;background:#0f1a2c}
+.res .item h3{margin:0 0 6px;font-size:17px}
+.res .item h3 a{color:#eaf2ff;text-decoration:none}
+.res .meta{color:#9fb0c6;font-size:13px}
+.res .ok{color:#4ade80}.res .no{color:#f87171}
+body[data-theme="light"] .wiz,body[data-theme="light"] .res .item{background:#fff}
+body[data-theme="light"] .wiz select,body[data-theme="light"] .wiz input{background:#fff;color:#0f172a}
+body[data-theme="light"] .res .item h3 a{color:#0f172a}
+</style>
+</head>
+<body class="doc-body">
+<header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
+<main class="wrap doc-main">
+<h1>Jailbreak Wizard 🧭</h1>
+<p class="doc-sub">Enter your model + firmware to see which methods apply. <em>Reference only — always confirm on the official wiki.</em></p>
+<div class="wiz">
+  <div class="row">
+    <div><label for="model">Model / 机型</label>
+      <select id="model"><option value="">— select —</option></select></div>
+    <div><label for="fw">Firmware / 固件（如 5.16.2.1.1）</label>
+      <input id="fw" placeholder="5.16.2.1.1" autocomplete="off"/></div>
+  </div>
+  <button id="go">Find my jailbreak / 查找</button>
+  <p class="meta" id="hint" style="margin-top:12px;color:#9fb0c6;font-size:13px"></p>
+</div>
+<div class="res" id="res"></div>
+<p><a href="jailbreaks/index.html">Browse all jailbreak guides →</a></p>
+</main>
+<script src="wizard.js"></script>
+</body>
+</html>

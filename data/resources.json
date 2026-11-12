@@ -1,1409 +1,1914 @@
 {
   "repo": "awesome-kindle",
   "generated": "2026-11-12",
-  "source": "README_EN.md",
-  "note": "Machine-readable index derived from README_EN.md tables. See data/README.md.",
+  "source": "README_EN.md + README.md",
+  "note": "Bilingual machine-readable index derived from the README tables. See data/README.md.",
   "count": 137,
   "items": [
     {
       "name": "WinterBreak2",
+      "name_zh": "WinterBreak2",
       "url": "https://kindlemodding.org/jailbreaking/WinterBreak2/",
       "links": [
         "https://kindlemodding.org/jailbreaking/WinterBreak2/",
         "https://github.com/KindleModding/Winterbreak2"
       ],
       "description": "Firmware: ≤ 5.16.3 (also 5.16.5) · Models: PW / PW2 / KV / KT2 / PW3 / KOA / KT3 / KOA2 / PW4 / KT4 / KOA3 / PW5 / KT5 / KS · Account: No · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: ≤ 5.16.3（另接受 5.16.5） · Models: PW / PW2 / KV / KT2 / PW3 / KOA / KT3 / KOA2 / PW4 / KT4 / KOA3 / PW5 / KT5 / KS · Account: 否 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "WinterBreak",
+      "name_zh": "WinterBreak",
       "url": "https://kindlemodding.org/jailbreaking/WinterBreak/",
       "links": [
         "https://kindlemodding.org/jailbreaking/WinterBreak/",
         "https://github.com/KindleModding/WinterBreak"
       ],
       "description": "Firmware: 5.16.2.1.1 – 5.17.x (< 5.18.1) · Models: Above, plus PW6 / KS2 / CS · Account: Yes · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.16.2.1.1 ~ 5.17.x（< 5.18.1） · Models: 同上，含 PW6 / KS2 / CS · Account: 是 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "SpiderCat",
+      "name_zh": "SpiderCat",
       "url": "https://kindlemodding.org/jailbreaking/SpiderCat/",
       "links": [
         "https://kindlemodding.org/jailbreaking/SpiderCat/",
         "https://github.com/KindleModding/SpiderCat"
       ],
       "description": "Firmware: 5.16.3 – 5.19.5 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: No · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.16.3 ~ 5.19.5 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: 否 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "Véra",
+      "name_zh": "Véra",
       "url": "https://kindlemodding.org/jailbreaking/Vera/",
       "links": [
         "https://kindlemodding.org/jailbreaking/Vera/"
       ],
       "description": "Firmware: 5.17.1 – 5.20.2 · Models: PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: No · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.17.1 ~ 5.20.2 · Models: PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: 否 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "Nosebleed",
+      "name_zh": "Nosebleed",
       "url": "https://kindlemodding.org/jailbreaking/Nosebleed/",
       "links": [
         "https://kindlemodding.org/jailbreaking/Nosebleed/"
       ],
       "description": "Firmware: 5.16.4 – 5.18.6 (KT5/PW5/KOA3) 5.16.4 – 5.17.1.0.4 (PW6/KT6) · Models: KT5 / PW5 / KOA3 / PW6 / KT6 · Account: No · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.16.4 ~ 5.18.6（KT5/PW5/KOA3） 5.16.4 ~ 5.17.1.0.4（PW6/KT6） · Models: KT5 / PW5 / KOA3 / PW6 / KT6 · Account: 否 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "Sanctuary",
+      "name_zh": "Sanctuary",
       "url": "https://kindlemodding.org/jailbreaking/Sanctuary/",
       "links": [
         "https://kindlemodding.org/jailbreaking/Sanctuary/"
       ],
       "description": "Firmware: 5.16.4 – 5.18.3 (denies 5.16.5) · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 / KS2 / CS · Account: No · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.16.4 ~ 5.18.3（拒绝 5.16.5） · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 / KS2 / CS · Account: 否 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "SpringBreak (WinterBreak3)",
+      "name_zh": "SpringBreak（WinterBreak3）",
       "url": "https://kindlemodding.org/jailbreaking/SpringBreak/",
       "links": [
         "https://kindlemodding.org/jailbreaking/SpringBreak/",
         "https://github.com/KindleModding/SpringBreak"
       ],
       "description": "Firmware: 5.18.1 – 5.19.2.0.1 (KT5/PW5) 5.18.1.1.1 (KT4/PW4) · Models: KT5 / PW5 / KT4 / PW4 · Account: Yes · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.18.1 ~ 5.19.2.0.1（KT5/PW5） 5.18.1.1.1（KT4/PW4） · Models: KT5 / PW5 / KT4 / PW4 · Account: 是 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "Shadow",
+      "name_zh": "Shadow",
       "url": "https://kindlemodding.org/jailbreaking/Shadow/",
       "links": [
         "https://kindlemodding.org/jailbreaking/Shadow/",
         "https://github.com/KindleModding/Shadow"
       ],
       "description": "Firmware: 5.19.4 – 5.19.6 · Models: KS / KS2 / CS / PW6 / KT6 · Account: No · Ads: No · Status: ✅ Active",
+      "description_zh": "Firmware: 5.19.4 ~ 5.19.6 · Models: KS / KS2 / CS / PW6 / KT6 · Account: 否 · Ads: 否 · Status: ✅ 活跃",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "AdBreak",
+      "name_zh": "AdBreak",
       "url": "https://kindlemodding.org/jailbreaking/AdBreak/",
       "links": [
         "https://kindlemodding.org/jailbreaking/AdBreak/",
         "https://github.com/KindleModding/AdBreak"
       ],
       "description": "Firmware: 5.18.1 – 5.18.5.0.1 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 · Account: Yes · Ads: Ads only · Status: 🧪 Experimental",
+      "description_zh": "Firmware: 5.18.1 ~ 5.18.5.0.1 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 · Account: 是 · Ads: 仅广告版 · Status: 🧪 实验",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "LanguageBreak",
+      "name_zh": "LanguageBreak",
       "url": "https://kindlemodding.org/jailbreaking/Legacy/LanguageBreak.html",
       "links": [
         "https://kindlemodding.org/jailbreaking/Legacy/LanguageBreak.html",
         "https://github.com/KindleModding/LanguageBreak"
       ],
       "description": "Firmware: ≤ 5.16.2.1.1 · Models: Older mainstream models · Account: No · Ads: No · Status: 🗄️ Archived",
+      "description_zh": "Firmware: ≤ 5.16.2.1.1 · Models: 旧款主流机型 · Account: 否 · Ads: 否 · Status: 🗄️ 归档",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "NiLuJe K2/K4/K5",
+      "name_zh": "NiLuJe K2/K4/K5",
       "url": "https://kindlemodding.org/jailbreaking/Legacy/index.html",
       "links": [
         "https://kindlemodding.org/jailbreaking/Legacy/index.html"
       ],
       "description": "Firmware: 2.x / 4.x / 5.0.x · Models: K2 / DX / K3 / K4 / KT · Account: No · Ads: No · Status: 🗄️ Classic",
+      "description_zh": "Firmware: 2.x / 4.x / 5.0.x · Models: K2 / DX / K3 / K4 / KT · Account: 否 · Ads: 否 · Status: 🗄️ 经典",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "Android flash",
+      "name_zh": "Android 刷机",
       "url": "https://github.com/Ooonana/Guide-to-installing-android-on-kindle",
       "links": [
         "https://github.com/Ooonana/Guide-to-installing-android-on-kindle"
       ],
       "description": "Firmware: — · Models: Select models / Kindle × Migu · Account: — · Ads: — · Status: 🧪 Hardcore",
+      "description_zh": "Firmware: — · Models: 部分机型 / Kindle × Migu · Account: — · Ads: — · Status: 🧪 硬核",
       "section": "🔓 Jailbreak overview",
+      "section_zh": "🔓 越狱方案总览",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "jailbreak"
     },
     {
       "name": "Hotfix",
+      "name_zh": "Hotfix",
       "url": "https://github.com/KindleModding/Hotfix",
       "links": [
         "https://github.com/KindleModding/Hotfix"
       ],
       "description": "The jailbreak hotfix — blocks OTA from wiping your jailbreak and prevents bricks. Install it first.",
+      "description_zh": "越狱\"热修复\"，防止 OTA 把越狱抹掉、避免变砖。越狱后第一件事就是装它。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "🧩 The essentials: Hotfix / KPM / Jobman",
+      "subsection_zh": "🧩 必备三件套：Hotfix / KPM / Jobman",
       "kind": "resource"
     },
     {
       "name": "KPM",
+      "name_zh": "KPM",
       "url": "https://github.com/KindleModding/KPM",
       "links": [
         "https://github.com/KindleModding/KPM",
         "https://github.com/KindleModding/repo"
       ],
       "description": "Kindle Package Manager — install scriptlets on-device (like apt).",
+      "description_zh": "Kindle Package Manager，设备上装 Scriptlet 的包管理器（类比 apt）。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "🧩 The essentials: Hotfix / KPM / Jobman",
+      "subsection_zh": "🧩 必备三件套：Hotfix / KPM / Jobman",
       "kind": "resource"
     },
     {
       "name": "Jobman",
+      "name_zh": "Jobman",
       "url": "https://github.com/KindleTweaks/jobman",
       "links": [
         "https://github.com/KindleTweaks/jobman"
       ],
       "description": "Jailbreak Manager — a GUI for managing the jailbreak and apps.",
+      "description_zh": "Jailbreak Manager，图形化的越狱 / 应用管理器。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "🧩 The essentials: Hotfix / KPM / Jobman",
+      "subsection_zh": "🧩 必备三件套：Hotfix / KPM / Jobman",
       "kind": "resource"
     },
     {
       "name": "kTerm",
+      "name_zh": "kTerm",
       "url": "https://github.com/bfabiszewski/kterm",
       "links": [
         "https://github.com/bfabiszewski/kterm"
       ],
       "description": "E-ink-optimized terminal emulator with an on-screen keyboard.",
+      "description_zh": "为墨水屏优化的终端模拟器，带虚拟键盘。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "💻 Terminal / SSH / Linux",
+      "subsection_zh": "💻 终端 / SSH / Linux",
       "kind": "resource"
     },
     {
       "name": "USBNetLite",
+      "name_zh": "USBNetLite",
       "url": "https://github.com/notmarek/kindle-usbnetlite",
       "links": [
         "https://github.com/notmarek/kindle-usbnetlite"
       ],
       "description": "One command to enable SSH — turn the Kindle into a remote Linux box.",
+      "description_zh": "一条命令开 SSH，把 Kindle 变成可远程登录的 Linux 小机器。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "💻 Terminal / SSH / Linux",
+      "subsection_zh": "💻 终端 / SSH / Linux",
       "kind": "resource"
     },
     {
       "name": "Alpine Linux",
+      "name_zh": "Alpine Linux",
       "url": "https://github.com/schuhumi/alpine_kindle",
       "links": [
         "https://github.com/schuhumi/alpine_kindle",
         "https://github.com/schuhumi/alpine_kindle_kual"
       ],
       "description": "Run a full Alpine install and get a real package ecosystem.",
+      "description_zh": "在 Kindle 上跑完整 Alpine，获得真正的包管理生态。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "💻 Terminal / SSH / Linux",
+      "subsection_zh": "💻 终端 / SSH / Linux",
       "kind": "resource"
     },
     {
       "name": "Tailscale",
+      "name_zh": "Tailscale",
       "url": "https://github.com/mitanshu7/tailscale_kual",
       "links": [
         "https://github.com/mitanshu7/tailscale_kual"
       ],
       "description": "Mesh-networking so you can reach your Kindle from anywhere.",
+      "description_zh": "通过 Tailscale 组网，随时远程连回你的 Kindle。",
       "section": "🧰 Post-jailbreak toolkit",
+      "section_zh": "🧰 越狱后生态",
       "subsection": "💻 Terminal / SSH / Linux",
+      "subsection_zh": "💻 终端 / SSH / Linux",
       "kind": "resource"
     },
     {
       "name": "KOReader",
+      "name_zh": "KOReader",
       "url": "https://github.com/koreader/koreader",
       "links": [
         "https://github.com/koreader/koreader"
       ],
       "description": "Cross-platform open-source reader — the top pick after jailbreaking.",
+      "description_zh": "跨平台开源阅读器，Kindle 越狱后的首选。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KCC (Kindle Comic Converter)",
+      "name_zh": "KCC（Kindle Comic Converter）",
       "url": "https://github.com/ciromattia/kcc",
       "links": [
         "https://github.com/ciromattia/kcc"
       ],
       "description": "Convert comics / images / PDF to Kindle-friendly EPUB / MOBI / KFX, 6k★.",
+      "description_zh": "把漫画 / 图片 / PDF 转成适合 Kindle 的 EPUB / MOBI / KFX，6k★。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "WordDumb",
+      "name_zh": "WordDumb",
       "url": "https://github.com/xxyzz/WordDumb",
       "links": [
         "https://github.com/xxyzz/WordDumb"
       ],
       "description": "Calibre plugin generating local Word Wise and X-Ray files.",
+      "description_zh": "Calibre 插件，为电子书生成本地 Word Wise 与 X-Ray 文件。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Calibre",
+      "name_zh": "Calibre",
       "url": "https://github.com/kovidgoyal/calibre",
       "links": [
         "https://github.com/kovidgoyal/calibre"
       ],
       "description": "The ebook manager: convert, metadata, send-to-device, all in one.",
+      "description_zh": "电子书管理神器，转换 / 元数据 / 推送一站式。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Calibre-Web",
+      "name_zh": "Calibre-Web",
       "url": "https://github.com/janeczku/calibre-web",
       "links": [
         "https://github.com/janeczku/calibre-web"
       ],
       "description": "Self-hosted web library — read/download from a browser.",
+      "description_zh": "自建网盘式书库，浏览器即可阅读 / 下载。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleUnpack",
+      "name_zh": "KindleUnpack",
       "url": "https://github.com/kevinhendricks/KindleUnpack",
       "links": [
         "https://github.com/kevinhendricks/KindleUnpack"
       ],
       "description": "Unpack MOBI / AZW3 / KFX — essential for research and conversion.",
+      "description_zh": "解包 MOBI / AZW3 / KFX，研究与转换必备。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleFetch",
+      "name_zh": "KindleFetch",
       "url": "https://github.com/justrals/KindleFetch",
       "links": [
         "https://github.com/justrals/KindleFetch"
       ],
       "description": "CLI that downloads books straight to the Kindle, no PC needed.",
+      "description_zh": "命令行工具，把书直接下载到 Kindle，无需电脑。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleEar",
+      "name_zh": "KindleEar",
       "url": "https://github.com/cdhigh/KindleEar",
       "links": [
         "https://github.com/cdhigh/KindleEar"
       ],
       "description": "Aggregate RSS / web content and push it to the Kindle on a schedule.",
+      "description_zh": "聚合 RSS / 网页内容，定时推送到 Kindle。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "kindle2notion",
+      "name_zh": "kindle2notion",
       "url": "https://github.com/paperboi/kindle2notion",
       "links": [
         "https://github.com/paperboi/kindle2notion"
       ],
       "description": "Export Kindle highlights and notes to Notion.",
+      "description_zh": "导出 Kindle 标注 / 笔记到 Notion。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "BookFere-Tools",
+      "name_zh": "BookFere-Tools",
       "url": "https://github.com/bookfere/BookFere-Tools",
       "links": [
         "https://github.com/bookfere/BookFere-Tools"
       ],
       "description": "Chinese-maintained KUAL plugin collection (CN-friendly).",
+      "description_zh": "国人维护的 KUAL 插件合集（中文友好）。",
       "section": "📚 Reading & library tools",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Project Gutenberg",
+      "name_zh": "Project Gutenberg",
       "url": "https://www.gutenberg.org/",
       "links": [
         "https://www.gutenberg.org/"
       ],
       "description": "70k+ public-domain ebooks, with EPUB / Kindle formats.",
+      "description_zh": "7 万+ 公共领域电子书，直接提供 EPUB / Kindle 格式。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Standard Ebooks",
+      "name_zh": "Standard Ebooks",
       "url": "https://standardebooks.org/",
       "links": [
         "https://standardebooks.org/"
       ],
       "description": "Beautifully typeset, carefully proofed public-domain classics.",
+      "description_zh": "精校、精排版的公共领域经典，质量极高。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Internet Archive",
+      "name_zh": "Internet Archive",
       "url": "https://archive.org/details/texts",
       "links": [
         "https://archive.org/details/texts"
       ],
       "description": "Millions of scanned books; public-domain downloads, the rest borrowable.",
+      "description_zh": "千万级扫描书，公共领域可直接下载，其余可借阅。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Open Library",
+      "name_zh": "Open Library",
       "url": "https://openlibrary.org/",
       "links": [
         "https://openlibrary.org/"
       ],
       "description": "Borrow-style digital library with a free account.",
+      "description_zh": "借阅式数字图书馆，免费账号即可借书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "HathiTrust",
+      "name_zh": "HathiTrust",
       "url": "https://www.hathitrust.org/",
       "links": [
         "https://www.hathitrust.org/"
       ],
       "description": "Academic-grade public-domain full-text library.",
+      "description_zh": "学术级公共领域全文库。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Google Books",
+      "name_zh": "Google Books",
       "url": "https://books.google.com/",
       "links": [
         "https://books.google.com/"
       ],
       "description": "Public-domain books downloadable as PDF / EPUB.",
+      "description_zh": "公共领域书籍可下载全文 PDF / EPUB。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "ManyBooks",
+      "name_zh": "ManyBooks",
       "url": "https://manybooks.net/",
       "links": [
         "https://manybooks.net/"
       ],
       "description": "Large catalog of free classic ebooks in many formats.",
+      "description_zh": "大量免费经典电子书，格式齐全。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Planet eBook",
+      "name_zh": "Planet eBook",
       "url": "https://www.planetebook.com/",
       "links": [
         "https://www.planetebook.com/"
       ],
       "description": "Well-formatted classics, direct download.",
+      "description_zh": "精排经典文学，直接下载。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Global Grey",
+      "name_zh": "Global Grey",
       "url": "https://www.globalgreyebooks.com/",
       "links": [
         "https://www.globalgreyebooks.com/"
       ],
       "description": "Public-domain classics.",
+      "description_zh": "公共领域经典电子书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Wikisource",
+      "name_zh": "Wikisource",
       "url": "https://wikisource.org/",
       "links": [
         "https://wikisource.org/"
       ],
       "description": "Multilingual primary-source texts.",
+      "description_zh": "维基文库，多语种原文与译本。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Project Gutenberg Australia",
+      "name_zh": "Project Gutenberg Australia",
       "url": "https://gutenberg.net.au/",
       "links": [
         "https://gutenberg.net.au/"
       ],
       "description": "More permissive copyright scope.",
+      "description_zh": "澳洲站，版权范围更宽松。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "Open Textbook Library",
+      "name_zh": "Open Textbook Library",
       "url": "https://open.umn.edu/opentextbooks",
       "links": [
         "https://open.umn.edu/opentextbooks"
       ],
       "description": "Openly-licensed university textbooks.",
+      "description_zh": "开放授权大学教材。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📖 Public-domain / free ebooks (English-first)",
+      "subsection_zh": "📖 公共领域 / 免费电子书（英文为主）",
       "kind": "resource"
     },
     {
       "name": "haodoo",
+      "name_zh": "好读（haodoo）",
       "url": "https://www.haodoo.net/",
       "links": [
         "https://www.haodoo.net/"
       ],
       "description": "Elegantly typeset traditional-Chinese books, Kindle-friendly.",
+      "description_zh": "繁体精排中文书，Kindle 友好。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "shuge",
+      "name_zh": "书格（shuge）",
       "url": "https://www.shuge.org/",
       "links": [
         "https://www.shuge.org/"
       ],
       "description": "High-resolution public-domain Chinese classics.",
+      "description_zh": "公共领域古籍高清扫描与整理。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "ctext",
+      "name_zh": "中国哲学书电子化计划",
       "url": "https://ctext.org/zh",
       "links": [
         "https://ctext.org/zh"
       ],
       "description": "Full-text search of classical Chinese texts and translations.",
+      "description_zh": "古籍原文 / 译文全文检索。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "NCPSSD",
+      "name_zh": "国家哲学社会科学文献中心",
       "url": "https://www.ncpssd.org/",
       "links": [
         "https://www.ncpssd.org/"
       ],
       "description": "Free academic papers and books (CN).",
+      "description_zh": "免费论文与图书资源。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "Gutenberg (Chinese)",
+      "name_zh": "古登堡中文书目",
       "url": "https://www.gutenberg.org/browse/languages/zh",
       "links": [
         "https://www.gutenberg.org/browse/languages/zh"
       ],
       "description": "Public-domain Chinese ebooks on Project Gutenberg.",
+      "description_zh": "Project Gutenberg 中文公共领域书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "gushiwen",
+      "name_zh": "古诗文网",
       "url": "https://www.gushiwen.cn/",
       "links": [
         "https://www.gushiwen.cn/"
       ],
       "description": "Classical poetry and prose with annotations.",
+      "description_zh": "诗词古文全文与注释。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "WeRead",
+      "name_zh": "微信读书",
       "url": "https://weread.qq.com/",
       "links": [
         "https://weread.qq.com/"
       ],
       "description": "Large free section; supports importing local books.",
+      "description_zh": "大量免费专区，支持导入本地书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "Douban Books",
+      "name_zh": "豆瓣读书",
       "url": "https://book.douban.com/",
       "links": [
         "https://book.douban.com/"
       ],
       "description": "Catalog / ratings / lists — a good discovery entry.",
+      "description_zh": "书目 / 评分 / 书单，找书入口。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🇨🇳 Chinese free books / classics",
+      "subsection_zh": "🇨🇳 中文免费书 / 古籍",
       "kind": "resource"
     },
     {
       "name": "Comic Book Plus",
+      "name_zh": "Comic Book Plus",
       "url": "https://comicbookplus.com/",
       "links": [
         "https://comicbookplus.com/"
       ],
       "description": "Public-domain golden-age comics, downloadable.",
+      "description_zh": "公共领域黄金时代漫画，可直接下载。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "Digital Comic Museum",
+      "name_zh": "Digital Comic Museum",
       "url": "https://digitalcomicmuseum.com/",
       "links": [
         "https://digitalcomicmuseum.com/"
       ],
       "description": "Archive of public-domain vintage comics.",
+      "description_zh": "公共领域老漫画档案馆。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "Internet Archive · Comics",
+      "name_zh": "Internet Archive · Comics",
       "url": "https://archive.org/details/comics",
       "links": [
         "https://archive.org/details/comics"
       ],
       "description": "Massive public-domain / licensed comic scans.",
+      "description_zh": "海量公共领域 / 授权漫画扫描。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "Webtoon",
+      "name_zh": "Webtoon",
       "url": "https://www.webtoons.com/",
       "links": [
         "https://www.webtoons.com/"
       ],
       "description": "Official free webtoon platform.",
+      "description_zh": "官方免费条漫平台。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "Tapas",
+      "name_zh": "Tapas",
       "url": "https://tapas.io/",
       "links": [
         "https://tapas.io/"
       ],
       "description": "Free webcomics and novels.",
+      "description_zh": "免费网络漫画 / 小说。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "ComicFury",
+      "name_zh": "ComicFury",
       "url": "https://comicfury.com/",
       "links": [
         "https://comicfury.com/"
       ],
       "description": "Indie free webcomics.",
+      "description_zh": "独立作者免费网络漫画。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "GlobalComix",
+      "name_zh": "GlobalComix",
       "url": "https://globalcomix.com/",
       "links": [
         "https://globalcomix.com/"
       ],
       "description": "Some titles free to read.",
+      "description_zh": "部分作品免费阅读。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "MANGA Plus (Shueisha)",
+      "name_zh": "MANGA Plus（集英社）",
       "url": "https://mangaplus.shueisha.co.jp/",
       "links": [
         "https://mangaplus.shueisha.co.jp/"
       ],
       "description": "Official; some chapters free for a limited time.",
+      "description_zh": "官方免费，部分章节限时免费。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "Comic Walker (KADOKAWA)",
+      "name_zh": "Comic Walker（KADOKAWA）",
       "url": "https://comic-walker.com/",
       "links": [
         "https://comic-walker.com/"
       ],
       "description": "Official free manga.",
+      "description_zh": "官方免费漫画。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🦸 Free comics / graphic novels",
+      "subsection_zh": "🦸 免费漫画 / 图像小说",
       "kind": "resource"
     },
     {
       "name": "LibriVox",
+      "name_zh": "LibriVox",
       "url": "https://librivox.org/",
       "links": [
         "https://librivox.org/"
       ],
       "description": "Free public-domain audiobooks, volunteer-recorded.",
+      "description_zh": "公共领域有声书，志愿者录制，免费。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "Loyal Books",
+      "name_zh": "Loyal Books",
       "url": "https://www.loyalbooks.com/",
       "links": [
         "https://www.loyalbooks.com/"
       ],
       "description": "Free public-domain ebooks + audiobooks.",
+      "description_zh": "免费公共领域电子书 + 有声书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "Lit2Go",
+      "name_zh": "Lit2Go",
       "url": "https://etc.usf.edu/lit2go/",
       "links": [
         "https://etc.usf.edu/lit2go/"
       ],
       "description": "Free literary audiobooks and texts.",
+      "description_zh": "免费文学有声书与文本。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "arXiv",
+      "name_zh": "arXiv",
       "url": "https://arxiv.org/",
       "links": [
         "https://arxiv.org/"
       ],
       "description": "Open-access preprints.",
+      "description_zh": "开放获取预印本论文。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "DOAJ",
+      "name_zh": "DOAJ",
       "url": "https://doaj.org/",
       "links": [
         "https://doaj.org/"
       ],
       "description": "Directory of open-access journals.",
+      "description_zh": "开放获取期刊目录。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "PubMed Central",
+      "name_zh": "PubMed Central",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/",
       "links": [
         "https://www.ncbi.nlm.nih.gov/pmc/"
       ],
       "description": "Open biomedical full text.",
+      "description_zh": "生物医学开放全文。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "CORE",
+      "name_zh": "CORE",
       "url": "https://core.ac.uk/",
       "links": [
         "https://core.ac.uk/"
       ],
       "description": "Aggregated open-access research.",
+      "description_zh": "聚合全球开放获取论文。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "IMSLP",
+      "name_zh": "IMSLP",
       "url": "https://imslp.org/",
       "links": [
         "https://imslp.org/"
       ],
       "description": "Public-domain sheet music (great with Scribe handwriting).",
+      "description_zh": "公共领域乐谱（Scribe 手写批注很香）。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "Kiwix",
+      "name_zh": "Kiwix",
       "url": "https://www.kiwix.org/",
       "links": [
         "https://www.kiwix.org/"
       ],
       "description": "Offline Wikipedia / web content you can carry.",
+      "description_zh": "离线维基百科 / 网页内容，可塞进设备。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "Royal Road / AO3",
+      "name_zh": "Royal Road / AO3",
       "url": "https://www.royalroad.com/",
       "links": [
         "https://www.royalroad.com/",
         "https://archiveofourown.org/"
       ],
       "description": "Free web fiction / fanfic; pair with FanFicFare.",
+      "description_zh": "免费网文 / 同人；配 FanFicFare 可下载成电子书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "subsection_zh": "🎧 有声书 / 播客 / 期刊 / 其他",
       "kind": "resource"
     },
     {
       "name": "Libby (OverDrive)",
+      "name_zh": "Libby（OverDrive）",
       "url": "https://libbyapp.com/",
       "links": [
         "https://libbyapp.com/"
       ],
       "description": "Borrow ebooks / audiobooks free with a library card; Kindle hand-off in many regions.",
+      "description_zh": "用本地图书馆卡免费借电子书 / 有声书，部分地区可直接推 Kindle。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📚 Library borrowing & official subscriptions",
+      "subsection_zh": "📚 图书馆借阅 & 官方订阅（合法免费 / 付费）",
       "kind": "resource"
     },
     {
       "name": "OverDrive",
+      "name_zh": "OverDrive",
       "url": "https://www.overdrive.com/",
       "links": [
         "https://www.overdrive.com/"
       ],
       "description": "Library ebook lending platform (the web side of Libby).",
+      "description_zh": "图书馆电子借阅平台（Libby 的网页版）。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📚 Library borrowing & official subscriptions",
+      "subsection_zh": "📚 图书馆借阅 & 官方订阅（合法免费 / 付费）",
       "kind": "resource"
     },
     {
       "name": "Hoopla",
+      "name_zh": "Hoopla",
       "url": "https://www.hoopladigital.com/",
       "links": [
         "https://www.hoopladigital.com/"
       ],
       "description": "Borrow ebooks / comics / audiobooks free with a library card (region-dependent).",
+      "description_zh": "图书馆卡免费借电子书 / 漫画 / 有声书（视地区）。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📚 Library borrowing & official subscriptions",
+      "subsection_zh": "📚 图书馆借阅 & 官方订阅（合法免费 / 付费）",
       "kind": "resource"
     },
     {
       "name": "cloudLibrary",
+      "name_zh": "cloudLibrary",
       "url": "https://www.yourcloudlibrary.com/",
       "links": [
         "https://www.yourcloudlibrary.com/"
       ],
       "description": "Ebook lending from many library systems.",
+      "description_zh": "多家图书馆的电子书借阅。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📚 Library borrowing & official subscriptions",
+      "subsection_zh": "📚 图书馆借阅 & 官方订阅（合法免费 / 付费）",
       "kind": "resource"
     },
     {
       "name": "Everand (ex-Scribd)",
+      "name_zh": "Everand（原 Scribd）",
       "url": "https://www.everand.com/",
       "links": [
         "https://www.everand.com/"
       ],
       "description": "Subscription ebooks / audiobooks / magazines.",
+      "description_zh": "订阅制电子书 / 有声书 / 杂志。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📚 Library borrowing & official subscriptions",
+      "subsection_zh": "📚 图书馆借阅 & 官方订阅（合法免费 / 付费）",
       "kind": "resource"
     },
     {
       "name": "Reabble",
+      "name_zh": "Reabble",
       "url": "https://reabble.com/",
       "links": [
         "https://reabble.com/"
       ],
       "description": "Turns an RSS reader into a Kindle-friendly page.",
+      "description_zh": "把 RSS 阅读器变成 Kindle 友好网页。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "subsection_zh": "📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）",
       "kind": "resource"
     },
     {
       "name": "Inoreader",
+      "name_zh": "Inoreader",
       "url": "https://www.inoreader.com/",
       "links": [
         "https://www.inoreader.com/"
       ],
       "description": "Powerful RSS reader, works with push tools.",
+      "description_zh": "强大 RSS 阅读器，配合推送。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "subsection_zh": "📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）",
       "kind": "resource"
     },
     {
       "name": "Feedly",
+      "name_zh": "Feedly",
       "url": "https://feedly.com/",
       "links": [
         "https://feedly.com/"
       ],
       "description": "Mainstream RSS aggregation.",
+      "description_zh": "主流 RSS 聚合。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "subsection_zh": "📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）",
       "kind": "resource"
     },
     {
       "name": "NewsBlur",
+      "name_zh": "NewsBlur",
       "url": "https://newsblur.com/",
       "links": [
         "https://newsblur.com/"
       ],
       "description": "Open-source RSS reader.",
+      "description_zh": "开源 RSS 阅读器。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "subsection_zh": "📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）",
       "kind": "resource"
     },
     {
       "name": "Wattpad",
+      "name_zh": "Wattpad",
       "url": "https://www.wattpad.com/",
       "links": [
         "https://www.wattpad.com/"
       ],
       "description": "Free web fiction / fanfic platform.",
+      "description_zh": "免费网文 / 同人平台。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "subsection_zh": "📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）",
       "kind": "resource"
     },
     {
       "name": "Scribble Hub",
+      "name_zh": "Scribble Hub",
       "url": "https://www.scribblehub.com/",
       "links": [
         "https://www.scribblehub.com/"
       ],
       "description": "Free web-fiction platform.",
+      "description_zh": "免费网文平台。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "subsection_zh": "📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）",
       "kind": "resource"
     },
     {
       "name": "Google Fonts",
+      "name_zh": "Google Fonts",
       "url": "https://fonts.google.com/",
       "links": [
         "https://fonts.google.com/"
       ],
       "description": "Free open-source fonts; swap the system font after jailbreak.",
+      "description_zh": "免费开源字体，越狱后可换系统字体。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "Font Squirrel",
+      "name_zh": "Font Squirrel",
       "url": "https://www.fontsquirrel.com/",
       "links": [
         "https://www.fontsquirrel.com/"
       ],
       "description": "Free commercial-use fonts.",
+      "description_zh": "免费商用字体。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "WikiArt",
+      "name_zh": "WikiArt",
       "url": "https://www.wikiart.org/",
       "links": [
         "https://www.wikiart.org/"
       ],
       "description": "Public-domain artworks for wallpapers / screensavers.",
+      "description_zh": "公版艺术画作，做壁纸 / 屏保。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "Met Open Access",
+      "name_zh": "Met Open Access",
       "url": "https://www.metmuseum.org/art/collection",
       "links": [
         "https://www.metmuseum.org/art/collection"
       ],
       "description": "The Met's high-res public-domain images.",
+      "description_zh": "大都会博物馆公版高清图。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "Rijksmuseum",
+      "name_zh": "Rijksmuseum",
       "url": "https://www.rijksmuseum.nl/en/rijksstudio",
       "links": [
         "https://www.rijksmuseum.nl/en/rijksstudio"
       ],
       "description": "Rijksmuseum public-domain high-res art.",
+      "description_zh": "荷兰国立博物馆公版高清。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "Wikimedia Commons",
+      "name_zh": "Wikimedia Commons",
       "url": "https://commons.wikimedia.org/",
       "links": [
         "https://commons.wikimedia.org/"
       ],
       "description": "Huge public-domain / freely-licensed image library.",
+      "description_zh": "海量公版 / 自由授权图片。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "Wiktionary",
+      "name_zh": "Wiktionary",
       "url": "https://www.wiktionary.org/",
       "links": [
         "https://www.wiktionary.org/"
       ],
       "description": "Free multilingual dictionary, offline-friendly.",
+      "description_zh": "免费多语词典，可离线。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "GoldenDict",
+      "name_zh": "GoldenDict",
       "url": "https://github.com/goldendict/goldendict",
       "links": [
         "https://github.com/goldendict/goldendict"
       ],
       "description": "Open-source offline dictionary aggregator.",
+      "description_zh": "开源离线词典，多词典聚合。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "subsection_zh": "🎨 字体 / 壁纸 / 公版艺术 / 词典",
       "kind": "resource"
     },
     {
       "name": "Calibre",
+      "name_zh": "Calibre",
       "url": "https://calibre-ebook.com/",
       "links": [
         "https://calibre-ebook.com/"
       ],
       "description": "Manage / convert / metadata / send, all in one.",
+      "description_zh": "管理 / 转换 / 元数据 / 推送，一站式。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": "🧰 找书 → 转换 → 传输 一条龙",
       "kind": "resource"
     },
     {
       "name": "FanFicFare",
+      "name_zh": "FanFicFare",
       "url": "https://github.com/JimmXinu/FanFicFare",
       "links": [
         "https://github.com/JimmXinu/FanFicFare"
       ],
       "description": "Calibre plugin to download web fiction / fanfic as ebooks.",
+      "description_zh": "Calibre 插件，把网文 / 同人站下载成电子书。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": "🧰 找书 → 转换 → 传输 一条龙",
       "kind": "resource"
     },
     {
       "name": "EpubMerge",
+      "name_zh": "EpubMerge",
       "url": "https://github.com/JimmXinu/EpubMerge",
       "links": [
         "https://github.com/JimmXinu/EpubMerge"
       ],
       "description": "Merge multiple EPUBs (omnibus / serials).",
+      "description_zh": "合并多本 EPUB（合集 / 连载）。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": "🧰 找书 → 转换 → 传输 一条龙",
       "kind": "resource"
     },
     {
       "name": "KCC",
+      "name_zh": "KCC（Kindle Comic Converter）",
       "url": "https://github.com/ciromattia/kcc",
       "links": [
         "https://github.com/ciromattia/kcc"
       ],
       "description": "Comics / images / PDF → Kindle-friendly formats.",
+      "description_zh": "把漫画 / 图片 / PDF 转成适合 Kindle 的 EPUB / MOBI / KFX，6k★。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleUnpack",
+      "name_zh": "KindleUnpack",
       "url": "https://github.com/kevinhendricks/KindleUnpack",
       "links": [
         "https://github.com/kevinhendricks/KindleUnpack"
       ],
       "description": "Unpack MOBI / AZW3 / KFX.",
+      "description_zh": "解包 MOBI / AZW3 / KFX，研究与转换必备。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Send to Kindle",
+      "name_zh": "Send to Kindle",
       "url": "https://www.amazon.com/sendtokindle",
       "links": [
         "https://www.amazon.com/sendtokindle"
       ],
       "description": "Amazon's official push-to-device service.",
+      "description_zh": "亚马逊官方推送，直接发到设备。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "🗂️ 内容资源站（免费 & 合法）",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": "🧰 找书 → 转换 → 传输 一条龙",
       "kind": "resource"
     },
     {
       "name": "Calibre-Web",
+      "name_zh": "Calibre-Web",
       "url": "https://github.com/janeczku/calibre-web",
       "links": [
         "https://github.com/janeczku/calibre-web"
       ],
       "description": "Self-hosted library, manage / read in a browser.",
+      "description_zh": "自建网盘式书库，浏览器即可阅读 / 下载。",
       "section": "🗂️ Content sources (free & legal)",
+      "section_zh": "📚 阅读与书库工具",
       "subsection": "🧰 Find → convert → transfer pipeline",
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KAnki",
+      "name_zh": "KAnki",
       "url": "https://github.com/crizmo/KAnki",
       "links": [
         "https://github.com/crizmo/KAnki"
       ],
       "description": "Anki-based flashcards.",
+      "description_zh": "基于 Anki 的背单词 / 闪卡。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "RAnki",
+      "name_zh": "RAnki",
       "url": "https://github.com/crazy-electron/ranki",
       "links": [
         "https://github.com/crazy-electron/ranki"
       ],
       "description": "Anki reviewer running the real Anki backend, with sync.",
+      "description_zh": "使用真实 Anki 后端的复习器，支持同步。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "KPomo",
+      "name_zh": "KPomo",
       "url": "https://github.com/crizmo/KPomo",
       "links": [
         "https://github.com/crizmo/KPomo"
       ],
       "description": "Pomodoro focus timer.",
+      "description_zh": "番茄钟专注计时器。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "Textadept",
+      "name_zh": "Textadept",
       "url": "https://github.com/kbarni/textadept-kindle",
       "links": [
         "https://github.com/kbarni/textadept-kindle"
       ],
       "description": "Desktop-grade text editor with Bluetooth-keyboard writing.",
+      "description_zh": "桌面级文本编辑器，支持蓝牙键盘写作。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "Kreate",
+      "name_zh": "Kreate",
       "url": "https://github.com/Foskya/Kreate",
       "links": [
         "https://github.com/Foskya/Kreate"
       ],
       "description": "Drawing app designed for e-ink.",
+      "description_zh": "为墨水屏设计的绘画应用。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "readinglog",
+      "name_zh": "readinglog",
       "url": "https://github.com/huangziwei/readinglog",
       "links": [
         "https://github.com/huangziwei/readinglog"
       ],
       "description": "Track your reading time and stats.",
+      "description_zh": "记录你的阅读时长与统计。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "KOReader-On-Boot",
+      "name_zh": "KOReader-On-Boot",
       "url": "https://github.com/meepcat55/Kindle-KOReader-On-Boot",
       "links": [
         "https://github.com/meepcat55/Kindle-KOReader-On-Boot"
       ],
       "description": "Auto-launch KOReader at boot.",
+      "description_zh": "开机自动进入 KOReader。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "📝 Productivity / study",
+      "subsection_zh": "📝 生产力 / 学习",
       "kind": "resource"
     },
     {
       "name": "KWordle",
+      "name_zh": "KWordle",
       "url": "https://github.com/crizmo/KWordle",
       "links": [
         "https://github.com/crizmo/KWordle"
       ],
       "description": "Kindle Wordle.",
+      "description_zh": "Kindle 版 Wordle 猜词。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "IllusionChess",
+      "name_zh": "IllusionChess",
       "url": "https://github.com/penguins184/IllusionChess",
       "links": [
         "https://github.com/penguins184/IllusionChess"
       ],
       "description": "Fast chess.",
+      "description_zh": "快速国际象棋。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "Gnome Games",
+      "name_zh": "Gnome Games",
       "url": "https://github.com/crazy-electron/GnomeGames4Kindle",
       "links": [
         "https://github.com/crazy-electron/GnomeGames4Kindle"
       ],
       "description": "Chess + Minesweeper collection.",
+      "description_zh": "国际象棋 + 扫雷合集。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "Gambatte-K2",
+      "name_zh": "Gambatte-K2",
       "url": "https://github.com/crazy-electron/gambatte-k2",
       "links": [
         "https://github.com/crazy-electron/gambatte-k2"
       ],
       "description": "Blazing-fast Game Boy / GBC / GBA emulator with Bluetooth audio.",
+      "description_zh": "超快的 Game Boy / GBC / GBA 模拟器，支持蓝牙音频。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "Crossword",
+      "name_zh": "Crossword",
       "url": "https://github.com/roygbyte/crossword.koplugin",
       "links": [
         "https://github.com/roygbyte/crossword.koplugin"
       ],
       "description": "KOReader crossword plugin.",
+      "description_zh": "KOReader 填字游戏插件。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "KShips",
+      "name_zh": "KShips",
       "url": "https://github.com/LOT-PL/KShips",
       "links": [
         "https://github.com/LOT-PL/KShips"
       ],
       "description": "Battleship port.",
+      "description_zh": "海战棋（Battleship）移植。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "KindleCraft",
+      "name_zh": "KindleCraft",
       "url": "https://github.com/gingrspacecadet/bareiron",
       "links": [
         "https://github.com/gingrspacecadet/bareiron"
       ],
       "description": "Run a Minecraft server on the Kindle (hard-float).",
+      "description_zh": "在 Kindle 上跑 Minecraft 服务器（硬浮点）。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "KindleKraft",
+      "name_zh": "KindleKraft",
       "url": "https://github.com/penguins184/KindleKraft",
       "links": [
         "https://github.com/penguins184/KindleKraft"
       ],
       "description": "Minecraft server launcher (soft-float).",
+      "description_zh": "Minecraft 服务器启动器（软浮点）。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎲 Games",
+      "subsection_zh": "🎲 游戏",
       "kind": "resource"
     },
     {
       "name": "KinAMP",
+      "name_zh": "KinAMP",
       "url": "https://github.com/kbarni/KinAMP",
       "links": [
         "https://github.com/kbarni/KinAMP"
       ],
       "description": "Bluetooth music player.",
+      "description_zh": "通过蓝牙听音乐的播放器。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎵 Audio",
+      "subsection_zh": "🎵 音频",
       "kind": "resource"
     },
     {
       "name": "LARK",
+      "name_zh": "LARK",
       "url": "https://github.com/kbarni/LARKPlayer",
       "links": [
         "https://github.com/kbarni/LARKPlayer"
       ],
       "description": "Audiobook player with covers and chapters.",
+      "description_zh": "支持封面与章节的有声书播放器。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🎵 Audio",
+      "subsection_zh": "🎵 音频",
       "kind": "resource"
     },
     {
       "name": "kindle-wall-display",
+      "name_zh": "kindle-wall-display",
       "url": "https://github.com/jstriblet/kindle-wall-display",
       "links": [
         "https://github.com/jstriblet/kindle-wall-display"
       ],
       "description": "Turn a Kindle into a low-power wall display / photo frame rendering any PNG.",
+      "description_zh": "把 Kindle 变成低功耗\"电子相框 / 墙面屏\"，渲染任意 PNG。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🖥️ Tinkering / geek",
+      "subsection_zh": "🖥️ 折腾 / 极客",
       "kind": "resource"
     },
     {
       "name": "hobby-kindle-http-file-server",
+      "name_zh": "hobby-kindle-http-file-server",
       "url": "https://github.com/ngxson/hobby-kindle-http-file-server",
       "links": [
         "https://github.com/ngxson/hobby-kindle-http-file-server"
       ],
       "description": "Run an HTTP file server on the Kindle.",
+      "description_zh": "在 Kindle 上跑 HTTP 文件服务器。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🖥️ Tinkering / geek",
+      "subsection_zh": "🖥️ 折腾 / 极客",
       "kind": "resource"
     },
     {
       "name": "kindle-custom-screensaver",
+      "name_zh": "kindle-custom-screensaver",
       "url": "https://github.com/chengandre/kindle-custom-screensaver",
       "links": [
         "https://github.com/chengandre/kindle-custom-screensaver"
       ],
       "description": "Custom screensaver without KOReader or KUAL.",
+      "description_zh": "不依赖 KOReader / KUAL 的自定义屏保。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🖥️ Tinkering / geek",
+      "subsection_zh": "🖥️ 折腾 / 极客",
       "kind": "resource"
     },
     {
       "name": "kindle-weather-stand-alone",
+      "name_zh": "kindle-weather-stand-alone",
       "url": "https://github.com/x-magic/kindle-weather-stand-alone",
       "links": [
         "https://github.com/x-magic/kindle-weather-stand-alone"
       ],
       "description": "Serverless Kindle weather display.",
+      "description_zh": "免服务器的 Kindle 天气站。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🖥️ Tinkering / geek",
+      "subsection_zh": "🖥️ 折腾 / 极客",
       "kind": "resource"
     },
     {
       "name": "KindleLazy",
+      "name_zh": "KindleLazy",
       "url": "https://github.com/llakssz/KindleLazy",
       "links": [
         "https://github.com/llakssz/KindleLazy"
       ],
       "description": "Control the Kindle (keyboard, etc.) over USB.",
+      "description_zh": "通过 USB 把 Kindle 当键盘/设备控制。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🖥️ Tinkering / geek",
+      "subsection_zh": "🖥️ 折腾 / 极客",
       "kind": "resource"
     },
     {
       "name": "Kindle Click",
+      "name_zh": "Kindle Click",
       "url": "https://kindlemodding.org/kindle-hacking/pageturner.html",
       "links": [
         "https://kindlemodding.org/kindle-hacking/pageturner.html"
       ],
       "description": "Turn a Kindle into a Bluetooth page-turner.",
+      "description_zh": "把 Kindle 变成蓝牙翻页器。",
       "section": "🎮 Apps & games",
+      "section_zh": "🎮 应用与游戏清单",
       "subsection": "🖥️ Tinkering / geek",
+      "subsection_zh": "🖥️ 折腾 / 极客",
       "kind": "resource"
     },
     {
       "name": "KindleModding Wiki",
+      "name_zh": "KindleModding Wiki",
       "url": "https://kindlemodding.org/",
       "links": [
         "https://kindlemodding.org/"
       ],
       "description": "The most authoritative Kindle dev / jailbreak docs.",
+      "description_zh": "最权威的 Kindle 开发 / 越狱文档。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "kindle-sdk",
+      "name_zh": "kindle-sdk",
       "url": "https://github.com/KindleModding/kindle-sdk",
       "links": [
         "https://github.com/KindleModding/kindle-sdk"
       ],
       "description": "Native Kindle compilation SDK.",
+      "description_zh": "Kindle 原生编译 SDK。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "koxtoolchain",
+      "name_zh": "koxtoolchain",
       "url": "https://github.com/KindleModding/koxtoolchain",
       "links": [
         "https://github.com/KindleModding/koxtoolchain"
       ],
       "description": "Kindle / Kobo cross-compilation toolchain.",
+      "description_zh": "Kindle / Kobo 交叉编译工具链。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "jb.sh",
+      "name_zh": "jb.sh",
       "url": "https://github.com/KindleModding/jb.sh",
       "links": [
         "https://github.com/KindleModding/jb.sh"
       ],
       "description": "Self-contained unified jailbreak script.",
+      "description_zh": "自包含的统一越狱脚本。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KPM package dev",
+      "name_zh": "KPM 包开发",
       "url": "https://kindlemodding.org/kindle-dev/kpm/creating-a-package.html",
       "links": [
         "https://kindlemodding.org/kindle-dev/kpm/creating-a-package.html",
         "https://kindlemodding.org/kindle-dev/kpm/creating-a-repository.html"
       ],
       "description": "Build and publish your own KPM packages.",
+      "description_zh": "制作 / 发布自己的 KPM 包。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Scriptlets",
+      "name_zh": "Scriptlets",
       "url": "https://kindlemodding.org/kindle-dev/scriptlets.html",
       "links": [
         "https://kindlemodding.org/kindle-dev/scriptlets.html"
       ],
       "description": "How .sh apps work and how to write them.",
+      "description_zh": ".sh 应用的运行机制与写法。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "GTK tutorial",
+      "name_zh": "GTK 教程",
       "url": "https://kindlemodding.org/kindle-dev/gtk-tutorial/index.html",
       "links": [
         "https://kindlemodding.org/kindle-dev/gtk-tutorial/index.html"
       ],
       "description": "Build Kindle GUIs with GTK.",
+      "description_zh": "用 GTK 写 Kindle 图形应用。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleTool",
+      "name_zh": "KindleTool",
       "url": "https://github.com/KindleModding/KindleTool",
       "links": [
         "https://github.com/KindleModding/KindleTool"
       ],
       "description": "Create / extract Kindle update packages.",
+      "description_zh": "制作 / 解包 Kindle 更新包。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "System services docs",
+      "name_zh": "系统服务文档",
       "url": "https://kindlemodding.org/kindle-apps-and-services/index.html",
       "links": [
         "https://kindlemodding.org/kindle-apps-and-services/index.html"
       ],
       "description": "Per-service docs for every com.lab126.* service.",
+      "description_zh": "逐个解析 Kindle 的 com.lab126.* 系统服务。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "random.sh / utild / architect",
+      "name_zh": "random.sh / utild / architect",
       "url": "https://github.com/KindleModding/random.sh",
       "links": [
         "https://github.com/KindleModding/random.sh",
@@ -1411,118 +1916,161 @@
         "https://github.com/KindleModding/architect"
       ],
       "description": "Utility scripts, a command service, and armel/armhf compatibility.",
+      "description_zh": "实用脚本、命令服务、armel/armhf 兼容工具。",
       "section": "🧑‍💻 Developer resources",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleModding Wiki",
+      "name_zh": "KindleModding Wiki",
       "url": "https://kindlemodding.org/",
       "links": [
         "https://kindlemodding.org/"
       ],
       "description": "Official docs / jailbreak guides (most authoritative).",
+      "description_zh": "最权威的 Kindle 开发 / 越狱文档。",
       "section": "🌐 Community",
+      "section_zh": "🧑‍💻 开发者资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Jailbreak Wizard",
+      "name_zh": "Jailbreak Wizard",
       "url": "https://kindlemodding.org/jailbreak-wizard.html",
       "links": [
         "https://kindlemodding.org/jailbreak-wizard.html"
       ],
       "description": "Enter model + firmware to auto-match a jailbreak.",
+      "description_zh": "输入机型固件，自动匹配越狱。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleModding Discord",
+      "name_zh": "KindleModding Discord",
       "url": "https://discord.kindlemodding.org/",
       "links": [
         "https://discord.kindlemodding.org/"
       ],
       "description": "Official community, first stop for help.",
+      "description_zh": "官方社区，求助首选。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleTweaks Discord",
+      "name_zh": "KindleTweaks Discord",
       "url": "https://discord.gg/yWPHHbrp7h",
       "links": [
         "https://discord.gg/yWPHHbrp7h"
       ],
       "description": "Another active community.",
+      "description_zh": "另一个活跃社区。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "r/kindlejailbreak",
+      "name_zh": "r/kindlejailbreak",
       "url": "https://www.reddit.com/r/kindlejailbreak/",
       "links": [
         "https://www.reddit.com/r/kindlejailbreak/"
       ],
       "description": "Reddit community.",
+      "description_zh": "Reddit 社区。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "MobileRead",
+      "name_zh": "MobileRead",
       "url": "https://www.mobileread.com/forums/forumdisplay.php?f=150",
       "links": [
         "https://www.mobileread.com/forums/forumdisplay.php?f=150"
       ],
       "description": "The oldest Kindle tinkering forum; birthplace of KUAL.",
+      "description_zh": "最老的 Kindle 折腾论坛，KUAL 等发源地。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "KindleModShelf",
+      "name_zh": "KindleModShelf",
       "url": "https://kindlemodshelf.me/",
       "links": [
         "https://kindlemodshelf.me/"
       ],
       "description": "Third-party app / tutorial hub.",
+      "description_zh": "第三方应用 / 教程聚合站。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Penguins Kindle Wiki",
+      "name_zh": "Penguins Kindle Wiki",
       "url": "https://github.com/penguins184/Penguins-Kindle-Wiki",
       "links": [
         "https://github.com/penguins184/Penguins-Kindle-Wiki"
       ],
       "description": "Mesquite / WAF web-app development.",
+      "description_zh": "Mesquite / WAF 网页应用开发。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Awesome-Kindle",
+      "name_zh": "Awesome-Kindle",
       "url": "https://github.com/KindleTweaks/Awesome-Kindle",
       "links": [
         "https://github.com/KindleTweaks/Awesome-Kindle"
       ],
       "description": "Another great Kindle tool list (EN).",
+      "description_zh": "另一个优秀的 Kindle 工具清单（英文）。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     },
     {
       "name": "Awesome E-Ink",
+      "name_zh": "Awesome E-Ink",
       "url": "https://github.com/asapelkin/awesome-eink",
       "links": [
         "https://github.com/asapelkin/awesome-eink"
       ],
       "description": "Curated e-ink resources.",
+      "description_zh": "墨水屏相关资源大全。",
       "section": "🌐 Community",
+      "section_zh": "🌐 社区资源",
       "subsection": null,
+      "subsection_zh": null,
       "kind": "resource"
     }
   ]

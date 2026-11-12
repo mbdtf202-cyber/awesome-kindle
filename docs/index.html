@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Awesome Kindle — one-stop index</title>
   <meta name="description" content="Jailbreak, flash, tinker and find free content for your Kindle — all in one open-source index." />
+  <meta property="og:title" content="Awesome Kindle — one-stop index" />
+  <meta property="og:description" content="Jailbreak, flash, tinker and find free content for your Kindle." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0b1220" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,17 +16,30 @@
     <div class="wrap">
       <div class="pill">KINDLE MODDING</div>
       <h1>Awesome <span class="grad">Kindle</span></h1>
-      <p class="sub">Jailbreak · Flash · Play — the open-source index for Kindle tinkering.</p>
+      <p class="sub" id="tagline">Jailbreak · Flash · Play — the open-source index for Kindle tinkering.</p>
       <div class="actions">
         <a id="repo-link" class="btn" href="#">★ GitHub</a>
         <a id="readme-en" class="btn ghost" href="#">English README</a>
         <a id="readme-zh" class="btn ghost" href="#">中文 README</a>
       </div>
+      <nav class="topnav">
+        <a href="jailbreaks/index.html" data-en="🔓 Jailbreak guides" data-zh="🔓 越狱分步指南">🔓 Jailbreak guides</a>
+        <a href="guides/index.html" data-en="🧰 Guides" data-zh="🧰 使用指南">🧰 Guides</a>
+        <a href="wizard.html" data-en="🧭 Wizard" data-zh="🧭 越狱向导">🧭 Wizard</a>
+        <a href="offline.html" data-en="⬇ Offline" data-zh="⬇ 离线版">⬇ Offline</a>
+      </nav>
     </div>
   </header>
 
   <main class="wrap">
     <section class="controls">
+      <div class="toolbar">
+        <div class="seg" id="lang-seg" role="group" aria-label="Language">
+          <button data-lang="en" class="on">EN</button>
+          <button data-lang="zh">中文</button>
+        </div>
+        <button id="theme" class="iconbtn" title="Toggle theme" aria-label="Toggle theme">🌙</button>
+      </div>
       <input id="search" type="search" placeholder="Search tools, sites, games…  (e.g. KOReader, Gutenberg, comics)" autocomplete="off" />
       <div id="chips" class="chips"></div>
       <div id="count" class="count"></div>
@@ -36,6 +53,19 @@
     <span>Built from the <a id="repo-link-2" href="#">awesome-kindle</a> repo · MIT</span>
     <span class="muted">Content links to their official sources.</span>
   </footer>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+      <span class="tag" id="m-tag"></span>
+      <h2 id="m-title"></h2>
+      <p id="m-desc"></p>
+      <div class="modal-actions">
+        <a id="m-link" class="btn" href="#" target="_blank" rel="noopener">Open ↗</a>
+        <button id="m-copy" class="btn ghost">Copy link</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

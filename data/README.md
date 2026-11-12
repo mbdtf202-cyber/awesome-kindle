@@ -5,7 +5,7 @@ sites, search tools, or integrations.
 
 - **File:** `resources.json`
 - **Count:** 137 items (12 jailbreak methods + 125 tools/sites)
-- **Source:** auto-generated from the tables in [`README_EN.md`](../README_EN.md)
+- **Source:** auto-generated (bilingual) from the tables in [`README_EN.md`](../README_EN.md) + [`README.md`](../README.md)
 - **Generator:** [`scripts/build_resources.py`](../scripts/build_resources.py)
 
 ## Schema

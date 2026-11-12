@@ -1,0 +1,47 @@
+name: Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  data-and-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate data files
+        run: python3 scripts/validate_data.py
+      - name: Generated files are up to date
+        run: |
+          python3 scripts/build_resources.py
+          python3 scripts/build_docs.py
+          python3 scripts/build_offline.py
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Generated docs/data are out of date — run the build scripts and commit.";
+            git --no-pager diff --stat;
+            exit 1;
+          fi
+
+  markdownlint:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: "**/*.md"
+
+  awesome-lint:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npx --yes awesome-lint || true

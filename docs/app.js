@@ -1,13 +1,13 @@
-// Awesome Kindle — static searchable index
+// Awesome Kindle — static searchable index (bilingual + theme + modal)
 (function () {
-  const sectionOrder = [];
-  let items = [];
-  let activeSection = "All";
-  let query = "";
-
   const $ = (id) => document.getElementById(id);
+  const state = {
+    items: [], sectionOrder: [], activeSection: "All",
+    query: "", lang: localStorage.getItem("ak-lang") || "en",
+    theme: localStorage.getItem("ak-theme") || "dark",
+  };
 
-  // Derive the GitHub repo URL when hosted on GitHub Pages (<owner>.github.io/awesome-kindle)
+  // Repo URL on GitHub Pages
   const host = location.hostname;
   let repoUrl = "";
   if (/\.github\.io$/i.test(host)) {
@@ -22,65 +22,134 @@
   }
 
   const esc = (s) => String(s == null ? "" : s)
-    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   const cleanSection = (s) => String(s || "").replace(/^[^\p{L}\p{N}]+/u, "").trim();
 
+  const T = {
+    en: { tagline: "Jailbreak · Flash · Play — the open-source index for Kindle tinkering.",
+          search: "Search tools, sites, games…  (e.g. KOReader, Gutenberg, comics)",
+          count: (a, b) => `${a} of ${b} resources`, empty: "No matches. Try another keyword.",
+          all: "All", open: "Open ↗", copy: "Copy link", copied: "Copied!" },
+    zh: { tagline: "越狱 · 刷机 · 玩法 —— Kindle 折腾的一站式开源索引。",
+          search: "搜索工具 / 站点 / 游戏…（如 KOReader、古登堡、漫画）",
+          count: (a, b) => `共 ${b} 条，当前 ${a} 条`, empty: "没有匹配项，换个关键词试试。",
+          all: "全部", open: "打开 ↗", copy: "复制链接", copied: "已复制！" },
+  };
+  const t = () => T[state.lang];
+
+  function applyTheme() {
+    document.body.dataset.theme = state.theme;
+    const b = $("theme"); if (b) b.textContent = state.theme === "light" ? "☀️" : "🌙";
+  }
+  function applyLang() {
+    document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+    const tag = $("tagline"); if (tag) tag.textContent = t().tagline;
+    const s = $("search"); if (s) s.placeholder = t().search;
+    document.querySelectorAll("#lang-seg button").forEach((b) =>
+      b.classList.toggle("on", b.dataset.lang === state.lang));
+    document.querySelectorAll(".topnav a").forEach((a) => {
+      const v = a.getAttribute(state.lang === "zh" ? "data-zh" : "data-en"); if (v) a.textContent = v;
+    });
+    buildChips(); render();
+  }
+
+  function label(item, field) {
+    if (state.lang === "zh") {
+      const v = item[field + "_zh"]; if (v) return v;
+    }
+    return item[field] || "";
+  }
+
   function buildChips() {
-    const box = $("chips");
-    const all = ["All", ...sectionOrder];
-    box.innerHTML = all.map((s) =>
-      `<button class="chip${s === activeSection ? " active" : ""}" data-sec="${esc(s)}">${esc(s === "All" ? "All" : cleanSection(s))}</button>`
-    ).join("");
+    const box = $("chips"); if (!box) return;
+    const all = ["All", ...state.sectionOrder];
+    box.innerHTML = all.map((s) => {
+      let labelText = s === "All" ? t().all : cleanSection(s);
+      if (s !== "All" && state.lang === "zh") {
+        const it = state.items.find((x) => x.section === s);
+        if (it && it.section_zh) labelText = cleanSection(it.section_zh);
+      }
+      return `<button class="chip${s === state.activeSection ? " active" : ""}" data-sec="${esc(s)}">${esc(labelText)}</button>`;
+    }).join("");
     box.querySelectorAll(".chip").forEach((b) =>
-      b.addEventListener("click", () => { activeSection = b.dataset.sec; buildChips(); render(); })
-    );
+      b.addEventListener("click", () => { state.activeSection = b.dataset.sec; buildChips(); render(); }));
   }
 
   function matches(it) {
-    if (activeSection !== "All" && it.section !== activeSection) return false;
-    if (!query) return true;
-    const hay = [it.name, it.description, it.section, it.subsection].join(" ").toLowerCase();
-    return hay.includes(query);
+    if (state.activeSection !== "All" && it.section !== state.activeSection) return false;
+    if (!state.query) return true;
+    const hay = [it.name, it.name_zh, it.description, it.description_zh, it.section, it.section_zh, it.subsection, it.subsection_zh]
+      .join(" ").toLowerCase();
+    return hay.includes(state.query);
   }
 
   function render() {
-    const grid = $("grid");
-    const list = items.filter(matches);
-    $("count").textContent = `${list.length} of ${items.length} resources`;
+    const grid = $("grid"); if (!grid) return;
+    const list = state.items.filter(matches);
+    $("count").textContent = t().count(list.length, state.items.length);
     $("empty").hidden = list.length !== 0;
-    grid.innerHTML = list.map((it) => {
-      let host_ = "";
-      try { host_ = new URL(it.url).hostname.replace(/^www\./, ""); } catch (e) {}
-      return `<article class="card">
-        <span class="tag">${esc(cleanSection(it.section))}</span>
-        <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)}</a></h3>
-        <p>${esc(it.description)}</p>
-        <span class="go">${esc(host_)}</span>
-      </article>`;
+    $("empty").textContent = t().empty;
+    grid.innerHTML = list.map((it, idx) => {
+      let h = ""; try { h = new URL(it.url).hostname.replace(/^www\./, ""); } catch (e) {}
+      return `<article class="card" data-i="${state.items.indexOf(it)}" tabindex="0" role="button">
+        <span class="tag">${esc(cleanSection(label(it, "section")))}</span>
+        <h3>${esc(label(it, "name"))}</h3>
+        <p>${esc(label(it, "description"))}</p>
+        <span class="go">${esc(h)}</span></article>`;
     }).join("");
-  }
-
-  fetch("resources.json")
-    .then((r) => r.json())
-    .then((data) => {
-      items = data.items || [];
-      for (const it of items) {
-        if (it.section && !sectionOrder.includes(it.section)) sectionOrder.push(it.section);
-      }
-      buildChips();
-      render();
-    })
-    .catch(() => {
-      $("count").textContent = "Failed to load resources.json";
-    });
-
-  const search = $("search");
-  if (search) {
-    search.addEventListener("input", (e) => {
-      query = e.target.value.trim().toLowerCase();
-      render();
+    grid.querySelectorAll(".card").forEach((c) => {
+      const open = () => openModal(state.items[+c.dataset.i]);
+      c.addEventListener("click", open);
+      c.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
     });
   }
+
+  let current = null;
+  function openModal(it) {
+    if (!it) return;
+    current = it;
+    $("m-tag").textContent = cleanSection(label(it, "section"));
+    $("m-title").textContent = label(it, "name");
+    $("m-desc").textContent = label(it, "description");
+    $("m-link").href = it.url;
+    $("m-link").textContent = t().open;
+    $("m-copy").textContent = t().copy;
+    $("modal").hidden = false;
+  }
+  function closeModal() { $("modal").hidden = true; }
+
+  function boot() {
+    applyTheme();
+    const seg = $("lang-seg");
+    if (seg) seg.addEventListener("click", (e) => {
+      const b = e.target.closest("button"); if (!b) return;
+      state.lang = b.dataset.lang; localStorage.setItem("ak-lang", state.lang); applyLang();
+    });
+    const th = $("theme");
+    if (th) th.addEventListener("click", () => {
+      state.theme = state.theme === "light" ? "dark" : "light";
+      localStorage.setItem("ak-theme", state.theme); applyTheme();
+    });
+    const search = $("search");
+    if (search) search.addEventListener("input", (e) => { state.query = e.target.value.trim().toLowerCase(); render(); });
+    const mc = $("modal-close"); if (mc) mc.addEventListener("click", closeModal);
+    const modal = $("modal");
+    if (modal) modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+    const copy = $("m-copy");
+    if (copy) copy.addEventListener("click", async () => {
+      if (!current) return;
+      try { await navigator.clipboard.writeText(current.url); copy.textContent = t().copied;
+        setTimeout(() => copy.textContent = t().copy, 1200); } catch (e) {}
+    });
+
+    fetch("resources.json").then((r) => r.json()).then((data) => {
+      state.items = data.items || [];
+      for (const it of state.items) if (it.section && !state.sectionOrder.includes(it.section)) state.sectionOrder.push(it.section);
+      applyLang();
+    }).catch(() => { $("count").textContent = "Failed to load resources.json"; });
+  }
+  boot();
 })();
+
+if ("serviceWorker" in navigator) { navigator.serviceWorker.register("sw.js").catch(function(){}); }

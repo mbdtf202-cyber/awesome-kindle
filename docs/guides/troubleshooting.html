@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Troubleshooting &amp; brick rescue — Awesome Kindle</title>
+<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" href="../page.css"/>
+</head>
+<body class="doc-body">
+<header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
+<main class="wrap doc-main">
+<h1>Troubleshooting &amp; brick rescue</h1>
+<p class="doc-sub">Common errors, what they mean, and how to recover.</p>
+<div class="prose">
+<blockquote><p>Always cross-check with the official wiki: https://kindlemodding.org/</p></blockquote>
+<h2>Common issues</h2>
+<table><thead><tr><th>Symptom / error</th><th>Likely cause</th><th>Fix</th></tr></thead><tbody><tr><td>Jailbreak "not supported"</td><td>Firmware/model mismatch</td><td>Re-check exact version; use the matching method</td></tr><tr><td>Update wipes jailbreak</td><td>OTA installed</td><td>Install <strong>Hotfix</strong>; delete <code>.bin</code>; block updates</td></tr><tr><td><code>UPDATE ERROR 2</code></td><td>Wrong model/firmware update file</td><td>Download the exact <code>.bin</code> for your device</td></tr><tr><td><code>UPDATE ERROR 4</code></td><td>Corrupted download</td><td>Re-download, verify size, retry</td></tr><tr><td>Stuck on "Updating"</td><td>Interrupted / bad file</td><td>Wait, then force-restart; re-flash correct file</td></tr><tr><td>KUAL won't open</td><td>Missing Hotfix / wrong install</td><td>Reinstall Hotfix + KUAL per wiki</td></tr><tr><td>No Wi-Fi after tweak</td><td>Network service broken</td><td>Revert the tweak; reboot; factory reset last resort</td></tr></tbody></table>
+<h2>Brick rescue decision tree</h2>
+<ol><li><strong>Does it boot to the UI?</strong> → Yes: reinstall Hotfix, delete <code>.bin</code>, reboot.</li><li><strong>Boot loop / stuck logo?</strong> → Try a <strong>forced restart</strong> (hold power ~20s). Then a <strong>factory reset</strong> from recovery.</li><li><strong>Still dead?</strong> → <strong>Serial/Downgrade recovery</strong> per your model (see wiki). Without a jailbreak you cannot simply downgrade.</li><li><strong>Hardware-level</strong> → last resort: serial flash / recovery image per the official guide.</li></ol>
+<h2>Golden rules</h2>
+<ul><li>Model + firmware must match <strong>exactly</strong>.</li><li>Never flash a mismatched <code>.bin</code>.</li><li>Keep <strong>Hotfix</strong> installed and OTA blocked.</li><li>When unsure, stop and read the official page.</li></ul>
+<hr/>
+<h2>中文速览</h2>
+<ul><li>任何操作先对照官方 Wiki。</li><li>常见：<code>UPDATE ERROR 2</code> = 机型/固件包不匹配；<code>ERROR 4</code> = 文件损坏；越狱被 OTA 覆盖 = 没装 Hotfix。</li><li>救砖顺序：能进系统→重装 Hotfix/删 <code>.bin</code>；卡 logo→强制重启/恢复出厂；仍不行→按机型串口/降级恢复；最后才是硬件级。</li><li>铁律：机型固件必须完全匹配，绝不乱刷 <code>.bin</code>，始终装 Hotfix + 阻断 OTA。</li></ul>
+</div>
+<footer class="doc-foot">Defer to the <a href="https://kindlemodding.org/">official KindleModding wiki</a> · MIT</footer>
+</main>
+</body>
+</html>
