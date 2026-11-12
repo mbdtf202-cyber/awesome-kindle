@@ -29,7 +29,10 @@
 
 - [What is this](#-what-is-this)
 - [📌 Read this first](#-read-this-first)
+- [⚖️ Why jailbreak](#️-why-jailbreak-and-what-it-is-not)
 - [🚀 Which jailbreak should I use](#-which-jailbreak-should-i-use)
+- [⚡ Quick start](#-quick-start-5-minutes)
+- [🔍 Identify your device & firmware](#-identify-your-device--firmware)
 - [🔓 Jailbreak overview](#-jailbreak-overview)
 - [📋 Pre-jailbreak checklist](#-pre-jailbreak-checklist)
 - [🧩 Jailbreak deep dives](#-jailbreak-deep-dives)
@@ -54,6 +57,7 @@
 - [🧑‍💻 Developer resources](#-developer-resources)
 - [🧱 Firmware & recovery](#-firmware--recovery)
 - [📱 Device matrix](#-device-matrix)
+- [🧭 Glossary](#-glossary)
 - [❓ FAQ / troubleshooting](#-faq--troubleshooting)
 - [🌐 Community](#-community)
 - [🤝 Contributing](#-contributing)
@@ -64,7 +68,7 @@
 
 ## 🔎 What is this
 
-A **continuously updated, bilingual index** of Kindle jailbreak, flashing and tinkering resources. It gathers:
+A **continuously updated, community-maintained index** of Kindle jailbreak, flashing and tinkering resources — for everyone, everywhere. It gathers:
 
 - 🔓 **Every mainstream open-source jailbreak**, mapped precisely to device model + firmware
 - 🧰 **The full post-jailbreak ecosystem**: package managers, hotfixes, readers, terminals, Linux, Android
@@ -100,6 +104,31 @@ A few hard truths that save 90% of the pain:
 
 ---
 
+## ⚖️ Why jailbreak (and what it is not)
+
+**What it unlocks (Pros)**
+
+- 📖 **KOReader** and a deeply customizable reading experience (typography, dictionaries, notes, sync)
+- ⌨️ Bluetooth **page-turners / keyboards** — turn the e-ink screen into a writing device
+- 💻 **Terminal, SSH, Alpine Linux, VNC**, custom screensavers and a patched browser
+- 🧑‍💻 Learn to build Kindle apps — the public docs are excellent
+- 🎮 Play Wordle / chess / minesweeper (even DOOM, or run a Minecraft server on a Kindle)
+
+**The costs (Cons)**
+
+- You might buy a unit that ships on "unbreakable" firmware — check the version first
+- Some tweaks can cause lag or performance issues (the tweak's fault, not the jailbreak's)
+- You'll be known as "that weird person who plays DOOM on a Kindle"
+- The operational risk is yours to own
+
+**What it is not**
+
+- ❌ Not a new OS, not a firmware replacement
+- ❌ Not piracy, and it will never make store books free
+- ❌ Not "set and forget": an OTA wipes it, so install the **Hotfix** and **block auto-updates**
+
+---
+
 ## 🚀 Which jailbreak should I use
 
 **The only authoritative source 👉 [kindlemodding.org/jailbreak-wizard](https://kindlemodding.org/jailbreak-wizard.html)**
@@ -128,6 +157,32 @@ flowchart TD
 > - **Ad-supported devices** (lockscreen ads) may need [AdBreak](https://kindlemodding.org/jailbreaking/AdBreak/) on some firmware.
 > - **5.18.1 and above**: the old WinterBreak / Mesquito stack **no longer works** — use SpiderCat / SpringBreak / Véra / Shadow.
 > - The **Scribe 3, Scribe Colorsoft, 2026 Kindle and 2026 Paperwhite** currently have **no jailbreak**.
+
+---
+
+## ⚡ Quick start (5 minutes)
+
+> For people who just want it done. Still read the full page for high-risk details.
+
+1. **Check firmware**: `Settings → Device Options → Device Info`; note the **model + exact firmware**.
+2. **Find your method**: open the [Jailbreak Wizard](https://kindlemodding.org/jailbreak-wizard.html) and confirm your combo is supported.
+3. **Prepare**: **fill storage + disable Wi-Fi** (block OTA mid-process) and delete any root `.bin`.
+4. **Run the jailbreak**: follow the matching method (WinterBreak2 / SpiderCat / Véra / Shadow …).
+5. **Install the Hotfix**: the **first** thing after success — it blocks OTA and prevents bricks.
+6. **KPM → KOReader**: use KPM to install KOReader and your favorite apps, then start reading.
+
+> Trust the official wiki only. Stuck? Ask the official Discord — don't improvise.
+
+---
+
+## 🔍 Identify your device & firmware
+
+| What you need | How to find it |
+| --- | --- |
+| **Firmware version** | `Settings → Device Options → Device Info`, e.g. `5.16.2.1.1` (more decimals = more precise) |
+| **Model code** | Same screen (e.g. PW5 / KT5 / KOA3 / KS); or infer from the serial prefix — see the [Models Table](https://kindlemodding.org/kindle-hacking/models-table.html) |
+| **Ads or not** | Check Special Offers in your Amazon account (ad-supported devices may need AdBreak on some firmware) |
+| **Unsure** | Just use the [Jailbreak Wizard](https://kindlemodding.org/jailbreak-wizard.html) with your serial / model + firmware |
 
 ---
 
@@ -457,6 +512,26 @@ After a successful jailbreak, the system auto-installs update-blocking and a pac
 
 ---
 
+## 🧭 Glossary
+
+| Term | Meaning |
+| --- | --- |
+| **Jailbreak** | The process of gaining permission to run external code — **not** a firmware or OS |
+| **Hotfix** | Post-jailbreak patch that blocks OTA from wiping the jailbreak / bricking the device |
+| **KPM** | Kindle Package Manager — installs scriptlets on-device |
+| **Scriptlet** | A `.sh` app dropped into `documents/`, shown in the library like a book |
+| **KUAL / MRPI** | The old launcher/installer combo; largely obsolete on new firmware |
+| **KOReader** | Cross-platform open-source reader — the top post-jailbreak app |
+| **MOBI / AZW3 / KFX / EPUB** | Common ebook formats |
+| **OTA** | Amazon's automatic system update (wipes the jailbreak) |
+| **Sideload** | Copy files onto the device directly over USB |
+| **Brick** | A device that won't boot normally; needs recovery or serial flashing |
+| **Mesquito** | The framework older jailbreaks relied on; dead on 5.18.1+ |
+| **WAF / Mesquite** | Kindle web-app framework (build native-feeling UIs with HTML/CSS/JS) |
+| **armel / armhf** | Two ARM floating-point ABIs; pick the right one when downloading tools |
+
+---
+
 ## ❓ FAQ / troubleshooting
 
 <details>
@@ -560,6 +635,8 @@ Most of this index is built on the shoulders of these open-source / community pr
 
 Content (docs and index) is released under the [MIT License](LICENSE).
 All indexed projects remain under their own licenses — please respect each project's terms.
+
+> 🔄 **Last verified: 2026-11-12** · Every link passes the CI check (GitHub Actions re-runs weekly). PRs welcome to keep it fresh.
 
 <div align="center">
 
