@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" alt="Awesome Kindle — Jailbreak, Flash, Play" width="100%"/>
 
-# 🐧 Awsome Kindle
+# 🐧 Awesome Kindle
 
 ### Kindle 越狱 · 刷机 · 玩法完全索引
 
