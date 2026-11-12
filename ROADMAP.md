@@ -13,7 +13,7 @@ Where **Awesome Kindle** is headed. PRs and suggestions welcome.
 - [x] Hand-drawn SVG banner + 1280×640 social preview
 - [x] Link-check CI (lychee), issue/PR templates, contributing & code of conduct
 - [x] Machine-readable index (`data/resources.json`) + generator
-- [x] Searchable static site (`docs/`)
+- [x] Searchable static site (`docs/`) — now **live on GitHub Pages**
 
 ## 🚧 Next
 

@@ -14,7 +14,7 @@
 ![Kindle](https://img.shields.io/badge/Device-Kindle-232F3E?logo=amazonkindle&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-5.16%20→%205.19-0ea5e9)
 
-**🌐 Language:** **English** · [简体中文](README.md)
+**🌐 Language:** **English** · [简体中文](README.md) · [🔎 Live site](https://mbdtf202-cyber.github.io/awesome-kindle/)
 
 > **Jailbreaking just opens a door — it does not replace your firmware.**
 > Behind that door you can run [KOReader](https://github.com/koreader/koreader), a terminal, Alpine Linux, or even Android — while the Kindle Store, Kindle Unlimited and every built-in feature keep working exactly as before.
@@ -77,8 +77,10 @@ A **continuously updated, community-maintained index** of Kindle jailbreak, flas
 - 📚 **Quality open-source apps & tools**: reading, library management, conversion, notes, audio, games
 - 🧱 **Firmware & recovery**: firmware downloads, downgrades, serial flashing, factory reset
 - 🗂️ **Legal content sources**: public-domain ebooks, free comics, audiobooks, open papers
-- 🔎 **Searchable static site**: a built-in search UI in `docs/`, ready for GitHub Pages
+- 🔎 **Searchable static site**: [browse it live](https://mbdtf202-cyber.github.io/awesome-kindle/) — a zero-build HTML/CSS/JS search UI in `docs/`
 - 🧑‍💻 **Developer entry points**: SDK, cross-compilation toolchain, scriptlets, system docs
+
+<a href="https://mbdtf202-cyber.github.io/awesome-kindle/"><img src="assets/site-preview.png" alt="Awesome Kindle — searchable site preview" width="100%"/></a>
 
 > [!NOTE]
 > This repo is an **index and navigation hub**. It does not host pirated books, firmware, or closed-source commercial software. Every tool links to its official repository or wiki.

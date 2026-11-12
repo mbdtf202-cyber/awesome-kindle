@@ -14,7 +14,7 @@
 ![Kindle](https://img.shields.io/badge/Device-Kindle-232F3E?logo=amazonkindle&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-5.16%20→%205.19-0ea5e9)
 
-**🌐 语言：** **简体中文** · [English](README_EN.md)
+**🌐 语言：** **简体中文** · [English](README_EN.md) · [🔎 在线浏览](https://mbdtf202-cyber.github.io/awesome-kindle/)
 
 > **越狱只是"打开一扇门"，不是刷系统。**
 > 打开这扇门之后，你可以在 Kindle 上跑 [KOReader](https://github.com/koreader/koreader)、终端、Alpine Linux、甚至 Android —— 而 Kindle 商店、Kindle Unlimited 等原有功能完全不受影响。
@@ -77,8 +77,10 @@
 - 📚 **优质开源应用与工具**：阅读、书库、转换、笔记、音频、游戏
 - 🧱 **刷机与救砖**：固件下载、降级、串口刷机、恢复出厂
 - 🗂️ **合法内容资源站**：公共领域电子书、免费漫画、有声书、开放论文
-- 🔎 **可检索静态站点**：`docs/` 内置搜索界面，一键部署到 GitHub Pages
+- 🔎 **可检索静态站点**：[在线浏览](https://mbdtf202-cyber.github.io/awesome-kindle/) —— `docs/` 内置免构建搜索界面
 - 🧑‍💻 **开发者入口**：SDK、交叉编译工具链、脚本机制、系统文档
+
+<a href="https://mbdtf202-cyber.github.io/awesome-kindle/"><img src="assets/site-preview.png" alt="Awesome Kindle — 可检索站点预览" width="100%"/></a>
 
 > [!NOTE]
 > 本仓库是**索引与导航**，不托管任何破解版书籍、固件或闭源商业软件。所有越狱工具均来自其官方开源仓库 / 官方 Wiki。

@@ -8,4 +8,5 @@ exclude = [
   "https://x\\.com/.*",
   "https://img\\.shields\\.io/.*",
   "https://archiveofourown\\.org/.*",
+  "https://.*\\.github\\.io/.*",
 ]

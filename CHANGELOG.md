@@ -3,6 +3,16 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.4.0] - 2026-11-12
+
+### Added
+- 🌐 **Live searchable site** on GitHub Pages (served from `docs/`): https://mbdtf202-cyber.github.io/awesome-kindle/
+- 🖼️ `assets/site-preview.png` — screenshot of the searchable index, embedded in both READMEs.
+- 🔗 Site entry points in both READMEs (header + "What is this"); the repo homepage now points to the live site.
+
+### Changed
+- The docs build is a single static page with **no build step**; regenerate the index with `python3 scripts/build_resources.py`.
+
 ## [1.3.0] - 2026-11-12
 
 ### Added
