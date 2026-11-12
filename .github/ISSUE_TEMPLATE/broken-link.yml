@@ -1,0 +1,25 @@
+name: Broken link / outdated info
+description: Report a dead link, archived project, or an outdated firmware range.
+title: "fix: <what is wrong>"
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where is the issue?
+      description: Section name or the exact entry / link.
+      placeholder: e.g. "Jailbreak overview → SpiderCat firmware range"
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong?
+      description: Describe the problem and (if possible) the correct information with a source.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (optional)
+      description: Link to the official source that confirms the correct info.

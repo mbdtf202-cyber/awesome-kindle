@@ -1,0 +1,10 @@
+max_retries = 2
+accept = ["200..=299", "403", "429"]
+exclude = [
+  "https://discord\\.gg/.*",
+  "https://discord\\.kindlemodding\\.org/.*",
+  "https://www\\.reddit\\.com/.*",
+  "https://ko-fi\\.com/.*",
+  "https://x\\.com/.*",
+  "https://img\\.shields\\.io/.*",
+]

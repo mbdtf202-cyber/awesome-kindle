@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="Awesome Kindle — Jailbreak, Flash, Play" width="100%"/>
+
 # 🐧 Awsome Kindle
 
 ### Kindle 越狱 · 刷机 · 玩法完全索引
@@ -11,6 +13,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](#-贡献指南)
 ![Kindle](https://img.shields.io/badge/Device-Kindle-232F3E?logo=amazonkindle&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-5.16%20→%205.19-0ea5e9)
+
+**🌐 语言：** **简体中文** · [English](README_EN.md)
 
 > **越狱只是"打开一扇门"，不是刷系统。**
 > 打开这扇门之后，你可以在 Kindle 上跑 [KOReader](https://github.com/koreader/koreader)、终端、Alpine Linux、甚至 Android —— 而 Kindle 商店、Kindle Unlimited 等原有功能完全不受影响。
@@ -533,6 +537,8 @@ OTA 升级会覆盖越狱。这就是为什么越狱后必须**装 Hotfix** 并*
 
 > 若发现链接失效、固件范围过时、或某方案已停止维护，欢迎提 Issue / PR 修正。
 > 本仓库**只收录工具与文档索引**，不接受盗版书籍、破解固件、闭源商业软件。
+
+完整规范见 [CONTRIBUTING.md](CONTRIBUTING.md)（含条目质量清单与中英文摘要）。
 
 ---
 

@@ -1,0 +1,53 @@
+name: Add a resource
+description: Suggest a new open-source Kindle tool, jailbreak, app, or guide.
+title: "feat: add <resource>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: e.g. KOReader
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official link
+      description: Must be the official repository / wiki / release page (no shorteners).
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Jailbreak method
+        - Post-jailbreak toolkit
+        - Reading / library tool
+        - App / game
+        - Developer resource
+        - Firmware / recovery
+        - Community / docs
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: Factual, no marketing fluff. ≤ ~120 characters.
+      placeholder: An open-source ebook reader supporting PDF, EPUB, DJVU and more.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The project is open-source and free to use.
+          required: true
+        - label: The link is official and reachable (HTTP 200).
+          required: true
+        - label: It is not already listed in the README.
+          required: true
