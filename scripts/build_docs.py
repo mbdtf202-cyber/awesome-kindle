@@ -224,7 +224,7 @@ def build_jailbreaks():
         body = mdmini.convert(re.sub(r"^# .*\n", "", md, count=1))
         title = m["name"]
         sub = f"{m['status']} · Firmware {m['firmware']} · Account: {m['account']} · Ads: {m['ads']}"
-        (JB_DIR / f"{slug}.html").write_text(page_html(title, html.escape(sub), body), encoding="utf-8")
+        (JB_DIR / f"{slug}.html").write_text(page_html(title, html.escape(sub).replace("&lt;br/&gt;","<br/>"), body), encoding="utf-8")
         cards.append((slug, m))
     # index
     rows = "\n".join(
@@ -248,6 +248,10 @@ then follow the page — and always defer to the official wiki.</p>
 
 def build_guides():
     from guides_content import GUIDES
+    _seen = {}
+    for _g in GUIDES:
+        _seen[_g["slug"]] = _g  # last definition wins
+    GUIDES = list(_seen.values())
     GUIDE_DIR.mkdir(parents=True, exist_ok=True)
     for g in GUIDES:
         (GUIDE_DIR / f"{g['slug']}.md").write_text(g["body"], encoding="utf-8")
@@ -267,6 +271,56 @@ def build_guides():
     (GUIDE_DIR / "README.md").write_text("\n".join(md_lines), encoding="utf-8")
     print(f"guides: {len(GUIDES)} pages")
 
+
+def build_status():
+    jb = json.load(open(DOCS / "jailbreaks.json", encoding="utf-8"))
+    wl = json.load(open(ROOT / "data" / "watchlist.json", encoding="utf-8"))
+    # compute max supported version across numeric ranges
+    def maxv(m):
+        best = [0]*6
+        for r in m.get("ranges", []):
+            if r[1] > best: best = r[1]
+        return best
+    def vtostr(v):
+        parts=[("x" if x==999 else str(x)) for x in v]
+        while len(parts) > 2 and parts[-1] == "0":
+            parts.pop()
+        return ".".join(parts) or "0"
+    best=[0]*6; bestname=""
+    for m in jb:
+        mv=maxv(m)
+        if mv>best: best=mv; bestname=m["name"]
+    maxs=vtostr(best)
+    rows="\n".join(
+        f'<tr><td><a href="jailbreaks/{m["slug"]}.html"><strong>{html.escape(m["name"])}</strong></a></td>'
+        f'<td>{html.escape(m["firmware"]).replace("&lt;br/&gt;","<br/>")}</td><td>{html.escape(m["status"])}</td>'
+        f'<td>{html.escape(m["account"])}</td></tr>' for m in jb)
+    wlrows="\n".join(f'<tr><td>{html.escape(x["model"])}</td><td>❌ {html.escape(x["note"])} / {html.escape(x["note_zh"])}</td></tr>' for x in wl["unsupported_models"])
+    notes="\n".join(f'<li>{html.escape(n["note"])}<br/><span class="muted">{html.escape(n["note_zh"])}</span></li>' for n in wl["notes"])
+    body=f"""<div class="prose">
+<p><strong>Max firmware supported by any current public method: 🔺 {maxs}</strong> (via {html.escape(bestname)}). Newer than that? You have to wait.</p>
+<blockquote>{html.escape(wl['rule'])}<br/><span class="muted">{html.escape(wl['rule_zh'])}</span></blockquote>
+<h2>Jailbreak status by method</h2>
+<table><thead><tr><th>Method</th><th>Firmware</th><th>Status</th><th>Account</th></tr></thead><tbody>
+{rows}
+</tbody></table>
+<h2>Not supported yet — the watchlist</h2>
+<table><thead><tr><th>Model</th><th>Status</th></tr></thead><tbody>
+{wlrows}
+</tbody></table>
+<h2>Known caveats</h2>
+<ul>{notes}</ul>
+<p class="muted">Status reflects the README matrix at build time. Always confirm on the <a href="https://kindlemodding.org/">official wiki</a> / <a href="https://kindlemodding.org/jailbreaks.json">jailbreaks.json</a>.</p>
+<p><a href="index.html">← Back to the searchable index</a></p>
+</div>"""
+    (DOCS / "status.html").write_text(page_html("Jailbreak status board", "What works, what doesn't, and what to wait for.", body, back_href="index.html"), encoding="utf-8")
+    md=["# Jailbreak status board","", f"Max firmware supported by any current method: **{maxs}** ({bestname}).","", wl["rule"],"", "## Methods",""]
+    md += [f'- {m["name"]} — {m["firmware"]} · {m["status"]}' for m in jb]
+    md += ["", "## Not supported yet",""] + [f'- {x["model"]} — {x["note"]}' for x in wl["unsupported_models"]]
+    (DOCS / "status.md").write_text("\n".join(md)+"\n", encoding="utf-8")
+    print(f"status: max firmware {maxs}")
+
 if __name__ == "__main__":
     build_jailbreaks()
     build_guides()
+    build_status()

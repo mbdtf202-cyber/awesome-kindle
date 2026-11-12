@@ -21,7 +21,12 @@ Where **Awesome Kindle** is headed. PRs and suggestions welcome.
 - [x] Site UX: bilingual toggle, theme switch, detail modal, nav
 - [x] **Auto-refresh `resources.json`** (GitHub Actions) + data/docs reproducibility CI
 - [x] Broken-link **auto-issue**, Dependabot, SECURITY / CODEOWNERS / FUNDING
-- [x] Condensed **日本語 / 한국어** READMEs
+- [x] Condensed **日本語 / 한국어** READMEs (now with status + section map)
+- [x] **Jailbreak status board + "not supported yet" watchlist**
+- [x] Troubleshooting v2: real error codes + per-device pitfalls
+- [x] KOReader **highlights/notes export** guide
+- [x] **Kindle 退出中国** survival guide (防删书 / 微信读书 / Android)
+- [x] Used-unit **buying checklist**
 
 ## 🚧 Next
 

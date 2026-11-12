@@ -6,8 +6,6 @@
 
 ### Kindle 脱獄・ファームウェア・カスタマイズ完全索引
 
-**オープンソースで高品質な Kindle 活用リソースを一か所に。**
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](LICENSE)
 
@@ -17,25 +15,28 @@
 
 ---
 
-> これは **日本語のクイックガイド（要約）** です。完全な内容・表・手順は
-> [English README](README_EN.md) と [简体中文 README](README.md) を参照してください。
+> これは**日本語ダイジェスト（各セクションの要点＋リンク）**です。表・全文・細部は
+> [English README](README_EN.md) / [简体中文 README](README.md) を参照してください。
 
 ## 🚀 クイックスタート（5 分）
-
 1. **機種とファームウェアを確認**：設定 → 端末オプション → 端末情報。
-2. **自動アップデートを止める**（ストレージを満杯にする / OTA ブロック）。
+2. **自動アップデートを止める**（ストレージを満杯に / OTA ブロック）。
 3. [Jailbreak Wizard](docs/wizard.html) で機種＋ファームウェアを入力し、対応する脱獄を確認。
 4. 公式 Wiki（[kindlemodding.org](https://kindlemodding.org/)）の手順どおりに実行。
-5. 成功したらすぐ **Hotfix** → **KPM** → **KOReader** を導入。
+5. 成功したらすぐ **Hotfix** → **KPM** → **KOReader**。
+
+## 📊 対応状況
+- 現在の公開手法で対応する**最大ファームウェアは 5.20.2**（Véra）。それより新しい場合は**公開脱獄なし＝待つ**。
+- 2025–2026 の Scribe 3 / Scribe Colorsoft / Kindle 2026 / Paperwhite 2026 は**未対応**。
+- 詳細は [Status board](docs/status.html)。
 
 ## 📚 主なセクション
-
 - 🔓 **脱獄**：[全手法の手順](docs/jailbreaks/README.md)
-- 🧰 **ガイド**：[導入・変換・トラブル対応](docs/guides/README.md) · [購入ガイド](docs/guides/buying-guide.md)
+- 🧰 **ガイド**：[一覧](docs/guides/README.md) — Starter Pack / KOReader / KPM / KCC / Calibre / SSH / トラブル対応 / 購入 / ノート書き出し
 - 🔎 **検索サイト**：`docs/`（GitHub Pages）
 - 🗂️ **無料・合法コンテンツ**：英/中の README を参照
+- 🎮 **アプリ・ゲーム / 開発者向け / ファームウェア・復旧 / FAQ**：英/中の README を参照
 
 ## ⚠️ 注意
-
 - 脱獄は自己責任。**ファームウェアを誤って書き換えると文鎮化**します。
 - **公式 Wiki が常に最優先**。本リポジトリは索引であり、実行ファイルは配布しません。

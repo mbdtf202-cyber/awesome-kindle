@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KOReader — export highlights &amp; notes — Awesome Kindle</title>
+<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" href="../page.css"/>
+</head>
+<body class="doc-body">
+<header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
+<main class="wrap doc-main">
+<h1>KOReader — export highlights &amp; notes</h1>
+<p class="doc-sub">Get your annotations out to Markdown, Notion or Readwise.</p>
+<div class="prose">
+<p>KOReader keeps annotations <strong>per book</strong> in a sidecar folder next to the file: <code>&lt;book&gt;.sdr/metadata.&lt;ext&gt;.lua</code>. There are three practical ways to get them out.</p>
+<h2>1. Native Kindle highlights</h2>
+<p>Highlights made in the <strong>stock Kindle reader</strong> go to <code>documents/My Clippings.txt</code> (over USB). That file is plain text and easy to parse.</p>
+<h2>2. KOReader built-in export</h2>
+<p>In KOReader, open the book → reader menu → <strong>Export highlights</strong> → choose <strong>HTML</strong> or <strong>Markdown</strong>. It writes a file you can copy off over USB or with <code>scp</code>.</p>
+<h2>3. Parse the sidecar yourself (script)</h2>
+<p>The <code>.sdr/metadata.*.lua</code> file contains an <code>annotations</code> table. A minimal extractor:</p>
+<pre><code class="lang-python">import re, sys, json
+path = sys.argv[1]
+src = open(path, encoding=&quot;utf-8&quot;, errors=&quot;ignore&quot;).read()
+notes = []
+for m in re.finditer(r&#x27;\{\s*chapter\s*=\s*&quot;([^&quot;]*)&quot;.*?text\s*=\s*&quot;((?:[^&quot;\\]|\\.)*)&quot;&#x27;, src, re.S):
+    chapter, text = m.group(1), m.group(2).encode().decode(&quot;unicode_escape&quot;)
+    notes.append({&quot;chapter&quot;: chapter, &quot;text&quot;: text})
+print(json.dumps(notes, ensure_ascii=False, indent=2))</code></pre>
+<p>Then convert JSON → Markdown/Notion/Readwise as you like.</p>
+<h2>4. Calibre / sync</h2>
+<ul><li><strong>Calibre</strong> can collect KOReader metadata via plugins; search "KOReader" in Calibre's plugin list.</li><li>Cloud sync: KOReader's *Progress sync* keeps positions; annotations live in the sidecar above.</li></ul>
+<h2>Tips</h2>
+<ul><li>Export <strong>per book</strong> after finishing it — sidecars travel with the file.</li><li>Keep a git/Dropbox folder of exported Markdown for a permanent notes archive.</li></ul>
+<hr/>
+<h2>中文速览</h2>
+<ul><li>KOReader 的标注存在每本书旁边的 <code>.sdr/metadata.&lt;ext&gt;.lua</code> 里。</li><li>三种导出：① 原生 Kindle 阅读器的高亮在 <code>documents/My Clippings.txt</code>；② KOReader 阅读菜单 → <strong>导出高亮</strong> → HTML/Markdown；③ 用脚本解析 <code>.sdr</code> 里的 <code>annotations</code> 表（见上方 Python）。</li><li>Calibre 有 KOReader 相关插件可汇总；每本书读完就导出，sidecar 随书走，导出的 Markdown 存进网盘/仓库做长期笔记库。</li></ul>
+</div>
+<footer class="doc-foot">Defer to the <a href="https://kindlemodding.org/">official KindleModding wiki</a> · MIT</footer>
+</main>
+</body>
+</html>

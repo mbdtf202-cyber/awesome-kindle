@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kindle 退出中国后的生存指南 — Awesome Kindle</title>
+<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" href="../page.css"/>
+</head>
+<body class="doc-body">
+<header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
+<main class="wrap doc-main">
+<h1>Kindle 退出中国后的生存指南</h1>
+<p class="doc-sub">防删书 / 微信读书 / Android 与本地阅读的可行路径。</p>
+<div class="prose">
+<blockquote><p>Amazon 已于 2023 年停止 Kindle 中国电子书店运营、2024 年停止相关服务。很多用户反馈<br/><strong>联网后本地中文书会被清理</strong>，账号/手机号也可能失效。下面是不踩坑的几条路。</p></blockquote>
+<h2>先做：防删书（最重要）</h2>
+<ol><li>开 <strong>飞行模式</strong>，别让设备联网；需要传书时用 <strong>USB</strong>。</li><li>把 <code>documents/</code> 整目录<strong>备份到电脑</strong>；删除前先导出。</li><li>关闭自动更新 / 装 Hotfix 阻断 OTA（见越狱指南）。</li><li>用 <strong>Calibre</strong> 管理并在本地转 EPUB/AZW3 再侧载，不依赖云端。</li></ol>
+<h2>路线 A：越狱 + 本地阅读（推荐，风险低）</h2>
+<ul><li>越狱后装 <strong>KOReader</strong>，直接读本地 EPUB/PDF/CBZ；配 <strong>Calibre-Web</strong> 可自建书库、浏览器推送。</li><li>不需要账号、不联网也能用；笔记用 KOReader 导出（见《KOReader 笔记导出》）。</li></ul>
+<h2>路线 B：微信读书</h2>
+<ul><li><strong>网页版</strong>体验一般（每章联网加载），但零风险：用内置浏览器开 <code>weread.qq.com</code>。</li><li><strong>进阶</strong>：越狱 → 装 KUAL/MRPI → 刷 <strong>Android</strong> → 安装<strong>微信读书墨水屏版</strong>。</li></ul>
+<p>这是社区最常见做法，但<strong>刷 Android 风险高</strong>，务必先看官方/社区教程并备份。</p>
+<ul><li>参考路径：越狱 → MRPI + KUAL → uboot → 刷 Android → 装微信读书墨水屏版。</li></ul>
+<h2>路线 C：换区账号</h2>
+<ul><li>把账号切到美亚/其他区可继续用商店（需对应支付/地址），但中文书资源有限。</li></ul>
+<h2>风险与提醒</h2>
+<ul><li>刷 Android / 改分区可能<strong>变砖</strong>；没有把握就先用路线 A（越狱+KOReader）。</li><li>任何固件/分区操作前，确认机型与固件、备份、留回滚方案。</li><li>一切以官方 Wiki 与成熟社区教程为准。</li></ul>
+<hr/>
+<h2>English summary</h2>
+<p>After Kindle exited China (store closed 2023, services 2024), many users report <strong>sideloaded Chinese books being deleted when the device goes online</strong>. Safest path: <strong>airplane mode + USB sideload + Calibre</strong>, back up <code>documents/</code>, and jailbreak + <strong>KOReader</strong> for local reading. For <strong>WeRead</strong>, either use the web version (low risk) or the advanced route: jailbreak → KUAL/MRPI → flash <strong>Android</strong> → install the e-ink WeRead app (high risk — back up first). Switching to a US/other-region account is another option but has limited Chinese catalog.</p>
+</div>
+<footer class="doc-foot">Defer to the <a href="https://kindlemodding.org/">official KindleModding wiki</a> · MIT</footer>
+</main>
+</body>
+</html>

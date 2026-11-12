@@ -3,6 +3,17 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.1.0] - 2026-11-12
+
+### Added — community-driven
+- 📊 **Jailbreak status board** (`docs/status.html`): max supported firmware, per-method status, and a **"not supported yet" watchlist** (Scribe 3, Scribe Colorsoft, 2026 Kindle/Paperwhite).
+- 🧭 Wizard now warns "no public jailbreak yet — don't flash" and links the status board when nothing matches.
+- 🧯 **Troubleshooting v2**: real error codes (`UPDATE ERROR 2/4`, `007`), per-device pitfalls (PW3 Hotfix crash, K4/DX unsupported, PW1/PW5 HTTPS, Colorsoft persistence, MTP fill), KPM `add-repo` workaround.
+- 📝 New guide **KOReader — export highlights & notes** (My Clippings / built-in export / `.sdr` script).
+- 🇨🇳 New guide **Kindle 退出中国后的生存指南** (防删书 / 微信读书 / Android / 本地阅读).
+- 🛒 Buying guide upgraded with a **used-unit checklist** (firmware screenshot, account, ads, screen, battery, USB, return window).
+- 🇯🇵🇰🇷 Expanded 日本語 / 한국어 digests (status + full section map).
+
 ## [2.0.0] - 2026-11-12
 
 ### Added — "make it a real one-stop product"

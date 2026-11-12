@@ -297,3 +297,187 @@ body=r"""# Troubleshooting & brick rescue
 - 救砖顺序：能进系统→重装 Hotfix/删 `.bin`；卡 logo→强制重启/恢复出厂；仍不行→按机型串口/降级恢复；最后才是硬件级。
 - 铁律：机型固件必须完全匹配，绝不乱刷 `.bin`，始终装 Hotfix + 阻断 OTA。
 """))
+
+# ---- v2 overrides & new guides (last definition wins) ----
+GUIDES.append(dict(
+slug="troubleshooting", title="Troubleshooting & brick rescue", subtitle="Real error codes, per-device pitfalls, and how to recover.",
+body=r"""# Troubleshooting & brick rescue
+
+> Always cross-check with the official wiki: https://kindlemodding.org/
+> Rule #1: **model + firmware must match exactly**; never flash a mismatched `.bin`.
+
+## By symptom (quick table)
+| Symptom / error | Likely cause | Fix |
+| --- | --- | --- |
+| Jailbreak "not supported" | Firmware/model mismatch | Re-check exact version; use the matching method |
+| Update wipes jailbreak | OTA installed | Reinstall **Hotfix**, delete `.bin`, block updates |
+| `UPDATE ERROR 2` | Wrong model/firmware update file | Download the exact `.bin` for your device |
+| `UPDATE ERROR 4` | Corrupted download | Re-download, verify size, retry |
+| Error `007` on Hotfix | Hotfix package/model mismatch or partial download | Re-download the Universal Hotfix; try re-running it |
+| Hotfix runs then **crash dump**, `;log` stops | Known on PW3 / 5.16.2.1.1 with some Hotfix builds | Reboot fully; retry Hotfix; if still failing, a full reboot usually restores `;log` |
+| KUAL opens then returns to home | Hotfix/MRPI not installed in order | Install Hotfix → MRPI → KUAL; full reboot |
+| `;log mrpi` does nothing | `mrpackages/` missing or MRPI not installed | Put the `.bin` in `mrpackages/`, install MRPI first |
+| KUAL & Hotfix vanish after reset | Factory reset wiped booklets | Reinstall Hotfix, then MRPI, then KUAL |
+| Can't write/delete over USB | Filesystem quirk after JB | Reboot; use a file manager app or `scp`; re-mount |
+
+## By device
+- **PW3 / 5.16.2.1.1** — many Hotfix 2.x crash reports. Try a full reboot after the booklet; `DISABLE_CORE_DUMP` empty file reduces crash dumps. WB2 recent builds may not need the Hotfix at all — check the method page.
+- **K4 / DX / DXG** — modern Hotfix does **not** support these. Use NiLuJe's legacy K5 jailbreak + hotfix from MobileRead.
+- **PW1 / old PW5 & HTTPS fails** — the built-in browser often can't load HTTPS. Host the jailbreak page locally over **http** (`node ./api/index.js` → `http://<your-ip>:3000`) or use an http mirror.
+- **Colorsoft** — jailbreak works, but the "stay-jailbroken after reboot / Hotfix" step was unreliable; read the current method page.
+- **MTP Kindles** — the disk-filler script may not work; fill storage manually with junk files (and remove `.partial.tmp.bin`).
+
+## KPM not installing / add-repo fails
+- The `;` search-bar commands are whitelisted by Amazon's `scriptExecutor` — arguments with `:` or `.` (e.g. a repo URL) are **silently dropped**.
+- Workaround: install via **KPM scriptlet** or run `kpm install file:///...` from **kterm**; or use the repo's install scriptlet instead of a raw URL.
+
+## Brick rescue decision tree
+1. **Boots to UI?** → reinstall Hotfix, delete `.bin`, reboot.
+2. **Boot loop / stuck logo?** → forced restart (hold power ~20s); then recovery factory reset.
+3. **Still dead?** → serial / downgrade recovery per your model — **downgrade requires an existing jailbreak**.
+4. **Hardware-level** → last resort: serial flash / recovery image.
+
+---
+
+## 中文速览
+
+- 铁律：机型+固件必须完全匹配，绝不乱刷 `.bin`；始终装 Hotfix + 阻断 OTA。
+- 错误码：`UPDATE ERROR 2`=包不匹配；`UPDATE ERROR 4`=文件损坏；`007`=Hotfix 包不匹配/没下全。
+- PW3/5.16.2.1.1 Hotfix 崩溃：整机重启后再试；`DISABLE_CORE_DUMP` 可减少崩溃转储。
+- K4/DX/DXG 新版 Hotfix 不支持，用 NiLuJe 旧版 K5 越狱。
+- PW1/老 PW5 打不开 HTTPS：本地用 http 托管（`node ./api/index.js`）。
+- KPM add-repo 带 URL 会被 `;` 命令白名单吞掉：改用 KPM scriptlet 或 `kterm` 里 `kpm install file://...`。
+- 救砖顺序：进系统→重装 Hotfix/删 bin；卡 logo→强制重启/恢复出厂；仍不行→按机型串口/降级（需已越狱）；最后硬件级。
+"""))
+
+GUIDES.append(dict(
+slug="buying-guide", title="Buying guide — which Kindle to get (2024–2026)", subtitle="Buy for jailbreak-ability, and verify a used unit before you pay.",
+body=r"""# Buying guide — which Kindle to get (2024–2026)
+
+If jailbreaking matters, **the firmware on the box matters more than the model**. Amazon ships
+whatever is current, and newer firmware can close the door.
+
+## Quick rules
+1. **Older firmware = easier.** A unit on ≤ 5.16.3 is easiest (WinterBreak2, no account).
+2. **Newer models may already be patched.** 2025–2026 models (Scribe 3, Scribe Colorsoft, 2026 Kindle/Paperwhite) may have no public jailbreak yet — check the [status board](../status.html).
+3. **Ask for the exact firmware** (Settings → Device Options → Device Info) before buying used.
+4. **Buy used/refurb with a return window** so you can verify and return if it's too new.
+
+## Used-unit checklist (do this before paying)
+- [ ] Seller sends a photo of **Settings → Device Options → Device Info** (model code + full firmware).
+- [ ] Firmware is **within a supported range** (see status board).
+- [ ] Registered/account status: **deregistered** or you can register; note region.
+- [ ] **Ads / Special Offers** status (affects AdBreak; some prefer ad-free).
+- [ ] Screen: no dead pixels, even frontlight, no scratches; check a white page.
+- [ ] Battery holds charge; charges over USB-C/micro-USB as applicable.
+- [ ] Buttons/ touch, Wi-Fi connect, factory reset works.
+- [ ] Return window + price sanity (compare eBay / 闲鱼 / local).
+
+## By goal
+- **Just read + KOReader** → Paperwhite PW4/PW5 on older firmware is the sweet spot.
+- **Notes / Scribe** → Scribe is great, but confirm jailbreak status first.
+- **Color comics** → Colorsoft; verify firmware support.
+- **Cheapest tinkering** → a used PW3/PW4 or an old K4/K5 for legacy jailbreaks.
+
+## Avoid
+- "Latest firmware" units if you plan to jailbreak.
+- Listings without a firmware screenshot.
+- 2025–2026 flagships unless the matrix confirms support.
+
+---
+
+## 中文速览：买前与二手验机
+
+- **越狱看固件不只看机型**：≤ 5.16.3 最好越；2025–2026 新机多半无解，先看[支持状态](../status.html)。
+- **二手验机清单**：要卖家拍「设备信息」截图（机型+完整固件）；确认在支持范围内；账号是否已注销/可注册；是否广告版；屏幕/前光/坏点；电池；USB 充电；按键触控；Wi-Fi；能否恢复出厂；退货窗口与价格。
+- 只阅读+KOReader：老固件 PW4/PW5 最香；记笔记看 Scribe（先确认可越）；彩漫看 Colorsoft；最便宜折腾用旧 PW3/PW4 或 K4/K5。
+- 避开“最新固件”、无固件截图、未确认支持的新旗舰。
+"""))
+
+GUIDES.append(dict(
+slug="koreader-notes", title="KOReader — export highlights & notes", subtitle="Get your annotations out to Markdown, Notion or Readwise.",
+body=r"""# KOReader — export highlights & notes
+
+KOReader keeps annotations **per book** in a sidecar folder next to the file:
+`<book>.sdr/metadata.<ext>.lua`. There are three practical ways to get them out.
+
+## 1. Native Kindle highlights
+Highlights made in the **stock Kindle reader** go to `documents/My Clippings.txt`
+(over USB). That file is plain text and easy to parse.
+
+## 2. KOReader built-in export
+In KOReader, open the book → reader menu → **Export highlights** → choose **HTML** or
+**Markdown**. It writes a file you can copy off over USB or with `scp`.
+
+## 3. Parse the sidecar yourself (script)
+The `.sdr/metadata.*.lua` file contains an `annotations` table. A minimal extractor:
+
+```python
+import re, sys, json
+path = sys.argv[1]
+src = open(path, encoding="utf-8", errors="ignore").read()
+notes = []
+for m in re.finditer(r'\{\s*chapter\s*=\s*"([^"]*)".*?text\s*=\s*"((?:[^"\\]|\\.)*)"', src, re.S):
+    chapter, text = m.group(1), m.group(2).encode().decode("unicode_escape")
+    notes.append({"chapter": chapter, "text": text})
+print(json.dumps(notes, ensure_ascii=False, indent=2))
+```
+Then convert JSON → Markdown/Notion/Readwise as you like.
+
+## 4. Calibre / sync
+- **Calibre** can collect KOReader metadata via plugins; search "KOReader" in Calibre's plugin list.
+- Cloud sync: KOReader's *Progress sync* keeps positions; annotations live in the sidecar above.
+
+## Tips
+- Export **per book** after finishing it — sidecars travel with the file.
+- Keep a git/Dropbox folder of exported Markdown for a permanent notes archive.
+
+---
+
+## 中文速览
+
+- KOReader 的标注存在每本书旁边的 `.sdr/metadata.<ext>.lua` 里。
+- 三种导出：① 原生 Kindle 阅读器的高亮在 `documents/My Clippings.txt`；② KOReader 阅读菜单 → **导出高亮** → HTML/Markdown；③ 用脚本解析 `.sdr` 里的 `annotations` 表（见上方 Python）。
+- Calibre 有 KOReader 相关插件可汇总；每本书读完就导出，sidecar 随书走，导出的 Markdown 存进网盘/仓库做长期笔记库。
+"""))
+
+GUIDES.append(dict(
+slug="china-survival", title="Kindle 退出中国后的生存指南", subtitle="防删书 / 微信读书 / Android 与本地阅读的可行路径。", body=r"""# Kindle 退出中国后的生存指南
+
+> Amazon 已于 2023 年停止 Kindle 中国电子书店运营、2024 年停止相关服务。很多用户反馈
+> **联网后本地中文书会被清理**，账号/手机号也可能失效。下面是不踩坑的几条路。
+
+## 先做：防删书（最重要）
+1. 开 **飞行模式**，别让设备联网；需要传书时用 **USB**。
+2. 把 `documents/` 整目录**备份到电脑**；删除前先导出。
+3. 关闭自动更新 / 装 Hotfix 阻断 OTA（见越狱指南）。
+4. 用 **Calibre** 管理并在本地转 EPUB/AZW3 再侧载，不依赖云端。
+
+## 路线 A：越狱 + 本地阅读（推荐，风险低）
+- 越狱后装 **KOReader**，直接读本地 EPUB/PDF/CBZ；配 **Calibre-Web** 可自建书库、浏览器推送。
+- 不需要账号、不联网也能用；笔记用 KOReader 导出（见《KOReader 笔记导出》）。
+
+## 路线 B：微信读书
+- **网页版**体验一般（每章联网加载），但零风险：用内置浏览器开 `weread.qq.com`。
+- **进阶**：越狱 → 装 KUAL/MRPI → 刷 **Android** → 安装**微信读书墨水屏版**。
+  这是社区最常见做法，但**刷 Android 风险高**，务必先看官方/社区教程并备份。
+  - 参考路径：越狱 → MRPI + KUAL → uboot → 刷 Android → 装微信读书墨水屏版。
+
+## 路线 C：换区账号
+- 把账号切到美亚/其他区可继续用商店（需对应支付/地址），但中文书资源有限。
+
+## 风险与提醒
+- 刷 Android / 改分区可能**变砖**；没有把握就先用路线 A（越狱+KOReader）。
+- 任何固件/分区操作前，确认机型与固件、备份、留回滚方案。
+- 一切以官方 Wiki 与成熟社区教程为准。
+
+---
+
+## English summary
+After Kindle exited China (store closed 2023, services 2024), many users report **sideloaded
+Chinese books being deleted when the device goes online**. Safest path: **airplane mode + USB
+sideload + Calibre**, back up `documents/`, and jailbreak + **KOReader** for local reading.
+For **WeRead**, either use the web version (low risk) or the advanced route: jailbreak →
+KUAL/MRPI → flash **Android** → install the e-ink WeRead app (high risk — back up first).
+Switching to a US/other-region account is another option but has limited Chinese catalog.
+""")) 

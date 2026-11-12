@@ -8,7 +8,9 @@ Practical walkthroughs (English + 中文速览).
 - [KCC — Kindle Comic Converter](kcc.md) — Turn comics, manga and PDFs into Kindle-perfect files.
 - [Calibre — manage, convert & send](calibre.md) — The desktop hub for your whole library.
 - [SSH & terminal on Kindle](ssh-terminal.md) — Get a real shell and remote access.
-- [Buying guide — which Kindle to get (2024–2026)](buying-guide.md) — Buy for jailbreak-ability, not just specs.
-- [Troubleshooting & brick rescue](troubleshooting.md) — Common errors, what they mean, and how to recover.
+- [Buying guide — which Kindle to get (2024–2026)](buying-guide.md) — Buy for jailbreak-ability, and verify a used unit before you pay.
+- [Troubleshooting & brick rescue](troubleshooting.md) — Real error codes, per-device pitfalls, and how to recover.
+- [KOReader — export highlights & notes](koreader-notes.md) — Get your annotations out to Markdown, Notion or Readwise.
+- [Kindle 退出中国后的生存指南](china-survival.md) — 防删书 / 微信读书 / Android 与本地阅读的可行路径。
 
 Back to the [searchable index](../index.html).

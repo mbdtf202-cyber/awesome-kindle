@@ -29,7 +29,7 @@
   }
   function render(list, v) {
     const box = $("res");
-    if (!list.length) { box.innerHTML = '<p class="meta">No match — double-check the exact firmware, or read the <a href="jailbreaks/index.html">guides</a>.</p>'; return; }
+    if (!list.length) { box.innerHTML = '<p class="meta">No match — double-check the exact firmware. If it is newer than every method, there is <strong>no public jailbreak yet</strong>: wait and do <em>not</em> flash. See the <a href="status.html">status board</a> or the <a href="jailbreaks/index.html">guides</a>.</p>'; return; }
     box.innerHTML = list.map(({ m, fw }) => {
       const badge = fw.unknown ? '<span class="meta">⚠️ check official</span>' : (fw.ok ? '<span class="ok">✓ likely works</span>' : '<span class="no">✗ not this range</span>');
       return `<div class="item"><h3><a href="jailbreaks/${m.slug}.html">${m.name}</a></h3>

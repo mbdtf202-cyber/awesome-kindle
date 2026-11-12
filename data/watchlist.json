@@ -1,0 +1,15 @@
+{
+  "rule": "If your exact firmware is newer than the maximum supported by every method, there is no public jailbreak yet. Wait for a new release — do NOT reinstall, flash, or attempt to downgrade (downgrading requires an existing jailbreak).",
+  "rule_zh": "如果你的固件比所有方案支持的最高版本还新，说明暂时没有公开越狱。请等待新方案发布 —— 不要重装、乱刷或尝试降级（降级需要已经越狱）。",
+  "unsupported_models": [
+    { "model": "Kindle Scribe 3 (KS3 / Platpa6)", "note": "2025 model — no public jailbreak yet", "note_zh": "2025 款，暂无公开越狱" },
+    { "model": "Kindle Scribe Colorsoft (KSC / Platcs8)", "note": "2025 model — no public jailbreak yet", "note_zh": "2025 款，暂无公开越狱" },
+    { "model": "Kindle 2026 (KT7 / Platpo8)", "note": "2026 model — no public jailbreak yet", "note_zh": "2026 款，暂无公开越狱" },
+    { "model": "Paperwhite 2026 (PW7 / Platao5)", "note": "2026 model — no public jailbreak yet", "note_zh": "2026 款，暂无公开越狱" }
+  ],
+  "notes": [
+    { "note": "Colorsoft (2024) can be jailbroken, but the persistence/hotfix patch did not work reliably at launch — verify the current method page.", "note_zh": "Colorsoft（2024）可越狱，但早期“重启后保持越狱/Hotfix”不稳定，务必看对应方案当前页面。" },
+    { "note": "K4 / DX / DXG are not supported by the modern Hotfix — use legacy NiLuJe K5 jailbreak + hotfix from MobileRead.", "note_zh": "K4 / DX / DXG 不被新版 Hotfix 支持，需用 MobileRead 上 NiLuJe 的 K5 旧版越狱 + hotfix。" },
+    { "note": "AdBreak is experimental: requires a login and only works on ad-supported (Special Offers) devices.", "note_zh": "AdBreak 为实验性：需登录账号，且仅适用于带广告（Special Offers）的设备。" }
+  ]
+}
