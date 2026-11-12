@@ -1,4 +1,5 @@
-max_retries = 2
+max_retries = 3
+timeout = 30
 accept = ["200..=299", "403", "429"]
 exclude = [
   "https://discord\\.gg/.*",
@@ -9,4 +10,5 @@ exclude = [
   "https://img\\.shields\\.io/.*",
   "https://archiveofourown\\.org/.*",
   "https://.*\\.github\\.io/.*",
+  "https://comicfury\\.com/.*",
 ]
