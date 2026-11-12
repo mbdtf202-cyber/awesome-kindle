@@ -238,6 +238,10 @@ then follow the page — and always defer to the official wiki.</p>
 </tbody></table>
 <p><a href="../index.html">← Back to the searchable index</a></p>"""
     (JB_DIR / "index.html").write_text(page_html("Jailbreak guides", "Pick your method, follow the steps.", body, back_href="../index.html"), encoding="utf-8")
+    md_lines = ["# Jailbreak guides", "", "Step-by-step pages for every method in the matrix. Always defer to the official wiki.", ""]
+    md_lines += [f"- [{m['name']}]({slug}.md) — firmware {m['firmware']} · {m['status']}" for slug, m in cards]
+    md_lines += ["", "Back to the [searchable index](../index.html).", ""]
+    (JB_DIR / "README.md").write_text("\n".join(md_lines), encoding="utf-8")
     write_wizard_data(methods)
     print(f"jailbreaks: {len(methods)} pages")
 
