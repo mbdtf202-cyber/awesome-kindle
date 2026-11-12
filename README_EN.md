@@ -491,6 +491,46 @@ After a successful jailbreak, the system auto-installs update-blocking and a pac
 | **Kiwix** | Offline Wikipedia / web content you can carry. | https://www.kiwix.org/ |
 | **Royal Road / AO3** | Free web fiction / fanfic; pair with **FanFicFare**. | https://www.royalroad.com/ · https://archiveofourown.org/ |
 
+### 📚 Library borrowing & official subscriptions
+
+> Most "books you want" are free and legal — with a local library card.
+
+| Resource | Description | Link |
+| --- | --- | --- |
+| **Libby (OverDrive)** | Borrow ebooks / audiobooks free with a library card; Kindle hand-off in many regions. | https://libbyapp.com/ |
+| **OverDrive** | Library ebook lending platform (the web side of Libby). | https://www.overdrive.com/ |
+| **Hoopla** | Borrow ebooks / comics / audiobooks free with a library card (region-dependent). | https://www.hoopladigital.com/ |
+| **cloudLibrary** | Ebook lending from many library systems. | https://www.yourcloudlibrary.com/ |
+| **Everand (ex-Scribd)** | Subscription ebooks / audiobooks / magazines. | https://www.everand.com/ |
+
+> Kindle Unlimited / Prime Reading are available through Amazon's official channels by region; no external link here.
+
+### 📰 RSS / news / magazines / web fiction (auto-push to Kindle)
+
+| Resource | Description | Link |
+| --- | --- | --- |
+| **Reabble** | Turns an RSS reader into a Kindle-friendly page. | https://reabble.com/ |
+| **Inoreader** | Powerful RSS reader, works with push tools. | https://www.inoreader.com/ |
+| **Feedly** | Mainstream RSS aggregation. | https://feedly.com/ |
+| **NewsBlur** | Open-source RSS reader. | https://newsblur.com/ |
+| **Wattpad** | Free web fiction / fanfic platform. | https://www.wattpad.com/ |
+| **Scribble Hub** | Free web-fiction platform. | https://www.scribblehub.com/ |
+
+> Use Calibre "Fetch news (Recipes)" or **KindleEar** to schedule these onto the device.
+
+### 🎨 Fonts / wallpapers / public-domain art / dictionaries
+
+| Resource | Description | Link |
+| --- | --- | --- |
+| **Google Fonts** | Free open-source fonts; swap the system font after jailbreak. | https://fonts.google.com/ |
+| **Font Squirrel** | Free commercial-use fonts. | https://www.fontsquirrel.com/ |
+| **WikiArt** | Public-domain artworks for wallpapers / screensavers. | https://www.wikiart.org/ |
+| **Met Open Access** | The Met's high-res public-domain images. | https://www.metmuseum.org/art/collection |
+| **Rijksmuseum** | Rijksmuseum public-domain high-res art. | https://www.rijksmuseum.nl/en/rijksstudio |
+| **Wikimedia Commons** | Huge public-domain / freely-licensed image library. | https://commons.wikimedia.org/ |
+| **Wiktionary** | Free multilingual dictionary, offline-friendly. | https://www.wiktionary.org/ |
+| **GoldenDict** | Open-source offline dictionary aggregator. | https://github.com/goldendict/goldendict |
+
 ### 🧰 Find → convert → transfer pipeline
 
 | Tool | Role | Link |

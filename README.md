@@ -491,6 +491,46 @@ flowchart TD
 | **Kiwix** | 离线维基百科 / 网页内容，可塞进设备。 | https://www.kiwix.org/ |
 | **Royal Road / AO3** | 免费网文 / 同人；配 **FanFicFare** 可下载成电子书。 | https://www.royalroad.com/ · https://archiveofourown.org/ |
 
+### 📚 图书馆借阅 & 官方订阅（合法免费 / 付费）
+
+> 大多数"想看的书"其实能免费合法拿到 —— 用本地图书馆卡即可。
+
+| 资源 | 说明 | 链接 |
+| --- | --- | --- |
+| **Libby（OverDrive）** | 用本地图书馆卡免费借电子书 / 有声书，部分地区可直接推 Kindle。 | https://libbyapp.com/ |
+| **OverDrive** | 图书馆电子借阅平台（Libby 的网页版）。 | https://www.overdrive.com/ |
+| **Hoopla** | 图书馆卡免费借电子书 / 漫画 / 有声书（视地区）。 | https://www.hoopladigital.com/ |
+| **cloudLibrary** | 多家图书馆的电子书借阅。 | https://www.yourcloudlibrary.com/ |
+| **Everand（原 Scribd）** | 订阅制电子书 / 有声书 / 杂志。 | https://www.everand.com/ |
+
+> Kindle Unlimited / Prime Reading 也可按区域在亚马逊官方渠道订阅，这里不放外链。
+
+### 📰 RSS / 新闻 / 杂志 / 网文（自动推 Kindle）
+
+| 资源 | 说明 | 链接 |
+| --- | --- | --- |
+| **Reabble** | 把 RSS 阅读器变成 Kindle 友好网页。 | https://reabble.com/ |
+| **Inoreader** | 强大 RSS 阅读器，配合推送。 | https://www.inoreader.com/ |
+| **Feedly** | 主流 RSS 聚合。 | https://feedly.com/ |
+| **NewsBlur** | 开源 RSS 阅读器。 | https://newsblur.com/ |
+| **Wattpad** | 免费网文 / 同人平台。 | https://www.wattpad.com/ |
+| **Scribble Hub** | 免费网文平台。 | https://www.scribblehub.com/ |
+
+> 用 Calibre「抓取新闻（Recipes）」或 **KindleEar** 可把这些内容定时推送到设备。
+
+### 🎨 字体 / 壁纸 / 公版艺术 / 词典
+
+| 资源 | 说明 | 链接 |
+| --- | --- | --- |
+| **Google Fonts** | 免费开源字体，越狱后可换系统字体。 | https://fonts.google.com/ |
+| **Font Squirrel** | 免费商用字体。 | https://www.fontsquirrel.com/ |
+| **WikiArt** | 公版艺术画作，做壁纸 / 屏保。 | https://www.wikiart.org/ |
+| **Met Open Access** | 大都会博物馆公版高清图。 | https://www.metmuseum.org/art/collection |
+| **Rijksmuseum** | 荷兰国立博物馆公版高清。 | https://www.rijksmuseum.nl/en/rijksstudio |
+| **Wikimedia Commons** | 海量公版 / 自由授权图片。 | https://commons.wikimedia.org/ |
+| **Wiktionary** | 免费多语词典，可离线。 | https://www.wiktionary.org/ |
+| **GoldenDict** | 开源离线词典，多词典聚合。 | https://github.com/goldendict/goldendict |
+
 ### 🧰 找书 → 转换 → 传输 一条龙
 
 | 工具 | 作用 | 链接 |

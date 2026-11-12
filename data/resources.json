@@ -3,7 +3,7 @@
   "generated": "2026-11-12",
   "source": "README_EN.md",
   "note": "Machine-readable index derived from README_EN.md tables. See data/README.md.",
-  "count": 118,
+  "count": 137,
   "items": [
     {
       "name": "WinterBreak2",
@@ -761,6 +761,215 @@
       "description": "Free web fiction / fanfic; pair with FanFicFare.",
       "section": "🗂️ Content sources (free & legal)",
       "subsection": "🎧 Audiobooks / podcasts / journals / more",
+      "kind": "resource"
+    },
+    {
+      "name": "Libby (OverDrive)",
+      "url": "https://libbyapp.com/",
+      "links": [
+        "https://libbyapp.com/"
+      ],
+      "description": "Borrow ebooks / audiobooks free with a library card; Kindle hand-off in many regions.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📚 Library borrowing & official subscriptions",
+      "kind": "resource"
+    },
+    {
+      "name": "OverDrive",
+      "url": "https://www.overdrive.com/",
+      "links": [
+        "https://www.overdrive.com/"
+      ],
+      "description": "Library ebook lending platform (the web side of Libby).",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📚 Library borrowing & official subscriptions",
+      "kind": "resource"
+    },
+    {
+      "name": "Hoopla",
+      "url": "https://www.hoopladigital.com/",
+      "links": [
+        "https://www.hoopladigital.com/"
+      ],
+      "description": "Borrow ebooks / comics / audiobooks free with a library card (region-dependent).",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📚 Library borrowing & official subscriptions",
+      "kind": "resource"
+    },
+    {
+      "name": "cloudLibrary",
+      "url": "https://www.yourcloudlibrary.com/",
+      "links": [
+        "https://www.yourcloudlibrary.com/"
+      ],
+      "description": "Ebook lending from many library systems.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📚 Library borrowing & official subscriptions",
+      "kind": "resource"
+    },
+    {
+      "name": "Everand (ex-Scribd)",
+      "url": "https://www.everand.com/",
+      "links": [
+        "https://www.everand.com/"
+      ],
+      "description": "Subscription ebooks / audiobooks / magazines.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📚 Library borrowing & official subscriptions",
+      "kind": "resource"
+    },
+    {
+      "name": "Reabble",
+      "url": "https://reabble.com/",
+      "links": [
+        "https://reabble.com/"
+      ],
+      "description": "Turns an RSS reader into a Kindle-friendly page.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "kind": "resource"
+    },
+    {
+      "name": "Inoreader",
+      "url": "https://www.inoreader.com/",
+      "links": [
+        "https://www.inoreader.com/"
+      ],
+      "description": "Powerful RSS reader, works with push tools.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "kind": "resource"
+    },
+    {
+      "name": "Feedly",
+      "url": "https://feedly.com/",
+      "links": [
+        "https://feedly.com/"
+      ],
+      "description": "Mainstream RSS aggregation.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "kind": "resource"
+    },
+    {
+      "name": "NewsBlur",
+      "url": "https://newsblur.com/",
+      "links": [
+        "https://newsblur.com/"
+      ],
+      "description": "Open-source RSS reader.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "kind": "resource"
+    },
+    {
+      "name": "Wattpad",
+      "url": "https://www.wattpad.com/",
+      "links": [
+        "https://www.wattpad.com/"
+      ],
+      "description": "Free web fiction / fanfic platform.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "kind": "resource"
+    },
+    {
+      "name": "Scribble Hub",
+      "url": "https://www.scribblehub.com/",
+      "links": [
+        "https://www.scribblehub.com/"
+      ],
+      "description": "Free web-fiction platform.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "📰 RSS / news / magazines / web fiction (auto-push to Kindle)",
+      "kind": "resource"
+    },
+    {
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "links": [
+        "https://fonts.google.com/"
+      ],
+      "description": "Free open-source fonts; swap the system font after jailbreak.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "Font Squirrel",
+      "url": "https://www.fontsquirrel.com/",
+      "links": [
+        "https://www.fontsquirrel.com/"
+      ],
+      "description": "Free commercial-use fonts.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "WikiArt",
+      "url": "https://www.wikiart.org/",
+      "links": [
+        "https://www.wikiart.org/"
+      ],
+      "description": "Public-domain artworks for wallpapers / screensavers.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "Met Open Access",
+      "url": "https://www.metmuseum.org/art/collection",
+      "links": [
+        "https://www.metmuseum.org/art/collection"
+      ],
+      "description": "The Met's high-res public-domain images.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "Rijksmuseum",
+      "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+      "links": [
+        "https://www.rijksmuseum.nl/en/rijksstudio"
+      ],
+      "description": "Rijksmuseum public-domain high-res art.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "links": [
+        "https://commons.wikimedia.org/"
+      ],
+      "description": "Huge public-domain / freely-licensed image library.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "Wiktionary",
+      "url": "https://www.wiktionary.org/",
+      "links": [
+        "https://www.wiktionary.org/"
+      ],
+      "description": "Free multilingual dictionary, offline-friendly.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
+      "kind": "resource"
+    },
+    {
+      "name": "GoldenDict",
+      "url": "https://github.com/goldendict/goldendict",
+      "links": [
+        "https://github.com/goldendict/goldendict"
+      ],
+      "description": "Open-source offline dictionary aggregator.",
+      "section": "🗂️ Content sources (free & legal)",
+      "subsection": "🎨 Fonts / wallpapers / public-domain art / dictionaries",
       "kind": "resource"
     },
     {

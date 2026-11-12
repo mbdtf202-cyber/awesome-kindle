@@ -3,6 +3,14 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.5.0] - 2026-11-12
+
+### Added
+- 📚 **Library borrowing & official subscriptions** — Libby / OverDrive / Hoopla / cloudLibrary / Everand (free legal borrowing with a library card).
+- 📰 **RSS / news / magazines / web fiction** — Reabble, Inoreader, Feedly, NewsBlur, Wattpad, Scribble Hub (schedule onto the device with Calibre Recipes / KindleEar).
+- 🎨 **Fonts / wallpapers / public-domain art / offline dictionaries** — Google Fonts, Font Squirrel, WikiArt, Met Open Access, Rijksmuseum, Wikimedia Commons, Wiktionary, GoldenDict.
+- 🤖 Machine-readable index grows to **137 items** (12 jailbreak + 125 tools/sites); generator re-run, `docs/resources.json` synced.
+
 ## [1.4.0] - 2026-11-12
 
 ### Added

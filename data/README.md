@@ -4,7 +4,7 @@ A **machine-readable index** of every resource listed in the README — handy fo
 sites, search tools, or integrations.
 
 - **File:** `resources.json`
-- **Count:** 118 items (12 jailbreak methods + 106 tools/sites)
+- **Count:** 137 items (12 jailbreak methods + 125 tools/sites)
 - **Source:** auto-generated from the tables in [`README_EN.md`](../README_EN.md)
 - **Generator:** [`scripts/build_resources.py`](../scripts/build_resources.py)
 
@@ -15,7 +15,7 @@ sites, search tools, or integrations.
   "repo": "awesome-kindle",
   "generated": "2026-11-12",
   "source": "README_EN.md",
-  "count": 118,
+  "count": 137,
   "items": [
     {
       "name": "KOReader",
