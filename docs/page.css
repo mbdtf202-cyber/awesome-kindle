@@ -26,3 +26,4 @@
 .gcard h3{margin:0 0 6px;color:#eaf2ff;font-size:16px}
 .gcard p{margin:0;color:#a9b7cb;font-size:13.5px}
 .doc-main>p a,.doc-main>p a:visited{color:var(--accent)}
+.guide-hero{width:100%;height:auto;border-radius:14px;margin:.2em 0 1.2em;border:1px solid var(--line)}

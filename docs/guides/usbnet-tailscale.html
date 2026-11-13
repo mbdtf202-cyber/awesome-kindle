@@ -19,7 +19,7 @@
 <h1>USBNetLite + Tailscale — remote access</h1>
 <p class="doc-sub">SSH and reach your Kindle from anywhere.</p>
 <div class="prose">
-<blockquote><p>Last reviewed: 2026-11-13</p></blockquote>
+<img class="guide-hero" src="img/usbnet-tailscale.svg" alt="USBNetLite + Tailscale — remote access"/><blockquote><p>Last reviewed: 2026-11-13</p></blockquote>
 <p>Get a shell over USB/Wi-Fi, then reach the device from anywhere with a mesh VPN.</p>
 <h2>1. SSH over USB / Wi-Fi (USBNetLite)</h2>
 <ol><li>Install <strong>USBNetLite</strong> via KPM (or the release zip). → https://github.com/notmarek/kindle-usbnetlite</li><li>Run it and choose <strong>USB</strong> or <strong>Wi-Fi</strong> mode; note the IP (USB usbnet is often <code>192.168.15.244</code>).</li><li>Set a root password before exposing it on Wi-Fi.</li><li>From your computer: <code>ssh root@&lt;kindle-ip&gt;</code>.</li></ol>

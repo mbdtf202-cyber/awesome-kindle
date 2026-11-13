@@ -269,7 +269,18 @@ def build_guides():
             _lines.insert(2, f"> Last reviewed: {GUIDE_DATE}")
             _md = "\n".join(_lines)
         (GUIDE_DIR / f"{g['slug']}.md").write_text(_md, encoding="utf-8")
-        body_html = mdmini.convert(re.sub(r"^# .*\n", "", _md, count=1))
+        # simple generated hero illustration (not a fake screenshot)
+        img_dir = GUIDE_DIR / "img"; img_dir.mkdir(exist_ok=True)
+        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">'
+               f'<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">'
+               f'<stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#12305a"/></linearGradient></defs>'
+               f'<rect width="1200" height="300" fill="url(#g)"/>'
+               f'<circle cx="1080" cy="60" r="120" fill="#38bdf8" opacity="0.12"/>'
+               f'<text x="64" y="150" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" fill="#eaf2ff">{html.escape(g["title"])}</text>'
+               f'<text x="64" y="205" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" fill="#9fb0c6">{html.escape(g["subtitle"])}</text>'
+               f'</svg>')
+        (img_dir / f"{g['slug']}.svg").write_text(svg, encoding="utf-8")
+        body_html = '<img class="guide-hero" src="img/%s.svg" alt="%s"/>' % (g["slug"], html.escape(g["title"])) + mdmini.convert(re.sub(r"^# .*\n", "", _md, count=1))
         (GUIDE_DIR / f"{g['slug']}.html").write_text(
             page_html(g["title"], html.escape(g["subtitle"]), body_html, back_href="index.html"), encoding="utf-8")
     cards = "\n".join(
