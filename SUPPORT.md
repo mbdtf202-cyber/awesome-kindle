@@ -22,6 +22,6 @@ official community is much faster and safer than opening an issue here.
 
 ## Before you ask
 
-1. Read the relevant [README section](../README.md) and the official wiki page in full.
+1. Read the relevant [README section](README.md) and the official wiki page in full.
 2. Confirm your exact firmware under `Settings → Device Options → Device Info`.
 3. Search the Discord / Reddit history — most questions are already answered.

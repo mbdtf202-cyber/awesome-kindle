@@ -3,6 +3,20 @@
 All notable changes to this project are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.2.0] - 2026-11-13
+
+### Added
+- 🔎 Search UX: URL-shareable state (`?q=&s=&lang=&theme=`), fuzzy matching, `/` shortcut, Esc to clear.
+- 🌐 SEO/quality: `sitemap.xml`, `robots.txt`, `404.html`, per-page description + OpenGraph/Twitter tags, skip-link.
+- ⬇️ **Export & API** page + `resources.csv` / `resources.md` exports (JSON already existed).
+- ✅ **Verified setups** page + `data/verified.json` + “Report your working setup” issue form.
+- 📚 3 new guides: USBNetLite + Tailscale, Android (overview), Customize (fonts/screensavers/ads/collections).
+- 💬 **Community** page (top needs + how to contribute); GitHub **Discussions** enabled; “Request a guide” form.
+- 🔄 **Upstream sync** workflow: weekly diff of `kindlemodding.org/jailbreaks.json` → auto-issue + snapshot.
+- 🩺 Link-health summary in CI; guide “Last reviewed” stamps.
+- 🧪 `scripts/audit.py` + `AUDIT.md`: internal links/anchors, HTML basics, parity, data, sitemap.
+- 🏷️ README CI/last-commit badges.
+
 ## [2.1.0] - 2026-11-12
 
 ### Added — community-driven

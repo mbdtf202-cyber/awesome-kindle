@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mbdtf202-cyber.github.io/awesome-kindle/sitemap.xml

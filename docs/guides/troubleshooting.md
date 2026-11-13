@@ -1,5 +1,7 @@
 # Troubleshooting & brick rescue
 
+> Last reviewed: 2026-11-13
+
 > Always cross-check with the official wiki: https://kindlemodding.org/
 > Rule #1: **model + firmware must match exactly**; never flash a mismatched `.bin`.
 

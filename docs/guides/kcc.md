@@ -1,5 +1,7 @@
 # KCC — Kindle Comic Converter
 
+> Last reviewed: 2026-11-13
+
 KCC converts CBZ/CBR/images/PDF into EPUB/MOBI/KFX tuned for e-ink: correct size,
 contrast, margins and panel handling.
 

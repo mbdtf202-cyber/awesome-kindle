@@ -1,5 +1,7 @@
 # Buying guide — which Kindle to get (2024–2026)
 
+> Last reviewed: 2026-11-13
+
 If jailbreaking matters, **the firmware on the box matters more than the model**. Amazon ships
 whatever is current, and newer firmware can close the door.
 

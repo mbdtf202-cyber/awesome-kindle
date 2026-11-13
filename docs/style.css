@@ -94,3 +94,5 @@ body[data-theme="light"] .modal-card{background:#ffffff}
 body[data-theme="light"] .modal-card p{color:#475569}
 body[data-theme="light"] .seg button{color:#475569}
 body[data-theme="light"] .seg button.on{color:#04121f}
+.skip{position:absolute;left:-9999px;top:0;background:#0f172a;color:#fff;padding:10px 14px;border-radius:0 0 8px 0;z-index:100}
+.skip:focus{left:0}

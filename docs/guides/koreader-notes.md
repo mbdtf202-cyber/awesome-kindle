@@ -1,5 +1,7 @@
 # KOReader — export highlights & notes
 
+> Last reviewed: 2026-11-13
+
 KOReader keeps annotations **per book** in a sidecar folder next to the file:
 `<book>.sdr/metadata.<ext>.lua`. There are three practical ways to get them out.
 

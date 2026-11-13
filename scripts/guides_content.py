@@ -481,3 +481,103 @@ For **WeRead**, either use the web version (low risk) or the advanced route: jai
 KUAL/MRPI → flash **Android** → install the e-ink WeRead app (high risk — back up first).
 Switching to a US/other-region account is another option but has limited Chinese catalog.
 """)) 
+
+GUIDES.append(dict(
+slug="usbnet-tailscale", title="USBNetLite + Tailscale — remote access", subtitle="SSH and reach your Kindle from anywhere.", body=r"""# USBNetLite + Tailscale — remote access
+
+Get a shell over USB/Wi-Fi, then reach the device from anywhere with a mesh VPN.
+
+## 1. SSH over USB / Wi-Fi (USBNetLite)
+1. Install **USBNetLite** via KPM (or the release zip). → https://github.com/notmarek/kindle-usbnetlite
+2. Run it and choose **USB** or **Wi-Fi** mode; note the IP (USB usbnet is often `192.168.15.244`).
+3. Set a root password before exposing it on Wi-Fi.
+4. From your computer: `ssh root@<kindle-ip>`.
+
+## 2. Tailscale (reach it anywhere)
+1. On the Kindle shell, install a Tailscale binary for its arch (armel/armhf) — or use a KUAL package if available.
+2. `tailscale up` and authenticate; note the device's `100.x.y.z` tailnet IP.
+3. From any of your devices on the tailnet: `ssh root@100.x.y.z`.
+
+## Safety
+- Root shell can break the system: keep Hotfix installed and a backup.
+- Don't expose SSH to the public internet; use the tailnet.
+- Battery: Wi-Fi + VPN drains fast; disable when not needed.
+
+---
+
+## 中文速览
+- KPM 装 **USBNetLite** → 选 USB/Wi-Fi 模式 → 设 root 密码 → `ssh root@<ip>`（USB 常见 `192.168.15.244`）。
+- Kindle 上装对应架构的 **Tailscale** → `tailscale up` → 任意设备 `ssh root@100.x.y.z`。
+- 风险：root 能搞坏系统，装 Hotfix + 备份；不要把 SSH 暴露公网；常开 Wi-Fi+VPN 耗电。
+"""))
+
+GUIDES.append(dict(
+slug="android-flash", title="Android on Kindle (overview)", subtitle="Replace the OS — and run WeRead / Android apps. High risk.", body=r"""# Android on Kindle (overview)
+
+Some older Kindles can be reflashed to **Android**, letting you run Android apps (e.g. the
+e-ink **WeRead / 微信读书** app). This is the **highest-risk** path — it repartitions storage
+and can brick the device. Read the whole official guide before touching anything.
+
+## Prerequisites
+- A **supported model** + a **jailbreak** first (see the jailbreak guides).
+- KUAL + MRPI installed.
+- A full backup and a recovery plan; charged battery; reliable USB cable.
+
+## High-level path
+1. Jailbreak → install **KUAL + MRPI**.
+2. Install the **uboot** / bootloader package for your exact model.
+3. Flash the **Android image** for your model (follow the community guide precisely).
+4. Boot Android, install the **WeRead e-ink** APK (or other apps).
+5. Keep the original firmware image so you can restore.
+
+## Reality check
+- Wrong model/image = **brick**. There is no universal guide.
+- Android on e-ink is slow; battery life drops.
+- If you only want to read local books, **jailbreak + KOReader** is far safer.
+
+## Official / community
+- Start from the [KindleModding wiki](https://kindlemodding.org/) and model-specific threads.
+- Example community guide (verify for your model): https://github.com/Ooonana/Guide-to-installing-android-on-kindle
+
+---
+
+## 中文速览
+- 部分老机型可刷 **Android**，装微信读书墨水屏版；这是**最高风险**路线，会重新分区、可能变砖。
+- 前置：先越狱 → KUAL+MRPI → 按机型装 uboot → 刷对应 Android 镜像 → 装微信读书 → 保留原固件以便恢复。
+- 只想读本地书：**越狱 + KOReader** 安全得多。务必按机型找专门教程、先备份。
+"""))
+
+GUIDES.append(dict(
+slug="customize", title="Customize — fonts, screensavers, ads, collections", subtitle="The quality-of-life tweaks people jailbreak for.", body=r"""# Customize — fonts, screensavers, ads, collections
+
+These are the day-to-day reasons people jailbreak: nicer reading and a cleaner device.
+
+## Fonts
+- Copy `.ttf`/`.otf` into the Kindle `fonts/` folder (or KOReader's `koreader/fonts/`).
+- Many tools let you swap the **system UI font** after jailbreak (see KUAL/KPM packages).
+
+## Screensavers / wallpapers
+- Replace the sleep image via a KUAL/KPM "screensaver" package, or KOReader's own screensaver.
+- Use public-domain art (WikiArt / Met / Rijksmuseum — see Content sources).
+
+## Remove ads (Special Offers)
+- On **ad-supported** devices, follow the community "remove ads" package for your firmware.
+- Note: some methods (e.g. AdBreak) **only work on ad devices** — check before changing state.
+
+## Collections that don't suck
+- The stock collections are weak; **KOReader** gives real folders/collections and a file manager.
+- Calibre can manage series/tags and push over Wi-Fi.
+
+## Reading comfort
+- KOReader: margins, line spacing, font weight, night mode, dictionary, gestures.
+- Set a **full refresh** shortcut to avoid ghosting on e-ink.
+
+---
+
+## 中文速览
+- **字体**：`.ttf/.otf` 放进 `fonts/`（或 KOReader `fonts/`），越狱后可换系统字体。
+- **屏保/壁纸**：用 KUAL/KPM 屏保包或 KOReader 自带；配公版艺术图（WikiArt/大都会/荷兰国立）。
+- **去广告**：广告版设备按机型用社区“去广告”包；注意 AdBreak 只支持广告机，改状态前先确认。
+- **书库/收藏**：原生 collections 很弱，KOReader 有真·文件夹/收藏+文件管理器；Calibre 管系列/标签、Wi-Fi 推送。
+- **阅读舒适**：KOReader 调边距/行距/字重/夜间模式/词典/手势；设全刷快捷键减少残影。
+"""))

@@ -25,6 +25,10 @@ jobs:
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish link-health summary
+        if: always()
+        run: |
+          if [ -f lychee/out.md ]; then cat lychee/out.md >> "$GITHUB_STEP_SUMMARY"; fi
       - name: Open / update a broken-links issue
         if: failure()
         uses: actions/github-script@v7

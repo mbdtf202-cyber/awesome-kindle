@@ -13,6 +13,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](#-contributing)
 ![Kindle](https://img.shields.io/badge/Device-Kindle-232F3E?logo=amazonkindle&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-5.16%20→%205.19-0ea5e9)
+[![Quality](https://github.com/mbdtf202-cyber/awesome-kindle/actions/workflows/quality.yml/badge.svg)](https://github.com/mbdtf202-cyber/awesome-kindle/actions/workflows/quality.yml)
+[![Links](https://github.com/mbdtf202-cyber/awesome-kindle/actions/workflows/links.yml/badge.svg)](https://github.com/mbdtf202-cyber/awesome-kindle/actions/workflows/links.yml)
+![last commit](https://img.shields.io/github/last-commit/mbdtf202-cyber/awesome-kindle)
 
 **🌐 Language:** **English** · [简体中文](README.md) · [🔎 Live site](https://mbdtf202-cyber.github.io/awesome-kindle/) · [日本語](README_JA.md) · [한국어](README_KO.md)
 

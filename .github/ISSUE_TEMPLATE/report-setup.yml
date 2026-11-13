@@ -1,0 +1,60 @@
+name: Report your working setup
+description: Tell others a device + firmware + jailbreak method that actually worked (or didn't).
+title: "[setup] "
+labels: ["setup-report"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks! Verified reports help everyone. Only report what you personally did."
+  - type: input
+    id: model
+    attributes:
+      label: Device model (code)
+      placeholder: "e.g. PW5 / KT5 / KS2 / Colorsoft"
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Exact firmware
+      placeholder: "e.g. 5.16.2.1.1 (Settings → Device Options → Device Info)"
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Jailbreak method
+      options:
+        - WinterBreak2
+        - WinterBreak
+        - SpiderCat
+        - Véra
+        - Nosebleed
+        - Sanctuary
+        - SpringBreak (WinterBreak3)
+        - Shadow
+        - AdBreak
+        - LanguageBreak
+        - NiLuJe K5 (legacy)
+        - Android flash
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options: ["✅ Worked", "⚠️ Worked with issues", "❌ Failed", "🧱 Bricked"]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / steps / gotchas
+      placeholder: "What worked, what failed, links to logs/screenshots."
+  - type: checkboxes
+    attributes:
+      label: Confirm
+      options:
+        - label: This is my own first-hand report.
+          required: true

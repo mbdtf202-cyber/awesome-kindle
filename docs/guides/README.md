@@ -12,5 +12,8 @@ Practical walkthroughs (English + 中文速览).
 - [Troubleshooting & brick rescue](troubleshooting.md) — Real error codes, per-device pitfalls, and how to recover.
 - [KOReader — export highlights & notes](koreader-notes.md) — Get your annotations out to Markdown, Notion or Readwise.
 - [Kindle 退出中国后的生存指南](china-survival.md) — 防删书 / 微信读书 / Android 与本地阅读的可行路径。
+- [USBNetLite + Tailscale — remote access](usbnet-tailscale.md) — SSH and reach your Kindle from anywhere.
+- [Android on Kindle (overview)](android-flash.md) — Replace the OS — and run WeRead / Android apps. High risk.
+- [Customize — fonts, screensavers, ads, collections](customize.md) — The quality-of-life tweaks people jailbreak for.
 
 Back to the [searchable index](../index.html).

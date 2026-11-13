@@ -1,5 +1,7 @@
 # KPM — Kindle Package Manager
 
+> Last reviewed: 2026-11-13
+
 KPM is `apt` for the Kindle: it installs **scriptlets** and apps from repositories,
 handles updates, and keeps things clean.
 

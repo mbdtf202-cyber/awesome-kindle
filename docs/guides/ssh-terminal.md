@@ -1,5 +1,7 @@
 # SSH & terminal on Kindle
 
+> Last reviewed: 2026-11-13
+
 With a jailbreak you can get a shell — locally with **kterm**, remotely over **SSH**.
 
 ## Local terminal

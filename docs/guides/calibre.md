@@ -1,5 +1,7 @@
 # Calibre — manage, convert & send
 
+> Last reviewed: 2026-11-13
+
 Calibre is the all-in-one ebook manager: library, metadata, conversion, news recipes
 and one-click send-to-device.
 

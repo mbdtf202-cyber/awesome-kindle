@@ -129,19 +129,26 @@ def jailbreak_md(m):
 """
     return md
 
-def page_html(title, subtitle, body, back_href="../index.html", extra_head=""):
+def page_html(title, subtitle, body, back_href="../index.html", asset_prefix="../", extra_head=""):
+    desc = html.escape(re.sub(r"<[^>]+>", "", str(subtitle)))
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>{html.escape(title)} — Awesome Kindle</title>
-<link rel="stylesheet" href="../style.css"/>
-<link rel="stylesheet" href="../page.css"/>{extra_head}
+<meta name="description" content="{desc}"/>
+<meta property="og:title" content="{html.escape(title)} — Awesome Kindle"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary"/>
+<link rel="stylesheet" href="{asset_prefix}style.css"/>
+<link rel="stylesheet" href="{asset_prefix}page.css"/>{extra_head}
 </head>
 <body class="doc-body">
+<a class="skip" href="#main">Skip to content</a>
 <header class="doc-top"><div class="wrap"><a class="doc-back" href="{back_href}">← Awesome Kindle</a></div></header>
-<main class="wrap doc-main">
+<main id="main" class="wrap doc-main">
 <h1>{html.escape(title)}</h1>
 <p class="doc-sub">{subtitle}</p>
 <div class="prose">
@@ -253,9 +260,16 @@ def build_guides():
         _seen[_g["slug"]] = _g  # last definition wins
     GUIDES = list(_seen.values())
     GUIDE_DIR.mkdir(parents=True, exist_ok=True)
+    GUIDE_DATE = "2026-11-13"
     for g in GUIDES:
-        (GUIDE_DIR / f"{g['slug']}.md").write_text(g["body"], encoding="utf-8")
-        body_html = mdmini.convert(re.sub(r"^# .*\n", "", g["body"], count=1))
+        _md = g["body"]
+        _lines = _md.split("\n")
+        if _lines and _lines[0].startswith("# "):
+            _lines.insert(1, "")
+            _lines.insert(2, f"> Last reviewed: {GUIDE_DATE}")
+            _md = "\n".join(_lines)
+        (GUIDE_DIR / f"{g['slug']}.md").write_text(_md, encoding="utf-8")
+        body_html = mdmini.convert(re.sub(r"^# .*\n", "", _md, count=1))
         (GUIDE_DIR / f"{g['slug']}.html").write_text(
             page_html(g["title"], html.escape(g["subtitle"]), body_html, back_href="index.html"), encoding="utf-8")
     cards = "\n".join(
@@ -313,14 +327,170 @@ def build_status():
 <p class="muted">Status reflects the README matrix at build time. Always confirm on the <a href="https://kindlemodding.org/">official wiki</a> / <a href="https://kindlemodding.org/jailbreaks.json">jailbreaks.json</a>.</p>
 <p><a href="index.html">← Back to the searchable index</a></p>
 </div>"""
-    (DOCS / "status.html").write_text(page_html("Jailbreak status board", "What works, what doesn't, and what to wait for.", body, back_href="index.html"), encoding="utf-8")
+    (DOCS / "status.html").write_text(page_html("Jailbreak status board", "What works, what doesn't, and what to wait for.", body, back_href="index.html", asset_prefix=""), encoding="utf-8")
     md=["# Jailbreak status board","", f"Max firmware supported by any current method: **{maxs}** ({bestname}).","", wl["rule"],"", "## Methods",""]
     md += [f'- {m["name"]} — {m["firmware"]} · {m["status"]}' for m in jb]
     md += ["", "## Not supported yet",""] + [f'- {x["model"]} — {x["note"]}' for x in wl["unsupported_models"]]
     (DOCS / "status.md").write_text("\n".join(md)+"\n", encoding="utf-8")
     print(f"status: max firmware {maxs}")
 
+
+SW_TEMPLATE = """self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).catch(() => {})); self.skipWaiting(); });
+self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k))))); self.clients.claim(); });
+self.addEventListener("fetch", (e) => {
+  if (e.request.method !== "GET") return;
+  e.respondWith(caches.match(e.request).then((r) => r || fetch(e.request).then((resp) => {
+    const cp = resp.clone(); caches.open(CACHE).then((c) => c.put(e.request, cp)).catch(() => {}); return resp;
+  }).catch(() => r)));
+});
+"""
+
+def site_base():
+    import os, subprocess
+    env = os.environ.get("SITE_BASE")
+    if env:
+        return env.rstrip("/") + "/"
+    try:
+        url = subprocess.check_output(["git", "-C", str(ROOT), "remote", "get-url", "origin"], text=True).strip()
+        m = re.search(r"github\.com[:/]([^/]+)/([^/.]+)", url)
+        if m:
+            return f"https://{m.group(1)}.github.io/{m.group(2)}/"
+    except Exception:
+        pass
+    return "https://example.github.io/awesome-kindle/"
+
+def build_extras():
+    base = site_base()
+    pages = []
+    for pth in sorted(DOCS.rglob("*.html")):
+        rel = pth.relative_to(DOCS).as_posix()
+        if rel == "404.html":
+            continue
+        pages.append(rel)
+    entries = []
+    for r in pages:
+        loc = base if r == "index.html" else base + r
+        entries.append(f"  <url><loc>{loc}</loc></url>")
+    sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+               + "\n".join(entries) + "\n</urlset>\n")
+    (DOCS / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    (DOCS / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n", encoding="utf-8")
+    body = '<div class="prose"><h1>404 — page not found</h1><p>The page you were looking for does not exist.</p><p><a href="index.html">← Back to Awesome Kindle</a></p></div>'
+    (DOCS / "404.html").write_text(page_html("Page not found", "404", body, back_href="index.html", asset_prefix=""), encoding="utf-8")
+    assets = ["./", "index.html", "app.js", "style.css", "page.css", "resources.json", "jailbreaks.json",
+              "offline.html", "wizard.html", "wizard.js", "status.html", "manifest.webmanifest", "icon.png"]
+    assets += [pth.relative_to(DOCS).as_posix() for pth in sorted(DOCS.rglob("*.html")) if pth.name != "index.html"]
+    assets = list(dict.fromkeys(assets))
+    (DOCS / "sw.js").write_text("const CACHE='awesome-kindle-v2';\nconst ASSETS=" + json.dumps(assets) + ";\n" + SW_TEMPLATE, encoding="utf-8")
+    print(f"extras: sitemap {len(pages)} urls, sw {len(assets)} files")
+
+
+
+
+def clean_section(s):
+    return re.sub(r"^[^\w\u4e00-\u9fff]+", "", s or "").strip()
+
+
+def build_exports():
+    import csv
+    res = json.load(open(ROOT / "data" / "resources.json", encoding="utf-8"))
+    items = res["items"]
+    cols = ["name", "name_zh", "url", "section", "description", "description_zh", "kind"]
+    for target in [ROOT / "data" / "resources.csv", DOCS / "resources.csv"]:
+        with open(target, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            w.writeheader()
+            for it in items:
+                w.writerow({k: it.get(k, "") for k in cols})
+    lines = ["# Awesome Kindle — resource index", "", f"{len(items)} items. Generated from the READMEs.", "",
+             "| Name | Section | Link |", "| --- | --- | --- |"]
+    lines += [f'| {it["name"]} | {clean_section(it.get("section", ""))} | {it["url"]} |' for it in items]
+    (DOCS / "resources.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    body = f"""<div class="prose"><h1>Export &amp; API</h1>
+<p>The whole index is machine-readable ({len(items)} items):</p>
+<ul>
+<li><a href="resources.json">resources.json</a> — full bilingual JSON (name_zh, description_zh)</li>
+<li><a href="resources.csv">resources.csv</a> — spreadsheet-friendly CSV</li>
+<li><a href="resources.md">resources.md</a> — Markdown table</li>
+<li><a href="jailbreaks.json">jailbreaks.json</a> — methods + firmware ranges (wizard data)</li>
+<li>JSON Schema: <code>data/resources.schema.json</code></li>
+</ul>
+<p>Regenerate with <code>python3 scripts/build_resources.py</code>.</p>
+<p><a href="index.html">← Back to the searchable index</a></p></div>"""
+    (DOCS / "export.html").write_text(page_html("Export & API", "JSON / CSV / Markdown for tooling.", body, back_href="index.html", asset_prefix=""), encoding="utf-8")
+    print(f"exports: {len(items)} items (json/csv/md)")
+
+
+def build_verified():
+    v = json.load(open(ROOT / "data" / "verified.json", encoding="utf-8"))
+    entries = v.get("entries", [])
+    if entries:
+        rows = "\n".join(
+            f'<tr><td>{html.escape(e.get("model",""))}</td><td>{html.escape(e.get("firmware",""))}</td>'
+            f'<td>{html.escape(e.get("method",""))}</td><td>{html.escape(e.get("result",""))}</td>'
+            f'<td>{html.escape(e.get("date",""))}</td></tr>' for e in entries)
+        table = f'<table><thead><tr><th>Model</th><th>Firmware</th><th>Method</th><th>Result</th><th>Date</th></tr></thead><tbody>{rows}</tbody></table>'
+    else:
+        table = "<p><em>No community reports yet.</em> Be the first to add one.</p>"
+    body = f"""<div class="prose"><h1>Verified setups (community)</h1>
+<p>Real device + firmware + method reports from users. Updated {html.escape(v.get("updated",""))}.</p>
+<blockquote>{html.escape(v.get("note",""))}</blockquote>
+{table}
+<p>👉 Submit via the repo: Issues → “Report your working setup” (template <code>report-setup.yml</code>).</p>
+<p><a href="index.html">← Back to the searchable index</a></p></div>"""
+    (DOCS / "verified.html").write_text(page_html("Verified setups", "Community-reported working device + firmware + method.", body, back_href="index.html", asset_prefix=""), encoding="utf-8")
+    print(f"verified: {len(entries)} entries")
+
+
+
+
+def gh_repo():
+    import subprocess
+    try:
+        url = subprocess.check_output(["git", "-C", str(ROOT), "remote", "get-url", "origin"], text=True).strip()
+        m = re.search(r"github\.com[:/]([^/]+/[^/.]+)", url)
+        if m:
+            return m.group(1)
+    except Exception:
+        pass
+    return "OWNER/awesome-kindle"
+
+
+def build_community():
+    repo = gh_repo()
+    base = f"https://github.com/{repo}"
+    needs = [
+        ("固件能不能越 / 还要等多久", "Firmware support & waitlist", "status.html"),
+        ("装不上 / 炸了怎么救", "Install reliability & brick rescue", "guides/troubleshooting.html"),
+        ("越狱后到底能干嘛", "What jailbreak unlocks", "guides/starter-pack.html"),
+        ("书和笔记怎么管", "Books, content & notes", "guides/koreader-notes.html"),
+        ("买前 / 二手 / 残值", "Buying & used-market check", "guides/buying-guide.html"),
+        ("Kindle 退出中国怎么活", "China survival (WeRead / Android)", "guides/china-survival.html"),
+    ]
+    items = "\n".join(f'<li>{html.escape(zh)} / <em>{html.escape(en)}</em> → <a href="{href}">guide</a></li>' for zh, en, href in needs)
+    body = f"""<div class="prose"><h1>Community</h1>
+<p>This is a community index. Here is how to contribute and what people ask for most.</p>
+<h2>Top needs from our research</h2><ul>{items}</ul>
+<h2>Get involved</h2>
+<ul>
+<li><a href="{base}/discussions">💬 Discussions</a> — ask questions, share setups</li>
+<li><a href="{base}/issues/new?template=report-setup.yml">✅ Report your working setup</a> — feeds the <a href="verified.html">verified list</a></li>
+<li><a href="{base}/issues/new?template=request-guide.yml">📝 Request a guide</a></li>
+<li><a href="{base}/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">🌱 Good first issues</a></li>
+<li><a href="{base}/graphs/contributors">🙌 Contributors</a></li>
+</ul>
+<p><a href="index.html">← Back to the searchable index</a></p></div>"""
+    (DOCS / "community.html").write_text(page_html("Community", "Contribute, report setups, and see what people need.", body, back_href="index.html", asset_prefix=""), encoding="utf-8")
+    md = ["# Community", "", "## Top needs from our research", ""] + [f"- {zh} / {en} → {href}" for zh, en, href in needs]
+    (DOCS / "community.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    print("community page built")
+
 if __name__ == "__main__":
     build_jailbreaks()
     build_guides()
     build_status()
+    build_extras()
+    build_exports()
+    build_verified()
+    build_community()

@@ -1,5 +1,7 @@
 # Starter Pack — first 20 minutes after jailbreak
 
+> Last reviewed: 2026-11-13
+
 Do these in order. Skip nothing in step 1-2 — they protect the jailbreak itself.
 
 ## 1. Lock it in (do first)

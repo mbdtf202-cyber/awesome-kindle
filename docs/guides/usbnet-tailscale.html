@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>USBNetLite + Tailscale — remote access — Awesome Kindle</title>
+<meta name="description" content="SSH and reach your Kindle from anywhere."/>
+<meta property="og:title" content="USBNetLite + Tailscale — remote access — Awesome Kindle"/>
+<meta property="og:description" content="SSH and reach your Kindle from anywhere."/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary"/>
+<link rel="stylesheet" href="../style.css"/>
+<link rel="stylesheet" href="../page.css"/>
+</head>
+<body class="doc-body">
+<a class="skip" href="#main">Skip to content</a>
+<header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
+<main id="main" class="wrap doc-main">
+<h1>USBNetLite + Tailscale — remote access</h1>
+<p class="doc-sub">SSH and reach your Kindle from anywhere.</p>
+<div class="prose">
+<blockquote><p>Last reviewed: 2026-11-13</p></blockquote>
+<p>Get a shell over USB/Wi-Fi, then reach the device from anywhere with a mesh VPN.</p>
+<h2>1. SSH over USB / Wi-Fi (USBNetLite)</h2>
+<ol><li>Install <strong>USBNetLite</strong> via KPM (or the release zip). → https://github.com/notmarek/kindle-usbnetlite</li><li>Run it and choose <strong>USB</strong> or <strong>Wi-Fi</strong> mode; note the IP (USB usbnet is often <code>192.168.15.244</code>).</li><li>Set a root password before exposing it on Wi-Fi.</li><li>From your computer: <code>ssh root@&lt;kindle-ip&gt;</code>.</li></ol>
+<h2>2. Tailscale (reach it anywhere)</h2>
+<ol><li>On the Kindle shell, install a Tailscale binary for its arch (armel/armhf) — or use a KUAL package if available.</li><li><code>tailscale up</code> and authenticate; note the device's <code>100.x.y.z</code> tailnet IP.</li><li>From any of your devices on the tailnet: <code>ssh root@100.x.y.z</code>.</li></ol>
+<h2>Safety</h2>
+<ul><li>Root shell can break the system: keep Hotfix installed and a backup.</li><li>Don't expose SSH to the public internet; use the tailnet.</li><li>Battery: Wi-Fi + VPN drains fast; disable when not needed.</li></ul>
+<hr/>
+<h2>中文速览</h2>
+<ul><li>KPM 装 <strong>USBNetLite</strong> → 选 USB/Wi-Fi 模式 → 设 root 密码 → <code>ssh root@&lt;ip&gt;</code>（USB 常见 <code>192.168.15.244</code>）。</li><li>Kindle 上装对应架构的 <strong>Tailscale</strong> → <code>tailscale up</code> → 任意设备 <code>ssh root@100.x.y.z</code>。</li><li>风险：root 能搞坏系统，装 Hotfix + 备份；不要把 SSH 暴露公网；常开 Wi-Fi+VPN 耗电。</li></ul>
+</div>
+<footer class="doc-foot">Defer to the <a href="https://kindlemodding.org/">official KindleModding wiki</a> · MIT</footer>
+</main>
+</body>
+</html>

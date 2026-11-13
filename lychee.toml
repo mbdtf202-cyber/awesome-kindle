@@ -11,4 +11,5 @@ exclude = [
   "https://archiveofourown\\.org/.*",
   "https://.*\\.github\\.io/.*",
   "https://comicfury\\.com/.*",
+  "https://github\\.com/.*/actions/workflows/.*",
 ]

@@ -27,6 +27,11 @@ Where **Awesome Kindle** is headed. PRs and suggestions welcome.
 - [x] KOReader **highlights/notes export** guide
 - [x] **Kindle 退出中国** survival guide (防删书 / 微信读书 / Android)
 - [x] Used-unit **buying checklist**
+- [x] Search UX (URL state, fuzzy, keyboard) + SEO (sitemap/robots/404/OG)
+- [x] Export page + CSV/Markdown exports; **Verified setups** mechanism
+- [x] **Upstream sync** workflow + link-health summary + guide freshness stamps
+- [x] **Community** page + Discussions + report/request issue forms
+- [x] **Deep audit** script (`AUDIT.md`) wired into CI
 
 ## 🚧 Next
 

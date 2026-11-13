@@ -4,15 +4,22 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Troubleshooting &amp; brick rescue — Awesome Kindle</title>
+<meta name="description" content="Real error codes, per-device pitfalls, and how to recover."/>
+<meta property="og:title" content="Troubleshooting &amp; brick rescue — Awesome Kindle"/>
+<meta property="og:description" content="Real error codes, per-device pitfalls, and how to recover."/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary"/>
 <link rel="stylesheet" href="../style.css"/>
 <link rel="stylesheet" href="../page.css"/>
 </head>
 <body class="doc-body">
+<a class="skip" href="#main">Skip to content</a>
 <header class="doc-top"><div class="wrap"><a class="doc-back" href="index.html">← Awesome Kindle</a></div></header>
-<main class="wrap doc-main">
+<main id="main" class="wrap doc-main">
 <h1>Troubleshooting &amp; brick rescue</h1>
 <p class="doc-sub">Real error codes, per-device pitfalls, and how to recover.</p>
 <div class="prose">
+<blockquote><p>Last reviewed: 2026-11-13</p></blockquote>
 <blockquote><p>Always cross-check with the official wiki: https://kindlemodding.org/<br/>Rule #1: <strong>model + firmware must match exactly</strong>; never flash a mismatched <code>.bin</code>.</p></blockquote>
 <h2>By symptom (quick table)</h2>
 <table><thead><tr><th>Symptom / error</th><th>Likely cause</th><th>Fix</th></tr></thead><tbody><tr><td>Jailbreak "not supported"</td><td>Firmware/model mismatch</td><td>Re-check exact version; use the matching method</td></tr><tr><td>Update wipes jailbreak</td><td>OTA installed</td><td>Reinstall <strong>Hotfix</strong>, delete <code>.bin</code>, block updates</td></tr><tr><td><code>UPDATE ERROR 2</code></td><td>Wrong model/firmware update file</td><td>Download the exact <code>.bin</code> for your device</td></tr><tr><td><code>UPDATE ERROR 4</code></td><td>Corrupted download</td><td>Re-download, verify size, retry</td></tr><tr><td>Error <code>007</code> on Hotfix</td><td>Hotfix package/model mismatch or partial download</td><td>Re-download the Universal Hotfix; try re-running it</td></tr><tr><td>Hotfix runs then <strong>crash dump</strong>, <code>;log</code> stops</td><td>Known on PW3 / 5.16.2.1.1 with some Hotfix builds</td><td>Reboot fully; retry Hotfix; if still failing, a full reboot usually restores <code>;log</code></td></tr><tr><td>KUAL opens then returns to home</td><td>Hotfix/MRPI not installed in order</td><td>Install Hotfix → MRPI → KUAL; full reboot</td></tr><tr><td><code>;log mrpi</code> does nothing</td><td><code>mrpackages/</code> missing or MRPI not installed</td><td>Put the <code>.bin</code> in <code>mrpackages/</code>, install MRPI first</td></tr><tr><td>KUAL &amp; Hotfix vanish after reset</td><td>Factory reset wiped booklets</td><td>Reinstall Hotfix, then MRPI, then KUAL</td></tr><tr><td>Can't write/delete over USB</td><td>Filesystem quirk after JB</td><td>Reboot; use a file manager app or <code>scp</code>; re-mount</td></tr></tbody></table>

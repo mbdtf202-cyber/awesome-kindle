@@ -1,0 +1,138 @@
+name,name_zh,url,section,description,description_zh,kind
+WinterBreak2,WinterBreak2,https://kindlemodding.org/jailbreaking/WinterBreak2/,🔓 Jailbreak overview,Firmware: ≤ 5.16.3 (also 5.16.5) · Models: PW / PW2 / KV / KT2 / PW3 / KOA / KT3 / KOA2 / PW4 / KT4 / KOA3 / PW5 / KT5 / KS · Account: No · Ads: No · Status: ✅ Active,Firmware: ≤ 5.16.3（另接受 5.16.5） · Models: PW / PW2 / KV / KT2 / PW3 / KOA / KT3 / KOA2 / PW4 / KT4 / KOA3 / PW5 / KT5 / KS · Account: 否 · Ads: 否 · Status: ✅ 活跃,jailbreak
+WinterBreak,WinterBreak,https://kindlemodding.org/jailbreaking/WinterBreak/,🔓 Jailbreak overview,"Firmware: 5.16.2.1.1 – 5.17.x (< 5.18.1) · Models: Above, plus PW6 / KS2 / CS · Account: Yes · Ads: No · Status: ✅ Active",Firmware: 5.16.2.1.1 ~ 5.17.x（< 5.18.1） · Models: 同上，含 PW6 / KS2 / CS · Account: 是 · Ads: 否 · Status: ✅ 活跃,jailbreak
+SpiderCat,SpiderCat,https://kindlemodding.org/jailbreaking/SpiderCat/,🔓 Jailbreak overview,Firmware: 5.16.3 – 5.19.5 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: No · Ads: No · Status: ✅ Active,Firmware: 5.16.3 ~ 5.19.5 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: 否 · Ads: 否 · Status: ✅ 活跃,jailbreak
+Véra,Véra,https://kindlemodding.org/jailbreaking/Vera/,🔓 Jailbreak overview,Firmware: 5.17.1 – 5.20.2 · Models: PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: No · Ads: No · Status: ✅ Active,Firmware: 5.17.1 ~ 5.20.2 · Models: PW5 / KT5 / KT6 / PW6 / CS / KS / KS2 · Account: 否 · Ads: 否 · Status: ✅ 活跃,jailbreak
+Nosebleed,Nosebleed,https://kindlemodding.org/jailbreaking/Nosebleed/,🔓 Jailbreak overview,Firmware: 5.16.4 – 5.18.6 (KT5/PW5/KOA3) 5.16.4 – 5.17.1.0.4 (PW6/KT6) · Models: KT5 / PW5 / KOA3 / PW6 / KT6 · Account: No · Ads: No · Status: ✅ Active,Firmware: 5.16.4 ~ 5.18.6（KT5/PW5/KOA3） 5.16.4 ~ 5.17.1.0.4（PW6/KT6） · Models: KT5 / PW5 / KOA3 / PW6 / KT6 · Account: 否 · Ads: 否 · Status: ✅ 活跃,jailbreak
+Sanctuary,Sanctuary,https://kindlemodding.org/jailbreaking/Sanctuary/,🔓 Jailbreak overview,Firmware: 5.16.4 – 5.18.3 (denies 5.16.5) · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 / KS2 / CS · Account: No · Ads: No · Status: ✅ Active,Firmware: 5.16.4 ~ 5.18.3（拒绝 5.16.5） · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 / KS2 / CS · Account: 否 · Ads: 否 · Status: ✅ 活跃,jailbreak
+SpringBreak (WinterBreak3),SpringBreak（WinterBreak3）,https://kindlemodding.org/jailbreaking/SpringBreak/,🔓 Jailbreak overview,Firmware: 5.18.1 – 5.19.2.0.1 (KT5/PW5) 5.18.1.1.1 (KT4/PW4) · Models: KT5 / PW5 / KT4 / PW4 · Account: Yes · Ads: No · Status: ✅ Active,Firmware: 5.18.1 ~ 5.19.2.0.1（KT5/PW5） 5.18.1.1.1（KT4/PW4） · Models: KT5 / PW5 / KT4 / PW4 · Account: 是 · Ads: 否 · Status: ✅ 活跃,jailbreak
+Shadow,Shadow,https://kindlemodding.org/jailbreaking/Shadow/,🔓 Jailbreak overview,Firmware: 5.19.4 – 5.19.6 · Models: KS / KS2 / CS / PW6 / KT6 · Account: No · Ads: No · Status: ✅ Active,Firmware: 5.19.4 ~ 5.19.6 · Models: KS / KS2 / CS / PW6 / KT6 · Account: 否 · Ads: 否 · Status: ✅ 活跃,jailbreak
+AdBreak,AdBreak,https://kindlemodding.org/jailbreaking/AdBreak/,🔓 Jailbreak overview,Firmware: 5.18.1 – 5.18.5.0.1 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 · Account: Yes · Ads: Ads only · Status: 🧪 Experimental,Firmware: 5.18.1 ~ 5.18.5.0.1 · Models: PW4 / KT4 / KOA3 / PW5 / KT5 / KS / KT6 / PW6 · Account: 是 · Ads: 仅广告版 · Status: 🧪 实验,jailbreak
+LanguageBreak,LanguageBreak,https://kindlemodding.org/jailbreaking/Legacy/LanguageBreak.html,🔓 Jailbreak overview,Firmware: ≤ 5.16.2.1.1 · Models: Older mainstream models · Account: No · Ads: No · Status: 🗄️ Archived,Firmware: ≤ 5.16.2.1.1 · Models: 旧款主流机型 · Account: 否 · Ads: 否 · Status: 🗄️ 归档,jailbreak
+NiLuJe K2/K4/K5,NiLuJe K2/K4/K5,https://kindlemodding.org/jailbreaking/Legacy/index.html,🔓 Jailbreak overview,Firmware: 2.x / 4.x / 5.0.x · Models: K2 / DX / K3 / K4 / KT · Account: No · Ads: No · Status: 🗄️ Classic,Firmware: 2.x / 4.x / 5.0.x · Models: K2 / DX / K3 / K4 / KT · Account: 否 · Ads: 否 · Status: 🗄️ 经典,jailbreak
+Android flash,Android 刷机,https://github.com/Ooonana/Guide-to-installing-android-on-kindle,🔓 Jailbreak overview,Firmware: — · Models: Select models / Kindle × Migu · Account: — · Ads: — · Status: 🧪 Hardcore,Firmware: — · Models: 部分机型 / Kindle × Migu · Account: — · Ads: — · Status: 🧪 硬核,jailbreak
+Hotfix,Hotfix,https://github.com/KindleModding/Hotfix,🧰 Post-jailbreak toolkit,The jailbreak hotfix — blocks OTA from wiping your jailbreak and prevents bricks. Install it first.,"越狱""热修复""，防止 OTA 把越狱抹掉、避免变砖。越狱后第一件事就是装它。",resource
+KPM,KPM,https://github.com/KindleModding/KPM,🧰 Post-jailbreak toolkit,Kindle Package Manager — install scriptlets on-device (like apt).,Kindle Package Manager，设备上装 Scriptlet 的包管理器（类比 apt）。,resource
+Jobman,Jobman,https://github.com/KindleTweaks/jobman,🧰 Post-jailbreak toolkit,Jailbreak Manager — a GUI for managing the jailbreak and apps.,Jailbreak Manager，图形化的越狱 / 应用管理器。,resource
+kTerm,kTerm,https://github.com/bfabiszewski/kterm,🧰 Post-jailbreak toolkit,E-ink-optimized terminal emulator with an on-screen keyboard.,为墨水屏优化的终端模拟器，带虚拟键盘。,resource
+USBNetLite,USBNetLite,https://github.com/notmarek/kindle-usbnetlite,🧰 Post-jailbreak toolkit,One command to enable SSH — turn the Kindle into a remote Linux box.,一条命令开 SSH，把 Kindle 变成可远程登录的 Linux 小机器。,resource
+Alpine Linux,Alpine Linux,https://github.com/schuhumi/alpine_kindle,🧰 Post-jailbreak toolkit,Run a full Alpine install and get a real package ecosystem.,在 Kindle 上跑完整 Alpine，获得真正的包管理生态。,resource
+Tailscale,Tailscale,https://github.com/mitanshu7/tailscale_kual,🧰 Post-jailbreak toolkit,Mesh-networking so you can reach your Kindle from anywhere.,通过 Tailscale 组网，随时远程连回你的 Kindle。,resource
+KOReader,KOReader,https://github.com/koreader/koreader,📚 Reading & library tools,Cross-platform open-source reader — the top pick after jailbreaking.,跨平台开源阅读器，Kindle 越狱后的首选。,resource
+KCC (Kindle Comic Converter),KCC（Kindle Comic Converter）,https://github.com/ciromattia/kcc,📚 Reading & library tools,"Convert comics / images / PDF to Kindle-friendly EPUB / MOBI / KFX, 6k★.",把漫画 / 图片 / PDF 转成适合 Kindle 的 EPUB / MOBI / KFX，6k★。,resource
+WordDumb,WordDumb,https://github.com/xxyzz/WordDumb,📚 Reading & library tools,Calibre plugin generating local Word Wise and X-Ray files.,Calibre 插件，为电子书生成本地 Word Wise 与 X-Ray 文件。,resource
+Calibre,Calibre,https://github.com/kovidgoyal/calibre,📚 Reading & library tools,"The ebook manager: convert, metadata, send-to-device, all in one.",电子书管理神器，转换 / 元数据 / 推送一站式。,resource
+Calibre-Web,Calibre-Web,https://github.com/janeczku/calibre-web,📚 Reading & library tools,Self-hosted web library — read/download from a browser.,自建网盘式书库，浏览器即可阅读 / 下载。,resource
+KindleUnpack,KindleUnpack,https://github.com/kevinhendricks/KindleUnpack,📚 Reading & library tools,Unpack MOBI / AZW3 / KFX — essential for research and conversion.,解包 MOBI / AZW3 / KFX，研究与转换必备。,resource
+KindleFetch,KindleFetch,https://github.com/justrals/KindleFetch,📚 Reading & library tools,"CLI that downloads books straight to the Kindle, no PC needed.",命令行工具，把书直接下载到 Kindle，无需电脑。,resource
+KindleEar,KindleEar,https://github.com/cdhigh/KindleEar,📚 Reading & library tools,Aggregate RSS / web content and push it to the Kindle on a schedule.,聚合 RSS / 网页内容，定时推送到 Kindle。,resource
+kindle2notion,kindle2notion,https://github.com/paperboi/kindle2notion,📚 Reading & library tools,Export Kindle highlights and notes to Notion.,导出 Kindle 标注 / 笔记到 Notion。,resource
+BookFere-Tools,BookFere-Tools,https://github.com/bookfere/BookFere-Tools,📚 Reading & library tools,Chinese-maintained KUAL plugin collection (CN-friendly).,国人维护的 KUAL 插件合集（中文友好）。,resource
+Project Gutenberg,Project Gutenberg,https://www.gutenberg.org/,🗂️ Content sources (free & legal),"70k+ public-domain ebooks, with EPUB / Kindle formats.",7 万+ 公共领域电子书，直接提供 EPUB / Kindle 格式。,resource
+Standard Ebooks,Standard Ebooks,https://standardebooks.org/,🗂️ Content sources (free & legal),"Beautifully typeset, carefully proofed public-domain classics.",精校、精排版的公共领域经典，质量极高。,resource
+Internet Archive,Internet Archive,https://archive.org/details/texts,🗂️ Content sources (free & legal),"Millions of scanned books; public-domain downloads, the rest borrowable.",千万级扫描书，公共领域可直接下载，其余可借阅。,resource
+Open Library,Open Library,https://openlibrary.org/,🗂️ Content sources (free & legal),Borrow-style digital library with a free account.,借阅式数字图书馆，免费账号即可借书。,resource
+HathiTrust,HathiTrust,https://www.hathitrust.org/,🗂️ Content sources (free & legal),Academic-grade public-domain full-text library.,学术级公共领域全文库。,resource
+Google Books,Google Books,https://books.google.com/,🗂️ Content sources (free & legal),Public-domain books downloadable as PDF / EPUB.,公共领域书籍可下载全文 PDF / EPUB。,resource
+ManyBooks,ManyBooks,https://manybooks.net/,🗂️ Content sources (free & legal),Large catalog of free classic ebooks in many formats.,大量免费经典电子书，格式齐全。,resource
+Planet eBook,Planet eBook,https://www.planetebook.com/,🗂️ Content sources (free & legal),"Well-formatted classics, direct download.",精排经典文学，直接下载。,resource
+Global Grey,Global Grey,https://www.globalgreyebooks.com/,🗂️ Content sources (free & legal),Public-domain classics.,公共领域经典电子书。,resource
+Wikisource,Wikisource,https://wikisource.org/,🗂️ Content sources (free & legal),Multilingual primary-source texts.,维基文库，多语种原文与译本。,resource
+Project Gutenberg Australia,Project Gutenberg Australia,https://gutenberg.net.au/,🗂️ Content sources (free & legal),More permissive copyright scope.,澳洲站，版权范围更宽松。,resource
+Open Textbook Library,Open Textbook Library,https://open.umn.edu/opentextbooks,🗂️ Content sources (free & legal),Openly-licensed university textbooks.,开放授权大学教材。,resource
+haodoo,好读（haodoo）,https://www.haodoo.net/,🗂️ Content sources (free & legal),"Elegantly typeset traditional-Chinese books, Kindle-friendly.",繁体精排中文书，Kindle 友好。,resource
+shuge,书格（shuge）,https://www.shuge.org/,🗂️ Content sources (free & legal),High-resolution public-domain Chinese classics.,公共领域古籍高清扫描与整理。,resource
+ctext,中国哲学书电子化计划,https://ctext.org/zh,🗂️ Content sources (free & legal),Full-text search of classical Chinese texts and translations.,古籍原文 / 译文全文检索。,resource
+NCPSSD,国家哲学社会科学文献中心,https://www.ncpssd.org/,🗂️ Content sources (free & legal),Free academic papers and books (CN).,免费论文与图书资源。,resource
+Gutenberg (Chinese),古登堡中文书目,https://www.gutenberg.org/browse/languages/zh,🗂️ Content sources (free & legal),Public-domain Chinese ebooks on Project Gutenberg.,Project Gutenberg 中文公共领域书。,resource
+gushiwen,古诗文网,https://www.gushiwen.cn/,🗂️ Content sources (free & legal),Classical poetry and prose with annotations.,诗词古文全文与注释。,resource
+WeRead,微信读书,https://weread.qq.com/,🗂️ Content sources (free & legal),Large free section; supports importing local books.,大量免费专区，支持导入本地书。,resource
+Douban Books,豆瓣读书,https://book.douban.com/,🗂️ Content sources (free & legal),Catalog / ratings / lists — a good discovery entry.,书目 / 评分 / 书单，找书入口。,resource
+Comic Book Plus,Comic Book Plus,https://comicbookplus.com/,🗂️ Content sources (free & legal),"Public-domain golden-age comics, downloadable.",公共领域黄金时代漫画，可直接下载。,resource
+Digital Comic Museum,Digital Comic Museum,https://digitalcomicmuseum.com/,🗂️ Content sources (free & legal),Archive of public-domain vintage comics.,公共领域老漫画档案馆。,resource
+Internet Archive · Comics,Internet Archive · Comics,https://archive.org/details/comics,🗂️ Content sources (free & legal),Massive public-domain / licensed comic scans.,海量公共领域 / 授权漫画扫描。,resource
+Webtoon,Webtoon,https://www.webtoons.com/,🗂️ Content sources (free & legal),Official free webtoon platform.,官方免费条漫平台。,resource
+Tapas,Tapas,https://tapas.io/,🗂️ Content sources (free & legal),Free webcomics and novels.,免费网络漫画 / 小说。,resource
+ComicFury,ComicFury,https://comicfury.com/,🗂️ Content sources (free & legal),Indie free webcomics.,独立作者免费网络漫画。,resource
+GlobalComix,GlobalComix,https://globalcomix.com/,🗂️ Content sources (free & legal),Some titles free to read.,部分作品免费阅读。,resource
+MANGA Plus (Shueisha),MANGA Plus（集英社）,https://mangaplus.shueisha.co.jp/,🗂️ Content sources (free & legal),Official; some chapters free for a limited time.,官方免费，部分章节限时免费。,resource
+Comic Walker (KADOKAWA),Comic Walker（KADOKAWA）,https://comic-walker.com/,🗂️ Content sources (free & legal),Official free manga.,官方免费漫画。,resource
+LibriVox,LibriVox,https://librivox.org/,🗂️ Content sources (free & legal),"Free public-domain audiobooks, volunteer-recorded.",公共领域有声书，志愿者录制，免费。,resource
+Loyal Books,Loyal Books,https://www.loyalbooks.com/,🗂️ Content sources (free & legal),Free public-domain ebooks + audiobooks.,免费公共领域电子书 + 有声书。,resource
+Lit2Go,Lit2Go,https://etc.usf.edu/lit2go/,🗂️ Content sources (free & legal),Free literary audiobooks and texts.,免费文学有声书与文本。,resource
+arXiv,arXiv,https://arxiv.org/,🗂️ Content sources (free & legal),Open-access preprints.,开放获取预印本论文。,resource
+DOAJ,DOAJ,https://doaj.org/,🗂️ Content sources (free & legal),Directory of open-access journals.,开放获取期刊目录。,resource
+PubMed Central,PubMed Central,https://www.ncbi.nlm.nih.gov/pmc/,🗂️ Content sources (free & legal),Open biomedical full text.,生物医学开放全文。,resource
+CORE,CORE,https://core.ac.uk/,🗂️ Content sources (free & legal),Aggregated open-access research.,聚合全球开放获取论文。,resource
+IMSLP,IMSLP,https://imslp.org/,🗂️ Content sources (free & legal),Public-domain sheet music (great with Scribe handwriting).,公共领域乐谱（Scribe 手写批注很香）。,resource
+Kiwix,Kiwix,https://www.kiwix.org/,🗂️ Content sources (free & legal),Offline Wikipedia / web content you can carry.,离线维基百科 / 网页内容，可塞进设备。,resource
+Royal Road / AO3,Royal Road / AO3,https://www.royalroad.com/,🗂️ Content sources (free & legal),Free web fiction / fanfic; pair with FanFicFare.,免费网文 / 同人；配 FanFicFare 可下载成电子书。,resource
+Libby (OverDrive),Libby（OverDrive）,https://libbyapp.com/,🗂️ Content sources (free & legal),Borrow ebooks / audiobooks free with a library card; Kindle hand-off in many regions.,用本地图书馆卡免费借电子书 / 有声书，部分地区可直接推 Kindle。,resource
+OverDrive,OverDrive,https://www.overdrive.com/,🗂️ Content sources (free & legal),Library ebook lending platform (the web side of Libby).,图书馆电子借阅平台（Libby 的网页版）。,resource
+Hoopla,Hoopla,https://www.hoopladigital.com/,🗂️ Content sources (free & legal),Borrow ebooks / comics / audiobooks free with a library card (region-dependent).,图书馆卡免费借电子书 / 漫画 / 有声书（视地区）。,resource
+cloudLibrary,cloudLibrary,https://www.yourcloudlibrary.com/,🗂️ Content sources (free & legal),Ebook lending from many library systems.,多家图书馆的电子书借阅。,resource
+Everand (ex-Scribd),Everand（原 Scribd）,https://www.everand.com/,🗂️ Content sources (free & legal),Subscription ebooks / audiobooks / magazines.,订阅制电子书 / 有声书 / 杂志。,resource
+Reabble,Reabble,https://reabble.com/,🗂️ Content sources (free & legal),Turns an RSS reader into a Kindle-friendly page.,把 RSS 阅读器变成 Kindle 友好网页。,resource
+Inoreader,Inoreader,https://www.inoreader.com/,🗂️ Content sources (free & legal),"Powerful RSS reader, works with push tools.",强大 RSS 阅读器，配合推送。,resource
+Feedly,Feedly,https://feedly.com/,🗂️ Content sources (free & legal),Mainstream RSS aggregation.,主流 RSS 聚合。,resource
+NewsBlur,NewsBlur,https://newsblur.com/,🗂️ Content sources (free & legal),Open-source RSS reader.,开源 RSS 阅读器。,resource
+Wattpad,Wattpad,https://www.wattpad.com/,🗂️ Content sources (free & legal),Free web fiction / fanfic platform.,免费网文 / 同人平台。,resource
+Scribble Hub,Scribble Hub,https://www.scribblehub.com/,🗂️ Content sources (free & legal),Free web-fiction platform.,免费网文平台。,resource
+Google Fonts,Google Fonts,https://fonts.google.com/,🗂️ Content sources (free & legal),Free open-source fonts; swap the system font after jailbreak.,免费开源字体，越狱后可换系统字体。,resource
+Font Squirrel,Font Squirrel,https://www.fontsquirrel.com/,🗂️ Content sources (free & legal),Free commercial-use fonts.,免费商用字体。,resource
+WikiArt,WikiArt,https://www.wikiart.org/,🗂️ Content sources (free & legal),Public-domain artworks for wallpapers / screensavers.,公版艺术画作，做壁纸 / 屏保。,resource
+Met Open Access,Met Open Access,https://www.metmuseum.org/art/collection,🗂️ Content sources (free & legal),The Met's high-res public-domain images.,大都会博物馆公版高清图。,resource
+Rijksmuseum,Rijksmuseum,https://www.rijksmuseum.nl/en/rijksstudio,🗂️ Content sources (free & legal),Rijksmuseum public-domain high-res art.,荷兰国立博物馆公版高清。,resource
+Wikimedia Commons,Wikimedia Commons,https://commons.wikimedia.org/,🗂️ Content sources (free & legal),Huge public-domain / freely-licensed image library.,海量公版 / 自由授权图片。,resource
+Wiktionary,Wiktionary,https://www.wiktionary.org/,🗂️ Content sources (free & legal),"Free multilingual dictionary, offline-friendly.",免费多语词典，可离线。,resource
+GoldenDict,GoldenDict,https://github.com/goldendict/goldendict,🗂️ Content sources (free & legal),Open-source offline dictionary aggregator.,开源离线词典，多词典聚合。,resource
+Calibre,Calibre,https://calibre-ebook.com/,🗂️ Content sources (free & legal),"Manage / convert / metadata / send, all in one.",管理 / 转换 / 元数据 / 推送，一站式。,resource
+FanFicFare,FanFicFare,https://github.com/JimmXinu/FanFicFare,🗂️ Content sources (free & legal),Calibre plugin to download web fiction / fanfic as ebooks.,Calibre 插件，把网文 / 同人站下载成电子书。,resource
+EpubMerge,EpubMerge,https://github.com/JimmXinu/EpubMerge,🗂️ Content sources (free & legal),Merge multiple EPUBs (omnibus / serials).,合并多本 EPUB（合集 / 连载）。,resource
+KCC,KCC（Kindle Comic Converter）,https://github.com/ciromattia/kcc,🗂️ Content sources (free & legal),Comics / images / PDF → Kindle-friendly formats.,把漫画 / 图片 / PDF 转成适合 Kindle 的 EPUB / MOBI / KFX，6k★。,resource
+KindleUnpack,KindleUnpack,https://github.com/kevinhendricks/KindleUnpack,🗂️ Content sources (free & legal),Unpack MOBI / AZW3 / KFX.,解包 MOBI / AZW3 / KFX，研究与转换必备。,resource
+Send to Kindle,Send to Kindle,https://www.amazon.com/sendtokindle,🗂️ Content sources (free & legal),Amazon's official push-to-device service.,亚马逊官方推送，直接发到设备。,resource
+Calibre-Web,Calibre-Web,https://github.com/janeczku/calibre-web,🗂️ Content sources (free & legal),"Self-hosted library, manage / read in a browser.",自建网盘式书库，浏览器即可阅读 / 下载。,resource
+KAnki,KAnki,https://github.com/crizmo/KAnki,🎮 Apps & games,Anki-based flashcards.,基于 Anki 的背单词 / 闪卡。,resource
+RAnki,RAnki,https://github.com/crazy-electron/ranki,🎮 Apps & games,"Anki reviewer running the real Anki backend, with sync.",使用真实 Anki 后端的复习器，支持同步。,resource
+KPomo,KPomo,https://github.com/crizmo/KPomo,🎮 Apps & games,Pomodoro focus timer.,番茄钟专注计时器。,resource
+Textadept,Textadept,https://github.com/kbarni/textadept-kindle,🎮 Apps & games,Desktop-grade text editor with Bluetooth-keyboard writing.,桌面级文本编辑器，支持蓝牙键盘写作。,resource
+Kreate,Kreate,https://github.com/Foskya/Kreate,🎮 Apps & games,Drawing app designed for e-ink.,为墨水屏设计的绘画应用。,resource
+readinglog,readinglog,https://github.com/huangziwei/readinglog,🎮 Apps & games,Track your reading time and stats.,记录你的阅读时长与统计。,resource
+KOReader-On-Boot,KOReader-On-Boot,https://github.com/meepcat55/Kindle-KOReader-On-Boot,🎮 Apps & games,Auto-launch KOReader at boot.,开机自动进入 KOReader。,resource
+KWordle,KWordle,https://github.com/crizmo/KWordle,🎮 Apps & games,Kindle Wordle.,Kindle 版 Wordle 猜词。,resource
+IllusionChess,IllusionChess,https://github.com/penguins184/IllusionChess,🎮 Apps & games,Fast chess.,快速国际象棋。,resource
+Gnome Games,Gnome Games,https://github.com/crazy-electron/GnomeGames4Kindle,🎮 Apps & games,Chess + Minesweeper collection.,国际象棋 + 扫雷合集。,resource
+Gambatte-K2,Gambatte-K2,https://github.com/crazy-electron/gambatte-k2,🎮 Apps & games,Blazing-fast Game Boy / GBC / GBA emulator with Bluetooth audio.,超快的 Game Boy / GBC / GBA 模拟器，支持蓝牙音频。,resource
+Crossword,Crossword,https://github.com/roygbyte/crossword.koplugin,🎮 Apps & games,KOReader crossword plugin.,KOReader 填字游戏插件。,resource
+KShips,KShips,https://github.com/LOT-PL/KShips,🎮 Apps & games,Battleship port.,海战棋（Battleship）移植。,resource
+KindleCraft,KindleCraft,https://github.com/gingrspacecadet/bareiron,🎮 Apps & games,Run a Minecraft server on the Kindle (hard-float).,在 Kindle 上跑 Minecraft 服务器（硬浮点）。,resource
+KindleKraft,KindleKraft,https://github.com/penguins184/KindleKraft,🎮 Apps & games,Minecraft server launcher (soft-float).,Minecraft 服务器启动器（软浮点）。,resource
+KinAMP,KinAMP,https://github.com/kbarni/KinAMP,🎮 Apps & games,Bluetooth music player.,通过蓝牙听音乐的播放器。,resource
+LARK,LARK,https://github.com/kbarni/LARKPlayer,🎮 Apps & games,Audiobook player with covers and chapters.,支持封面与章节的有声书播放器。,resource
+kindle-wall-display,kindle-wall-display,https://github.com/jstriblet/kindle-wall-display,🎮 Apps & games,Turn a Kindle into a low-power wall display / photo frame rendering any PNG.,"把 Kindle 变成低功耗""电子相框 / 墙面屏""，渲染任意 PNG。",resource
+hobby-kindle-http-file-server,hobby-kindle-http-file-server,https://github.com/ngxson/hobby-kindle-http-file-server,🎮 Apps & games,Run an HTTP file server on the Kindle.,在 Kindle 上跑 HTTP 文件服务器。,resource
+kindle-custom-screensaver,kindle-custom-screensaver,https://github.com/chengandre/kindle-custom-screensaver,🎮 Apps & games,Custom screensaver without KOReader or KUAL.,不依赖 KOReader / KUAL 的自定义屏保。,resource
+kindle-weather-stand-alone,kindle-weather-stand-alone,https://github.com/x-magic/kindle-weather-stand-alone,🎮 Apps & games,Serverless Kindle weather display.,免服务器的 Kindle 天气站。,resource
+KindleLazy,KindleLazy,https://github.com/llakssz/KindleLazy,🎮 Apps & games,"Control the Kindle (keyboard, etc.) over USB.",通过 USB 把 Kindle 当键盘/设备控制。,resource
+Kindle Click,Kindle Click,https://kindlemodding.org/kindle-hacking/pageturner.html,🎮 Apps & games,Turn a Kindle into a Bluetooth page-turner.,把 Kindle 变成蓝牙翻页器。,resource
+KindleModding Wiki,KindleModding Wiki,https://kindlemodding.org/,🧑‍💻 Developer resources,The most authoritative Kindle dev / jailbreak docs.,最权威的 Kindle 开发 / 越狱文档。,resource
+kindle-sdk,kindle-sdk,https://github.com/KindleModding/kindle-sdk,🧑‍💻 Developer resources,Native Kindle compilation SDK.,Kindle 原生编译 SDK。,resource
+koxtoolchain,koxtoolchain,https://github.com/KindleModding/koxtoolchain,🧑‍💻 Developer resources,Kindle / Kobo cross-compilation toolchain.,Kindle / Kobo 交叉编译工具链。,resource
+jb.sh,jb.sh,https://github.com/KindleModding/jb.sh,🧑‍💻 Developer resources,Self-contained unified jailbreak script.,自包含的统一越狱脚本。,resource
+KPM package dev,KPM 包开发,https://kindlemodding.org/kindle-dev/kpm/creating-a-package.html,🧑‍💻 Developer resources,Build and publish your own KPM packages.,制作 / 发布自己的 KPM 包。,resource
+Scriptlets,Scriptlets,https://kindlemodding.org/kindle-dev/scriptlets.html,🧑‍💻 Developer resources,How .sh apps work and how to write them.,.sh 应用的运行机制与写法。,resource
+GTK tutorial,GTK 教程,https://kindlemodding.org/kindle-dev/gtk-tutorial/index.html,🧑‍💻 Developer resources,Build Kindle GUIs with GTK.,用 GTK 写 Kindle 图形应用。,resource
+KindleTool,KindleTool,https://github.com/KindleModding/KindleTool,🧑‍💻 Developer resources,Create / extract Kindle update packages.,制作 / 解包 Kindle 更新包。,resource
+System services docs,系统服务文档,https://kindlemodding.org/kindle-apps-and-services/index.html,🧑‍💻 Developer resources,Per-service docs for every com.lab126.* service.,逐个解析 Kindle 的 com.lab126.* 系统服务。,resource
+random.sh / utild / architect,random.sh / utild / architect,https://github.com/KindleModding/random.sh,🧑‍💻 Developer resources,"Utility scripts, a command service, and armel/armhf compatibility.",实用脚本、命令服务、armel/armhf 兼容工具。,resource
+KindleModding Wiki,KindleModding Wiki,https://kindlemodding.org/,🌐 Community,Official docs / jailbreak guides (most authoritative).,最权威的 Kindle 开发 / 越狱文档。,resource
+Jailbreak Wizard,Jailbreak Wizard,https://kindlemodding.org/jailbreak-wizard.html,🌐 Community,Enter model + firmware to auto-match a jailbreak.,输入机型固件，自动匹配越狱。,resource
+KindleModding Discord,KindleModding Discord,https://discord.kindlemodding.org/,🌐 Community,"Official community, first stop for help.",官方社区，求助首选。,resource
+KindleTweaks Discord,KindleTweaks Discord,https://discord.gg/yWPHHbrp7h,🌐 Community,Another active community.,另一个活跃社区。,resource
+r/kindlejailbreak,r/kindlejailbreak,https://www.reddit.com/r/kindlejailbreak/,🌐 Community,Reddit community.,Reddit 社区。,resource
+MobileRead,MobileRead,https://www.mobileread.com/forums/forumdisplay.php?f=150,🌐 Community,The oldest Kindle tinkering forum; birthplace of KUAL.,最老的 Kindle 折腾论坛，KUAL 等发源地。,resource
+KindleModShelf,KindleModShelf,https://kindlemodshelf.me/,🌐 Community,Third-party app / tutorial hub.,第三方应用 / 教程聚合站。,resource
+Penguins Kindle Wiki,Penguins Kindle Wiki,https://github.com/penguins184/Penguins-Kindle-Wiki,🌐 Community,Mesquite / WAF web-app development.,Mesquite / WAF 网页应用开发。,resource
+Awesome-Kindle,Awesome-Kindle,https://github.com/KindleTweaks/Awesome-Kindle,🌐 Community,Another great Kindle tool list (EN).,另一个优秀的 Kindle 工具清单（英文）。,resource
+Awesome E-Ink,Awesome E-Ink,https://github.com/asapelkin/awesome-eink,🌐 Community,Curated e-ink resources.,墨水屏相关资源大全。,resource

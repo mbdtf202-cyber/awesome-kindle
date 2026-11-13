@@ -1,5 +1,7 @@
 # KOReader — install & first setup
 
+> Last reviewed: 2026-11-13
+
 KOReader is a cross-platform reader with PDF/CBZ reflow, dictionaries, gestures and
 fine typography. It is the #1 reason to jailbreak.
 

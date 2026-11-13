@@ -26,6 +26,8 @@ jobs:
             git --no-pager diff --stat;
             exit 1;
           fi
+      - name: Deep audit (links, anchors, parity, data)
+        run: python3 scripts/audit.py
 
   markdownlint:
     runs-on: ubuntu-latest
