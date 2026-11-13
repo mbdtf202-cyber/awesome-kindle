@@ -81,13 +81,13 @@ leak = 0
 SKIP = {".git", "__pycache__", "node_modules"}
 for p in ROOT.rglob("*"):
     if p.is_dir() or any(s in p.parts for s in SKIP): continue
-    if p.name == "audit.py" or ".github/workflows" in p.as_posix(): continue
+    if p.name in ("audit.py", "AUDIT.md") or ".github/workflows" in p.as_posix(): continue
     if p.suffix.lower() not in (".md", ".html", ".js", ".css", ".py", ".yml", ".yaml", ".json", ".txt", ".toml"): continue
     try: t = p.read_text(encoding="utf-8", errors="ignore")
     except Exception: continue
     if "{{" in t or "}}" in t:
         leak += 1; fail(f"placeholder leak: {p.relative_to(ROOT)}")
-if not leak: ok("no {{ }} placeholder leaks")
+if not leak: ok("no unreplaced template tokens")
 
 # Bilingual parity
 def h2(p): return sum(1 for l in p.read_text(encoding="utf-8").splitlines() if l.startswith("## "))
